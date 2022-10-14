@@ -1,0 +1,91 @@
+id: FCzfYQUXgUCHHbINEbyIow
+projectId: DNmk3gQ_REqQ7f6PmqHvZw
+projectName: Univo
+created: 2022-10-14T09:57:59.3374550Z
+protocol: 1
+tests:
+- id: sN08vAVgkkS9_XeyCTldUw
+  name: Navigation Boite de réception
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-11T10:33:16.0000000
+  modificationDate: 2022-10-11T15:31:20.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: uX8skHSLl0y8h_jfyw997w
+    name: Univo- WebApplication
+    url: https://app.digitallearningsolution.net/auth/login
+    platform: Web
+  steps:
+  - id: Hhqy0QESD02naqagUwbitA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: dPaCym7cl0iexoRfi11Y4A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bMhymU-xn0ObRFELdcIz1w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: dPaCym7cl0iexoRfi11Y4A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+auxTests: []
+elements:
+- id: dPaCym7cl0iexoRfi11Y4A
+  name: Boîte de réption
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[contains(text(),'Boîte de réception') or contains(text(),'Mailbox') ]
+    priority: 0
+projectParameters: []
+addons: []
