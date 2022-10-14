@@ -1,0 +1,189 @@
+id: fA9Bem73DkmynLJQZ9ke3w
+projectId: DNmk3gQ_REqQ7f6PmqHvZw
+projectName: Univo
+created: 2022-10-14T09:58:03.8672500Z
+protocol: 1
+tests:
+- id: -N9XbkfOhk2zaow3mNmx3w
+  name: Navigation Catalogue - Classes virtuelles
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-12T14:18:53.0000000
+  modificationDate: 2022-10-12T14:19:59.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: uX8skHSLl0y8h_jfyw997w
+    name: Univo- WebApplication
+    url: https://app.digitallearningsolution.net/auth/login
+    platform: Web
+  steps:
+  - id: PduaVtveGEugKagJ90D7ug
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: sfasXkbSaEaXt_pgvG15Iw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UGbdZcKqFkuhoi-5mEa0Dg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: DNHWYAfXp0u5RHkCCUQ3Pg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: k1Z5Y7mgJ0yBVcYCJXUgHQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: DNHWYAfXp0u5RHkCCUQ3Pg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+auxTests:
+- id: sfasXkbSaEaXt_pgvG15Iw
+  name: StepAccesCatalogue
+  description: This test was auto generated from steps of the 'Navigation Catalogue - Cours' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-10-12T14:02:18.0000000
+  modificationDate: 2022-10-12T14:02:18.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: ENG6BQzWaES6MQmzUUSkQg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: ue8VfORpNUm0ewNmyAQCYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7n4uGLROmEahkZjlxPJZAQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: ue8VfORpNUm0ewNmyAQCYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+elements:
+- id: DNHWYAfXp0u5RHkCCUQ3Pg
+  name: Catalogue - Classes virtuelles
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]//div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[4]/div[2]/div/div/div/div[3]
+    priority: 1
+- id: ue8VfORpNUm0ewNmyAQCYQ
+  name: Catalogue
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul/div/div[4]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[4]/div[1]
+    priority: 1
+projectParameters: []
+addons: []
