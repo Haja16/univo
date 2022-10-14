@@ -1,7 +1,7 @@
-id: 0k-toQLoDU-FzLBY1S0s-A
+id: 9bhO63B1WkKdICob5RyBhg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-14T09:57:59.3362589Z
+created: 2022-10-14T10:12:36.9482557Z
 protocol: 1
 tests:
 - id: _rT4-dPLO0-_Jjkf3yK_tA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-10T12:28:24.0000000
-  modificationDate: 2022-10-10T13:09:06.0000000
+  modificationDate: 2022-10-14T10:12:30.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -69,7 +69,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: Emailinvalid
+      value: InvalidEmail
       direction: Input
     conditions: []
     validations: []
