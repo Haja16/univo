@@ -1,7 +1,7 @@
-id: aKjnypxMREuDxF41s37S1g
+id: V0G7eqtaUUi6w-78FLPCLw
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-14T14:10:18.4644439Z
+created: 2022-10-15T13:44:18.0173944Z
 protocol: 1
 tests:
 - id: dKgWvOccfkS1Qfr5x6I6bQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-14T12:59:12.0000000
-  modificationDate: 2022-10-14T13:57:28.0000000
+  modificationDate: 2022-10-15T13:43:52.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -83,6 +83,168 @@ tests:
       value: '{{AppAdminStudio}}'
       direction: Input
     conditions: []
+    validations: []
+    contexts: []
+  - id: 0idHQyCdcU2nVe760cLK7w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Test
+    targetTestId: TM6qXCa54UWHRB7_bclLXw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{OngletsApplicationLMS}}'
+      type: Equals
+      invert: false
+      value: AttrubuéTousLesContenus
+    validations: []
+    contexts: []
+  - id: qr6h8Jpv4UGIGF2aF8baAA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Test
+    targetTestId: oKjvooc45U2DEX_GCoa2fQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{OngletsApplicationLMS}}'
+      type: Equals
+      invert: false
+      value: AttribuéClassesVirtuelles
+    validations: []
+    contexts: []
+  - id: DZXvqdDnYEKvbdVR9KQeWw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Test
+    targetTestId: Efq8exoOjkuYHMyjFThFAw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{OngletsApplicationLMS}}'
+      type: Equals
+      invert: false
+      value: AttribuéCours
+    validations: []
+    contexts: []
+  - id: huJrKTtwJkK4_Ht_p0firg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Test
+    targetTestId: T1V84ZSTEkWuGINxLVC9mg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{OngletsApplicationLMS}}'
+      type: Equals
+      invert: false
+      value: ExplorerTousLesContenus
+    validations: []
+    contexts: []
+  - id: zqRzKSw6HUGzNZQLj5qdRA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Test
+    targetTestId: ks0EQ6iOBEuHmo5b0FmVfA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{OngletsApplicationLMS}}'
+      type: Equals
+      invert: false
+      value: ExplorerCours
+    validations: []
+    contexts: []
+  - id: S60DOxdylEWKbN8gtFAUEQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Test
+    targetTestId: tPhXl9poK0i1oeTA6QEnZA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{OngletsApplicationLMS}}'
+      type: Equals
+      invert: false
+      value: ExplorerClassesvirtuelles
     validations: []
     contexts: []
   parameters:
@@ -453,6 +615,438 @@ auxTests:
     description: ''
     value: ''
     type: Input
+- id: TM6qXCa54UWHRB7_bclLXw
+  name: '[App] Navigation Attribué - Tous les contenus'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T13:00:59.0000000
+  modificationDate: 2022-10-15T13:02:45.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: xbfFAJCwWkWUdVl-edusNg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: VXCOipqTmE-gH74XCitjQQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9-2JgD0YWUCQoTWLRvsZuw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: VXCOipqTmE-gH74XCitjQQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LUhdoUoD_kOwyRmCiXcoLw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: REtRaJpsqUOawqfRvjz0qw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3_JZYeL79U2eX5IIJXy04A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: REtRaJpsqUOawqfRvjz0qw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: Efq8exoOjkuYHMyjFThFAw
+  name: '[App] Navigation Attribué Cours'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T13:06:53.0000000
+  modificationDate: 2022-10-15T13:07:42.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: WhKRYisUqUynlgajF6HhcQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: VXCOipqTmE-gH74XCitjQQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jHt7B9DuvUimkJOBEgYb4A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: S2biZAch90uYkZMRO4FkmQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: oKjvooc45U2DEX_GCoa2fQ
+  name: '[App] Navigation Attribué - Classes virtuelles'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T13:09:39.0000000
+  modificationDate: 2022-10-15T13:10:19.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 8aCoNRAvRUyJRDb0ZjEUkw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: VXCOipqTmE-gH74XCitjQQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -DGK_i3ECUywfmjKI3cuGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: qlhNoMMFUkCOKSlV8y06sQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: T1V84ZSTEkWuGINxLVC9mg
+  name: '[App] Navigation Explorer - Tous les contenus'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T13:12:56.0000000
+  modificationDate: 2022-10-15T13:18:51.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: lJYEsjkayEKD7PTok5WxFA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: MuNcfZiew06Oy7ntlPH0Rw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ziPdm6HcI0a5t25yz6Wdrw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: rMYx9Id8Wkq_4qLlLV6SrQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: ks0EQ6iOBEuHmo5b0FmVfA
+  name: '[App] Navigation Explorer Cours'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T13:21:57.0000000
+  modificationDate: 2022-10-15T13:23:18.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: Xi_yB86-vk2e7IyPb-9l4g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: MuNcfZiew06Oy7ntlPH0Rw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: b9wFKJa2K0K4vBMmeNCocQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: E-mGp9k71U6nMRuNEwohGA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: tPhXl9poK0i1oeTA6QEnZA
+  name: '[App] Navigation Explorer-Classes virtuelles'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T13:24:29.0000000
+  modificationDate: 2022-10-15T13:33:13.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: v_E-uZnxt0KHVpOvmjuLeg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: MuNcfZiew06Oy7ntlPH0Rw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9js2Hf6ffU-NF3NPsMTUKg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 1rtbEbdxsU6URULQneqBrA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
 elements:
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
@@ -617,6 +1211,136 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div[3]/div/a[1]/button
     priority: 3
+- id: VXCOipqTmE-gH74XCitjQQ
+  name: '[App] Attribué'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
+    priority: 1
+- id: MuNcfZiew06Oy7ntlPH0Rw
+  name: '[App] Explorer'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
+    priority: 1
+- id: REtRaJpsqUOawqfRvjz0qw
+  name: '[App- Attribué] Tous les contenus'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Tous les contenus']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[1]
+    priority: 2
+- id: S2biZAch90uYkZMRO4FkmQ
+  name: '[App-Attribué] Cours'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Cours']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[2]
+    priority: 2
+- id: qlhNoMMFUkCOKSlV8y06sQ
+  name: '[App-Attribué] Classe virtuelle'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Classe virtuelle']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[3]
+    priority: 2
+- id: rMYx9Id8Wkq_4qLlLV6SrQ
+  name: '[App- Explorer ] Tous les contenus'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Tous les contenus']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[1]
+    priority: 2
+- id: E-mGp9k71U6nMRuNEwohGA
+  name: '[App-Explorer] Cours'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Cours']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[2]
+    priority: 2
+- id: 1rtbEbdxsU6URULQneqBrA
+  name: '[App-Explorer] Classes virtuelles'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Classes virtuelles']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[3]
+    priority: 2
 projectParameters: []
 addons:
 - id: inW2AJJ04ku45E9-RN2zqA
