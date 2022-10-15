@@ -1,7 +1,7 @@
-id: eKcpC0YSYE2O2mDbnYXsvw
+id: cQY4tVqeLUim9sqf7ZTlxA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-15T12:47:55.4150054Z
+created: 2022-10-15T12:59:11.9940306Z
 protocol: 1
 tests:
 - id: OVNJikS9eE2Kmd3J5LN88Q
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-15T12:46:41.0000000
-  modificationDate: 2022-10-15T12:46:47.0000000
+  modificationDate: 2022-10-15T12:51:12.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -26,13 +26,68 @@ tests:
     name: Univo- WebApplication
     url: https://app.digitallearningsolution.net/auth/login
     platform: Web
-  steps: []
+  steps:
+  - id: M0sM59ZcQ0m9XTmYnZpcIw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: C9SV6pnbbUet9bsOuP6OJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0qESTgd1XECus4tgg-tuzA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: C9SV6pnbbUet9bsOuP6OJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://app.digitallearningsolution.net/auth/login
     type: Input
 auxTests: []
-elements: []
+elements:
+- id: C9SV6pnbbUet9bsOuP6OJQ
+  name: '[App] Tableau de bord'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav[2]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[1]
+    priority: 1
 projectParameters: []
 addons: []
