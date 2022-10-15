@@ -1,7 +1,7 @@
-id: NrbO4qoz-kqMUVhtWCp6bQ
+id: tByu4MsI_UW-IVVVnD5PNA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-15T13:14:23.1431425Z
+created: 2022-10-15T13:19:21.1150968Z
 protocol: 1
 tests:
 - id: T1V84ZSTEkWuGINxLVC9mg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-15T13:12:56.0000000
-  modificationDate: 2022-10-15T13:13:34.0000000
+  modificationDate: 2022-10-15T13:18:51.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -27,13 +27,14 @@ tests:
     url: https://app.digitallearningsolution.net/auth/login
     platform: Web
   steps:
-  - id: GTOJZKKBBU-AOfFKHMygHw
-    comments: Navigates the specified URL (Auto-generated)
+  - id: lJYEsjkayEKD7PTok5WxFA
+    comments: ''
     enabled: true
     invertResult: false
     order: 1
     repeat: 1
     type: Action
+    elementId: MuNcfZiew06Oy7ntlPH0Rw
     settings:
       sleepTime: -1
       timeout: -1
@@ -41,23 +42,20 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
-    parameterMaps:
-    - name: url
-      value: '{{ApplicationURL}}'
-      direction: Input
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: lJYEsjkayEKD7PTok5WxFA
+  - id: ziPdm6HcI0a5t25yz6Wdrw
     comments: ''
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
     type: Action
-    elementId: MuNcfZiew06Oy7ntlPH0Rw
+    elementId: rMYx9Id8Wkq_4qLlLV6SrQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -92,5 +90,22 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
     priority: 1
+- id: rMYx9Id8Wkq_4qLlLV6SrQ
+  name: '[App- Explorer ] Tous les contenus'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Tous les contenus']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[1]
+    priority: 2
 projectParameters: []
 addons: []
