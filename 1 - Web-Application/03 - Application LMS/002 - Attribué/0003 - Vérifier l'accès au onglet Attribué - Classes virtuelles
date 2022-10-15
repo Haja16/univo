@@ -1,18 +1,18 @@
-id: xqZ-KQescUOCYmZr87dGHg
+id: jI1-gBdXOEWoIPAG6CC9Ew
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-15T14:10:13.8608564Z
+created: 2022-10-15T14:10:33.2112113Z
 protocol: 1
 tests:
 - id: 5zO86K_0gE2YzQNJHZNa9Q
-  name: Vérifier l'accès au onglet Attribué - Classes virtuelles
+  name: 0003 - Vérifier l'accès au onglet Attribué - Classes virtuelles
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-15T14:08:16.0000000
-  modificationDate: 2022-10-15T14:10:09.0000000
+  modificationDate: 2022-10-15T14:10:33.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
