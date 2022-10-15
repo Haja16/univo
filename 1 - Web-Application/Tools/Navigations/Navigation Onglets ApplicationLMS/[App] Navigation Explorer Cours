@@ -1,0 +1,111 @@
+id: IiqPXvQ_s0CO0dS1MrCxsA
+projectId: DNmk3gQ_REqQ7f6PmqHvZw
+projectName: Univo
+created: 2022-10-15T13:23:18.1010323Z
+protocol: 1
+tests:
+- id: ks0EQ6iOBEuHmo5b0FmVfA
+  name: '[App] Navigation Explorer Cours'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T13:21:57.0000000
+  modificationDate: 2022-10-15T13:23:18.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: uX8skHSLl0y8h_jfyw997w
+    name: Univo- WebApplication
+    url: https://app.digitallearningsolution.net/auth/login
+    platform: Web
+  steps:
+  - id: Xi_yB86-vk2e7IyPb-9l4g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: MuNcfZiew06Oy7ntlPH0Rw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: b9wFKJa2K0K4vBMmeNCocQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: E-mGp9k71U6nMRuNEwohGA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+auxTests: []
+elements:
+- id: MuNcfZiew06Oy7ntlPH0Rw
+  name: '[App] Explorer'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
+    priority: 1
+- id: E-mGp9k71U6nMRuNEwohGA
+  name: '[App-Explorer] Cours'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Cours']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[2]
+    priority: 2
+projectParameters: []
+addons: []
