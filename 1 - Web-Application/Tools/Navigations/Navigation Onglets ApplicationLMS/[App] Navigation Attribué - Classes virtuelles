@@ -1,7 +1,7 @@
-id: XgShI96YoUuaeHIpkRqjFQ
+id: 9L_HD7UtXEitGlAhzJ36_Q
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-15T13:09:39.7840107Z
+created: 2022-10-15T13:10:23.2302678Z
 protocol: 1
 tests:
 - id: oKjvooc45U2DEX_GCoa2fQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-15T13:09:39.0000000
-  modificationDate: 2022-10-15T13:09:39.0000000
+  modificationDate: 2022-10-15T13:10:19.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -27,13 +27,14 @@ tests:
     url: https://app.digitallearningsolution.net/auth/login
     platform: Web
   steps:
-  - id: seBxeyC0Yke180yQ6BuSVA
-    comments: Navigates the specified URL (Auto-generated)
+  - id: 8aCoNRAvRUyJRDb0ZjEUkw
+    comments: ''
     enabled: true
     invertResult: false
     order: 1
     repeat: 1
     type: Action
+    elementId: VXCOipqTmE-gH74XCitjQQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -41,12 +42,30 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
-    parameterMaps:
-    - name: url
-      value: '{{ApplicationURL}}'
-      direction: Input
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -DGK_i3ECUywfmjKI3cuGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: qlhNoMMFUkCOKSlV8y06sQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -56,6 +75,37 @@ tests:
     value: https://app.digitallearningsolution.net/auth/login
     type: Input
 auxTests: []
-elements: []
+elements:
+- id: VXCOipqTmE-gH74XCitjQQ
+  name: '[App] Attribué'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
+    priority: 1
+- id: qlhNoMMFUkCOKSlV8y06sQ
+  name: '[App-Attribué] Classe virtuelle'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Classe virtuelle']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[3]
+    priority: 2
 projectParameters: []
 addons: []
