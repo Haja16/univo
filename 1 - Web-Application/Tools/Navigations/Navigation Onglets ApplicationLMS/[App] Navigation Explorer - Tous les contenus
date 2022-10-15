@@ -1,7 +1,7 @@
-id: ahVKa7I1AEOAzs6_4EqT3w
+id: NrbO4qoz-kqMUVhtWCp6bQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-15T13:12:56.8227443Z
+created: 2022-10-15T13:14:23.1431425Z
 protocol: 1
 tests:
 - id: T1V84ZSTEkWuGINxLVC9mg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-15T13:12:56.0000000
-  modificationDate: 2022-10-15T13:12:56.0000000
+  modificationDate: 2022-10-15T13:13:34.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -50,12 +50,47 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: lJYEsjkayEKD7PTok5WxFA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: MuNcfZiew06Oy7ntlPH0Rw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://app.digitallearningsolution.net/auth/login
     type: Input
 auxTests: []
-elements: []
+elements:
+- id: MuNcfZiew06Oy7ntlPH0Rw
+  name: '[App] Explorer'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
+    priority: 1
 projectParameters: []
 addons: []
