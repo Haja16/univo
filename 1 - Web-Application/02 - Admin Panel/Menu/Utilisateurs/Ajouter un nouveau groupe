@@ -1,7 +1,7 @@
-id: npkZlFGkTU-Sd1VbcV8Giw
+id: kCfa_LxHgE2kyqZkwg46aQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-16T10:51:20.6346605Z
+created: 2022-10-16T10:51:53.6906095Z
 protocol: 1
 tests:
 - id: HcgcGa4N-0-RvRYp4-mTWA
@@ -303,7 +303,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-10-16T10:50:34.0000000
-  modificationDate: 2022-10-16T10:50:34.0000000
+  modificationDate: 2022-10-16T10:51:53.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -904,14 +904,14 @@ addons:
   source: Store
   version: 2.10
   actions:
-  - id: U2veSbE9E0aIfg5GFB2HtQ
-    name: Click if visible
-    description: Click {{element}} if it's visible
-    className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
   - id: NLB4QolOjEiJ4WNftvS4EQ
     name: Contains text? (if visible)
     description: '{{element}} contains text {{text}}?'
     className: io.testproject.addon.ContainsTextActions.ContainsTextIfVisibleWeb
+  - id: U2veSbE9E0aIfg5GFB2HtQ
+    name: Click if visible
+    description: Click {{element}} if it's visible
+    className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
