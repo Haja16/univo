@@ -1,7 +1,7 @@
-id: -7cw3hNQzESRkajYYR485g
+id: 2duepyxe2E-Rxgqi62uIYA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-16T12:04:34.1420957Z
+created: 2022-10-16T12:19:18.2838934Z
 protocol: 1
 tests:
 - id: QvtpU_ZKYU2-BOLUrN5Qpw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-16T12:02:00.0000000
-  modificationDate: 2022-10-16T12:03:38.0000000
+  modificationDate: 2022-10-16T12:16:03.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -56,6 +56,298 @@ tests:
     - name: UrlAdminDashboard
       value: '{{UrlAdminDashboard}}'
       direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: YFZd84MOYEOAwX_SAKUH3A
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: Pi1tN5aP20i2q10sdmpU_w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -su3XRbxbU6cKxxGkFtUSg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: wd9n5VEYJUmy-MgYXW44zA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iyLAUo_HeEGuJLgG4EXDfg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 7YmzgK6rpUa61-Jk6AeljA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JBh5MKQwlEC1-z_lJ9GA0A
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 7YmzgK6rpUa61-Jk6AeljA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Test
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Xwzt3obzYUqZkfctbOt9sw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: x-m5wk-KuUqfrEUMu3POzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hHn2tiEGEk6hZ56YLjU1ag
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: x-m5wk-KuUqfrEUMu3POzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Tuteur
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: E9-luv9pn0ufeXn5SjY-hQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: qw_vq6p7Gk2g-LIOnHjlfw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Q25Z-f5Vn06mA_xU72-j2w
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: BeFvQWLkyEacYGf26723oA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: c6I3pE5Dk0am_mBwEqO6lw
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: BeFvQWLkyEacYGf26723oA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Biographie du tuteur
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3ug4opxUUEOKsNevVNIXNg
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: WPjAQrP1V06FqwYYWZFOzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wzP2u98JfEabrAhbTm2yQg
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: WPjAQrP1V06FqwYYWZFOzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: qa@univo.fr
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jo5R4HEM5EGLTkn4uu1b3A
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: KQKnLPwQEEapGI5coyD2lg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QLgYErcKBESxCm_DuhY-Rw
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: h-uK_OaeikKOAYTtTsDYjA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7ldume_3_02o21r1zlMBlA
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: fR73VNfmMUC_TqW_uKHe4Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -361,6 +653,183 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
+    priority: 3
+- id: Pi1tN5aP20i2q10sdmpU_w
+  name: add [+]
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#v-tour-useradd'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='add']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/div/div[1]/div/button[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[1]
+    priority: 3
+- id: wd9n5VEYJUmy-MgYXW44zA
+  name: '[+] Créer un nouveau tuteur'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-11'
+    priority: 1
+  - name: XPATH
+    value: //button[. = '  Créer un nouveau tuteur']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/a/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/div/div/div[3]/a/button
+    priority: 3
+- id: 7YmzgK6rpUa61-Jk6AeljA
+  name: first_name
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-20'
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='first_name']"
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div[2]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[3]/div/div[2]/div/input
+    priority: 3
+- id: x-m5wk-KuUqfrEUMu3POzQ
+  name: last_name
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-21'
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='last_name']"
+    priority: 0
+  - name: XPATH
+    value: //div[4]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[4]/div/div[2]/div/input
+    priority: 3
+- id: qw_vq6p7Gk2g-LIOnHjlfw
+  name: gender
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDg
+    name: Radio
+    source: System
+  locators:
+  - name: XPATH
+    value: //label[2]//input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[6]/div/div[2]/label[2]/span[1]/input
+    priority: 1
+- id: BeFvQWLkyEacYGf26723oA
+  name: bio
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTA
+    name: textarea
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-23'
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='bio']"
+    priority: 0
+  - name: XPATH
+    value: //textarea[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[7]/div/div[2]/div/textarea[1]
+    priority: 3
+- id: WPjAQrP1V06FqwYYWZFOzQ
+  name: email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-24'
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='email']"
+    priority: 0
+  - name: XPATH
+    value: //div[9]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[9]/div/div[2]/div/input
+    priority: 3
+- id: KQKnLPwQEEapGI5coyD2lg
+  name: ​Pays
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-component-select-country'
+    priority: 0
+  - name: XPATH
+    value: //div[11]//div[. = '​']
+    priority: 1
+  - name: XPATH
+    value: //div[11]/div/div/div
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div[3]/div/div[3]/div/div/form/div/div[11]/div/div[2]/div
+    priority: 3
+- id: h-uK_OaeikKOAYTtTsDYjA
+  name: France
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[. = 'France']
+    priority: 0
+- id: fR73VNfmMUC_TqW_uKHe4Q
+  name: Créer Tuteurs
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-27'
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Créer']
+    priority: 0
+  - name: XPATH
+    value: //div[14]/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[14]/button
     priority: 3
 projectParameters: []
 addons:
