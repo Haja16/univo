@@ -1,18 +1,18 @@
-id: 1Xau2cVlg0O8CyzDJ0UnEw
+id: UTxC1BEFZEKEihhdfUDnZQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-16T10:52:08.4560763Z
+created: 2022-10-16T11:57:45.3724666Z
 protocol: 1
 tests:
 - id: HcgcGa4N-0-RvRYp4-mTWA
-  name: 02 - Ajouter un nouveau groupe
+  name: 02 - Vérifier l'ajout d'un nouveau groupe
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-16T10:26:25.0000000
-  modificationDate: 2022-10-16T10:52:08.0000000
+  modificationDate: 2022-10-16T11:57:45.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
