@@ -1,18 +1,18 @@
-id: HV6y6qdRmU6K5fXXdk8tlQ
+id: IbSTuD8uLEuJHFei7U2I1g
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-16T10:52:42.4314231Z
+created: 2022-10-16T11:58:45.4860990Z
 protocol: 1
 tests:
 - id: tYkrG2c7nk-7UlV4oEprCA
-  name: 01 -  Ajouter un apprenant
+  name: 01 -  Vérifier l'ajout d'un apprenant
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-15T21:28:31.0000000
-  modificationDate: 2022-10-16T10:52:42.0000000
+  modificationDate: 2022-10-16T11:58:45.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
