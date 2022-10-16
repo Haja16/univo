@@ -1,7 +1,7 @@
-id: e-PXh2DTw0S_YT_UvbmXpw
+id: 97lJc8u5ekq2SVFCTtCMuA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-16T10:05:30.3484206Z
+created: 2022-10-16T10:11:43.1215372Z
 protocol: 1
 tests:
 - id: tYkrG2c7nk-7UlV4oEprCA
@@ -310,7 +310,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-10-16T10:00:29.0000000
-  modificationDate: 2022-10-16T10:00:29.0000000
+  modificationDate: 2022-10-16T10:11:42.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -843,19 +843,6 @@ elements:
     priority: 2
 projectParameters: []
 addons:
-- id: 9k_I6NoN_06CR22QXqBpAQ
-  source: Store
-  version: 1.4
-  actions:
-  - id: l5aurwBzi0ej2yhzoXEgpw
-    name: Get the current DateTime
-    description: Get current DateTime in ISO 8601 format
-    className: Actions.GetCurrentDate
-  minSdkLevel: 2
-  minSdkVersion: 0.63.0
-  sdkGeneration: 1
-  language: Java
-  hash: FAB3FD2E0F114456BE22C986BC93E52A574EBC0E798B69C2858D65F09B58E84C
 - id: inW2AJJ04ku45E9-RN2zqA
   source: Store
   version: 2.10
@@ -869,3 +856,16 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
+- id: 9k_I6NoN_06CR22QXqBpAQ
+  source: Store
+  version: 1.4
+  actions:
+  - id: l5aurwBzi0ej2yhzoXEgpw
+    name: Get the current DateTime
+    description: Get current DateTime in ISO 8601 format
+    className: Actions.GetCurrentDate
+  minSdkLevel: 2
+  minSdkVersion: 0.63.0
+  sdkGeneration: 1
+  language: Java
+  hash: FAB3FD2E0F114456BE22C986BC93E52A574EBC0E798B69C2858D65F09B58E84C
