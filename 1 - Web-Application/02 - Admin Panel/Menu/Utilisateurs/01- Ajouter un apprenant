@@ -1,7 +1,7 @@
-id: QYGuW2BatU6HC9MOvPsoAg
+id: xZo_k9fHXEiJjeLWJEWXRg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-15T21:37:51.0086344Z
+created: 2022-10-16T09:19:39.6516545Z
 protocol: 1
 tests:
 - id: tYkrG2c7nk-7UlV4oEprCA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-15T21:28:31.0000000
-  modificationDate: 2022-10-15T21:37:16.0000000
+  modificationDate: 2022-10-16T09:18:50.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -59,6 +59,99 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: scUepLZLLUi9c4LG_u_4GQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: Pi1tN5aP20i2q10sdmpU_w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KzJhHziLCkC1rUSwAQ5UcA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: PTSgaRxHd0eUJCshjCt0GQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hgEzERtA5kGKwqNXZ2YeIg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: ZrQnHZWNkkKqSMe6hGqh1Q
+      source: Store
+      addonId: 9k_I6NoN_06CR22QXqBpAQ
+    parameterMaps:
+    - name: format
+      value: ''
+      direction: Input
+    - name: result
+      value: '{{Date}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MwlVHsPIakmmxTCRKac4AA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: bDJH37m9kESsJ_yLW25TMA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: NewUtil{{Date}}
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -75,6 +168,10 @@ tests:
     description: ''
     value: ''
     type: Private
+  - name: Date
+    description: ''
+    value: ''
+    type: Output
 auxTests:
 - id: 2A867jnChEmE_hhKJOLtng
   name: 003 - S’authentifer avec un email et mot de passe valide
@@ -362,8 +459,81 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
+- id: Pi1tN5aP20i2q10sdmpU_w
+  name: add
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#v-tour-useradd'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='add']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/div/div[1]/div/button[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[1]
+    priority: 3
+- id: PTSgaRxHd0eUJCshjCt0GQ
+  name: '[+] Ajouter un nouvel apprenant'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-9'
+    priority: 0
+  - name: XPATH
+    value: //button[. = '  Ajouter un nouvel apprenant']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/a/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/div/div/div[1]/a/button
+    priority: 3
+- id: bDJH37m9kESsJ_yLW25TMA
+  name: Champ de sasie IdUtilisateur
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-18'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/div/div[2]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[3]/div/div[2]/div/input
+    priority: 3
 projectParameters: []
 addons:
+- id: 9k_I6NoN_06CR22QXqBpAQ
+  source: Store
+  version: 1.4
+  actions:
+  - id: ZrQnHZWNkkKqSMe6hGqh1Q
+    name: Get the current DateTime
+    description: Get current date
+    className: Actions.CurrentDate
+  minSdkLevel: 2
+  minSdkVersion: 0.63.0
+  sdkGeneration: 1
+  language: Java
+  hash: FAB3FD2E0F114456BE22C986BC93E52A574EBC0E798B69C2858D65F09B58E84C
 - id: inW2AJJ04ku45E9-RN2zqA
   source: Store
   version: 2.10
