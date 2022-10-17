@@ -1,7 +1,7 @@
-id: waxS0nHanU-_AlrI2oWNMw
+id: z8uFageog0aFqcLvEAM6hw
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-17T09:04:53.0256384Z
+created: 2022-10-17T10:16:20.3450315Z
 protocol: 1
 tests:
 - id: TsWuEd51C0CIVcmB6fDUXg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-17T08:55:43.0000000
-  modificationDate: 2022-10-17T09:04:56.0000000
+  modificationDate: 2022-10-17T10:15:57.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -56,6 +56,31 @@ tests:
     - name: UrlAdminDashboard
       value: '{{UrlAdminDashboard}}'
       direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lTr3FmKJ3ESW0SMgiGUHmw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    recoveryTestId: fyRppiBbXkOGCwPddwmaLA
+    elementId: 9kTTgNms60aQJd1q7mZWqg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: RecoveryContinue
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Welcome
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -275,6 +300,89 @@ auxTests:
     description: ''
     value: ''
     type: Output
+- id: fyRppiBbXkOGCwPddwmaLA
+  name: StepChangeLangueFrench
+  description: This test was auto generated from steps of the '01- Changer la langue de l'application en Français' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-10-17T09:30:32.0000000
+  modificationDate: 2022-10-17T09:30:32.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: PCTtWbAVsUaFtQLaa92KNw
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: TMzJpVb2gEK3s_NaMHD1dw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qN1kSjBenUCBZMW0IEPoYA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: uJ8qq0oBNku4CZDCeIyHvQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xikvR-rSykSv2EBcUtcBHw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 9kTTgNms60aQJd1q7mZWqg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Bienvenue
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
 elements:
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
@@ -362,6 +470,48 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
+- id: TMzJpVb2gEK3s_NaMHD1dw
+  name: Langue
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-3'
+    priority: 0
+  - name: XPATH
+    value: //button[4]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[4]
+    priority: 2
+- id: uJ8qq0oBNku4CZDCeIyHvQ
+  name: French
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/li[1]
+    priority: 1
+- id: 9kTTgNms60aQJd1q7mZWqg
+  name: 'Titre - Bienvenue '
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[1]/div[2]/span[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[2]/span[1]
+    priority: 1
 projectParameters: []
 addons:
 - id: inW2AJJ04ku45E9-RN2zqA
