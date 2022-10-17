@@ -1,7 +1,7 @@
-id: eGeumNA4qkuW8cuFE4jmeg
+id: dJU-s2zLdkW8fc28Sb5aQQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-17T10:17:49.5344895Z
+created: 2022-10-17T10:18:15.3964360Z
 protocol: 1
 tests:
 - id: 84BImewL00GWQ3dsxK3m9Q
@@ -308,7 +308,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-10-17T09:34:04.0000000
-  modificationDate: 2022-10-17T09:34:04.0000000
+  modificationDate: 2022-10-17T10:18:19.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -384,6 +384,19 @@ auxTests:
     contexts: []
   parameters: []
 elements:
+- id: 9kTTgNms60aQJd1q7mZWqg
+  name: 'Titre - Bienvenue '
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[1]/div[2]/span[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[2]/span[1]
+    priority: 1
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
   type:
@@ -470,22 +483,6 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
-- id: IvWjoZKGTE-P3TwS4O4IDA
-  name: English
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTk
-    name: ListItem
-    source: System
-  locators:
-  - name: XPATH
-    value: //li[. = '30']
-    priority: 1
-  - name: XPATH
-    value: //li[2]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[2]/div[3]/ul/li[2]
-    priority: 2
 - id: TMzJpVb2gEK3s_NaMHD1dw
   name: Langue
   type:
@@ -501,6 +498,22 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[4]
+    priority: 2
+- id: IvWjoZKGTE-P3TwS4O4IDA
+  name: English
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[. = '30']
+    priority: 1
+  - name: XPATH
+    value: //li[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/li[2]
     priority: 2
 - id: 9kTTgNms60aQJd1q7mZWqg
   name: 'Titre - Bienvenue '

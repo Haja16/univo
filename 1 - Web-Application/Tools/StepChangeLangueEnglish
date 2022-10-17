@@ -1,0 +1,143 @@
+id: T8_0ZHpRa0mEDtSVvLDL0w
+projectId: DNmk3gQ_REqQ7f6PmqHvZw
+projectName: Univo
+created: 2022-10-17T10:18:15.3966435Z
+protocol: 1
+tests:
+- id: hTkwyOJoWU6gJw9TtVK1vg
+  name: StepChangeLangueEnglish
+  description: This test was auto generated from steps of the '01- Changer la langue de l'application en Français' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-10-17T09:34:04.0000000
+  modificationDate: 2022-10-17T10:18:19.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: uX8skHSLl0y8h_jfyw997w
+    name: Univo- WebApplication
+    url: https://app.digitallearningsolution.net/auth/login
+    platform: Web
+  steps:
+  - id: LAmX5QpGhku8BD-4zMyUoA
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: TMzJpVb2gEK3s_NaMHD1dw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lQ-4X4STpkOHmB-epO2hrQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: IvWjoZKGTE-P3TwS4O4IDA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iult94D4B0Wi8p87-X-ZgQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 9kTTgNms60aQJd1q7mZWqg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Welcome
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: TMzJpVb2gEK3s_NaMHD1dw
+  name: Langue
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-3'
+    priority: 0
+  - name: XPATH
+    value: //button[4]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[4]
+    priority: 2
+- id: IvWjoZKGTE-P3TwS4O4IDA
+  name: English
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[. = '30']
+    priority: 1
+  - name: XPATH
+    value: //li[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/li[2]
+    priority: 2
+- id: 9kTTgNms60aQJd1q7mZWqg
+  name: 'Titre - Bienvenue '
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[1]/div[2]/span[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[2]/span[1]
+    priority: 1
+projectParameters: []
+addons: []
