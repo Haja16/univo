@@ -1,0 +1,1023 @@
+id: mN9pH5XAAEG-Qp0x4H06XA
+projectId: DNmk3gQ_REqQ7f6PmqHvZw
+projectName: Univo
+created: 2022-10-17T08:07:11.7558045Z
+protocol: 1
+tests:
+- id: Tjdzw6KJmU-LAIlxqESWcA
+  name: 03 - Vérifier l'ajout d'une classe virtuelle
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-16T13:03:21.0000000
+  modificationDate: 2022-10-17T08:07:14.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: uX8skHSLl0y8h_jfyw997w
+    name: Univo- WebApplication
+    url: https://app.digitallearningsolution.net/auth/login
+    platform: Web
+  steps:
+  - id: qvm2J2Hn80SIzZw6Pf4LPA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: 2A867jnChEmE_hhKJOLtng
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    - name: Identifiant
+      value: '{{Identifiant}}'
+      direction: Input
+    - name: Password
+      value: '{{Password}}'
+      direction: Input
+    - name: UrlAdminDashboard
+      value: '{{UrlAdminDashboard}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0hjmlxn5506cwOR81y1GTw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: Pi1tN5aP20i2q10sdmpU_w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1s7as8o8pEWBDKhHtIUBWQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: gUS7yinyVUSJGpXM8hjDuA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DfD5ha48nkKrJ-aDQJGibw
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: mhtxeqfBWUC9ISAgGjHOqg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 57J12IGVyEKSDhe2df-5KQ
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: mhtxeqfBWUC9ISAgGjHOqg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Sujet Classe virtuelles
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PCL-_D4ASkKcJtbUy0Cung
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: UF_FjZRBD0-x04N_d5im-A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ijI2cu8LDkyiik6QIcsK4w
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: UF_FjZRBD0-x04N_d5im-A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Descripption Classe virtuelle
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _TzbqT8Qk0-7-mHNy_FKVA
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: 5Vvl4QssfUGFvJ0Cntt8bA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _yjn1NsJA06XJ1yvYi-xgA
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: vA0FTcbaN0GLsbEUT5oFqA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zGMpuXJZjkWjYSP9Q_H7bw
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: tjonZL8dkUu-jZrtaVtpZg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: R0zKMO9CRUy0VjBm0YJ2Eg
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: KOxfW5oi9UmflTGiBsrG4g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: re5IBEaDtEWh_OP5E9mHzQ
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: 1mGqCZ007EaH1M1kzdBCaw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GXmhfxcm5E6H_KFbMcXcGw
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: 61vMXA5vNEyPVD_r0IlHsA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RzDlVLMwL0SN9lGwzm5Zuw
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: AEr4qg7XXUaV7vN9ePtFCA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 5
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DUxo-gKDq0SLyz9xcpV0mQ
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: BZK44H8XuUSH87DuYdX3Yg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: H4DSJYOkTkCnIOyA7Nq9Gg
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: BZK44H8XuUSH87DuYdX3Yg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 16/10/2022 16:07
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kpe1cdY4b0SfSdyhrragJA
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: fz3HtT5YH0aqAYBZB08LgQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VIvd1mDxfk6vYBRNHAnIpA
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: IvWjoZKGTE-P3TwS4O4IDA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vv79ocZAQkq-lQpJm_8BVQ
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: OdrqyQvHekOVOAbnJylVzg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+  - name: Identifiant
+    description: ''
+    value: support@univo.fr
+    type: Input
+  - name: Password
+    description: ''
+    type: Input
+  - name: UrlAdminDashboard
+    description: ''
+    value: ''
+    type: Private
+auxTests:
+- id: 2A867jnChEmE_hhKJOLtng
+  name: 003 - S’authentifer avec un email et mot de passe valide
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-09T15:52:12.0000000
+  modificationDate: 2022-10-11T08:47:28.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 35000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 3pwdwg8a6kCXqlSYSZLGEA
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pTwZ6kypVkqGGQfUPaGP9w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: nrN6GboMbUe27mCbj8HVhQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{Identifiant}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uSt5X_9HAUCEi_zbYCBw_A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: X6c9G37B00idcnPQxVcSQw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: myue_32rIk2BxhjWAKLlOQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: lnYutaJeJE6My5kHldIXbg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{Password}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6fwfzfeEb0-5fQgDzf70kQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: UgeO7JhzOEGd-I-wndpDLQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: u6T38E5t2EWMxHMW_0c0QQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    elementId: x-buI32OdEeyLzVcV1M_iQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: U2veSbE9E0aIfg5GFB2HtQ
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: 100000
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yI49aPaMLUiastn9r_hSIA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 56a4ad1b-b563-4322-ba29-d165090302b2
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{UrlAdminDashboard}}'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Contains
+      invert: false
+      field: url
+      value: admin/dashboard
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+  - name: Identifiant
+    description: ''
+    value: support@univo.fr
+    type: Input
+  - name: Password
+    description: ''
+    type: Input
+  - name: UrlAdminDashboard
+    description: ''
+    value: ''
+    type: Output
+elements:
+- id: nrN6GboMbUe27mCbj8HVhQ
+  name: email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='email']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'votremail@mail.com']
+    priority: 1
+  - name: XPATH
+    value: //input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
+    priority: 3
+- id: X6c9G37B00idcnPQxVcSQw
+  name: Suivant
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Suivant']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: lnYutaJeJE6My5kHldIXbg
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/input
+    priority: 2
+- id: UgeO7JhzOEGd-I-wndpDLQ
+  name: Je me connecte
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Je me connecte']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: x-buI32OdEeyLzVcV1M_iQ
+  name: Ignorer
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-9'
+    priority: 0
+  - name: XPATH
+    value: //button/button[. = 'Ignorer']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/button/button
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
+    priority: 3
+- id: Pi1tN5aP20i2q10sdmpU_w
+  name: add [+]
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#v-tour-useradd'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='add']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/div/div[1]/div/button[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[1]
+    priority: 3
+- id: gUS7yinyVUSJGpXM8hjDuA
+  name: '[+] Créer une classe virtuelle'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-15'
+    priority: 1
+  - name: XPATH
+    value: //button[. = '  Créer une classe virtuelle']
+    priority: 0
+  - name: XPATH
+    value: //div[7]//button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/div/div/div[7]/a/button
+    priority: 3
+- id: mhtxeqfBWUC9ISAgGjHOqg
+  name: topic
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-18'
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='topic']"
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/div[2]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div[2]/div/div[1]/div/div[2]/div/input
+    priority: 3
+- id: UF_FjZRBD0-x04N_d5im-A
+  name: description1
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTA
+    name: textarea
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-19'
+    priority: 1
+  - name: XPATH
+    value: //textarea[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div[2]/div/div[2]/div/div[2]/div/textarea[1]
+    priority: 2
+- id: 5Vvl4QssfUGFvJ0Cntt8bA
+  name: Programmé
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-component-select-meeting_type'
+    priority: 0
+  - name: XPATH
+    value: //div[. = 'Programmé']
+    priority: 1
+  - name: XPATH
+    value: //div[3]/div/div[2]/div
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div[3]/div/div[3]/div/div/form/div[2]/div/div[3]/div/div[2]/div
+    priority: 3
+- id: vA0FTcbaN0GLsbEUT5oFqA
+  name: Limite récurrente
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[. = 'Limite récurrente']
+    priority: 0
+  - name: XPATH
+    value: //li[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/li[2]
+    priority: 2
+- id: tjonZL8dkUu-jZrtaVtpZg
+  name: Quotidien
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-component-select-recur_type'
+    priority: 0
+  - name: XPATH
+    value: //div[. = 'Quotidien']
+    priority: 1
+  - name: XPATH
+    value: //div[4]/div/div[2]/div
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div[3]/div/div[3]/div/div/form/div[2]/div/div[4]/div/div[2]/div
+    priority: 3
+- id: KOxfW5oi9UmflTGiBsrG4g
+  name: Hebdomadaire
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[. = 'Hebdomadaire']
+    priority: 0
+  - name: XPATH
+    value: //li[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/li[2]
+    priority: 2
+- id: 1mGqCZ007EaH1M1kzdBCaw
+  name: Dimanche
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-component-select-recur_day'
+    priority: 0
+  - name: XPATH
+    value: //div[. = 'Dimanche']
+    priority: 1
+  - name: XPATH
+    value: //div[5]/div/div/div
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div[3]/div/div[3]/div/div/form/div[2]/div/div[5]/div/div[2]/div
+    priority: 3
+- id: 61vMXA5vNEyPVD_r0IlHsA
+  name: Lundi
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[. = 'Lundi']
+    priority: 0
+  - name: XPATH
+    value: //li[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/li[2]
+    priority: 2
+- id: AEr4qg7XXUaV7vN9ePtFCA
+  name: end_times
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-20'
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='end_times']"
+    priority: 0
+  - name: XPATH
+    value: //div[6]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div[2]/div/div[6]/div/div[2]/div/input
+    priority: 3
+- id: BZK44H8XuUSH87DuYdX3Yg
+  name: dd/mm/y hh:mm
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-27'
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'dd/mm/y hh:mm']
+    priority: 0
+  - name: XPATH
+    value: //div[7]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div[2]/div/div[7]/div/div[2]/div/input
+    priority: 3
+- id: fz3HtT5YH0aqAYBZB08LgQ
+  name: 15
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-component-select-duration'
+    priority: 0
+  - name: XPATH
+    value: //div[. = '15']
+    priority: 1
+  - name: XPATH
+    value: //div[8]/div/div/div
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div[3]/div/div[3]/div/div/form/div[2]/div/div[8]/div/div[2]/div
+    priority: 3
+- id: IvWjoZKGTE-P3TwS4O4IDA
+  name: 30
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[. = '30']
+    priority: 0
+  - name: XPATH
+    value: //li[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/li[2]
+    priority: 2
+- id: OdrqyQvHekOVOAbnJylVzg
+  name: Créer1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-25'
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Créer']
+    priority: 0
+  - name: XPATH
+    value: //div[12]/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div[2]/div/div[12]/button
+    priority: 3
+projectParameters: []
+addons:
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: U2veSbE9E0aIfg5GFB2HtQ
+    name: Click if visible
+    description: Click {{element}} if it's visible
+    className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
