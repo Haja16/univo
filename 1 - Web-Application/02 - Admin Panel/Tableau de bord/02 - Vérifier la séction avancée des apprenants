@@ -1,7 +1,7 @@
-id: QWKksJ2_FEysZBapyRjDPQ
+id: gYI81cQeUUeMcMzbQFHG3g
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-17T14:32:10.2705469Z
+created: 2022-10-17T14:41:56.0834808Z
 protocol: 1
 tests:
 - id: IJqmxujnrkqiijD8_5HW3A
@@ -12,12 +12,12 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-17T14:05:34.0000000
-  modificationDate: 2022-10-17T14:10:17.0000000
+  modificationDate: 2022-10-17T14:41:53.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
     stepSleepTime: 500
-    stepTimeout: 15000
+    stepTimeout: 35000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
@@ -55,6 +55,186 @@ tests:
       direction: Input
     - name: OngletAdminPanel
       value: '{{OngletAdminPanel}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EWz67Q9SfUmHEm3_L-OWbA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 4lDMZYOHVEePih7Mlh-s6Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fv-wzCSfFUeD0vZ9MIslJA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 4lDMZYOHVEePih7Mlh-s6Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Total des utilisateurs
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0jNWEBU3QE2lMJipH7bZ3A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: DBloISn7bUKbcBMgoULX6g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6lZfT-INPkuywbiUKi_Wxw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: DBloISn7bUKbcBMgoULX6g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Temps d'apprentissage moyen
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: O4DrRoi340qTkzHUCHrR3Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: CRd5RJowNE6H_13mbdPbWA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9bvdOsGdhE6zaugenbm-fQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: CRd5RJowNE6H_13mbdPbWA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Nombre moyen de connexions
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PLoG9WIkqk6xA39YC62obw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: in2MsvFeK02qtA8mCL4oUw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VeXFWzJxjUuxWVBLvdo4Jg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: in2MsvFeK02qtA8mCL4oUw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Total des parcours
       direction: Input
     conditions: []
     validations: []
@@ -2877,6 +3057,58 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[9]/div
+    priority: 1
+- id: 4lDMZYOHVEePih7Mlh-s6Q
+  name: Total Utilisateurs
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[3]/div/div/div[2]/div[1]/div[1]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[1]/div[1]
+    priority: 1
+- id: DBloISn7bUKbcBMgoULX6g
+  name: Temps d'apprentissage moyen
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div/div[2]/div[1]/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[1]/div[2]
+    priority: 1
+- id: CRd5RJowNE6H_13mbdPbWA
+  name: Nombre moyen de connexions
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div/div[2]/div[1]//div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[1]/div[3]
+    priority: 1
+- id: in2MsvFeK02qtA8mCL4oUw
+  name: Total des parcours
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[3]/div/div/div[2]/div[1]/div[2]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[2]/div
     priority: 1
 projectParameters: []
 addons:
