@@ -1,18 +1,18 @@
-id: HS_XYFHiNUW3DMfcaNNCbQ
+id: VsFwFG3kUkGU_2RMorB5QQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-17T12:35:01.6829348Z
+created: 2022-10-17T12:35:12.2713670Z
 protocol: 1
 tests:
 - id: XFHGQ4qBBUSyE-j8GsfTwg
-  name: 01 - Appliquer le mode sombre
+  name: 01 - Activer le mode sombre
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-17T12:13:36.0000000
-  modificationDate: 2022-10-17T12:33:00.0000000
+  modificationDate: 2022-10-17T12:35:12.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
