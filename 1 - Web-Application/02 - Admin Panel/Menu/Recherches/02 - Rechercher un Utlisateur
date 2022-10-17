@@ -1,7 +1,7 @@
-id: 0OrLyLXfq023cAfZaJ3Fhg
+id: 5n76glyLLEae_7kJUeEf-g
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-17T11:05:39.5230396Z
+created: 2022-10-17T11:53:33.0511351Z
 protocol: 1
 tests:
 - id: iOISZIzDdUun3ozBSkhdZA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-17T11:05:07.0000000
-  modificationDate: 2022-10-17T11:05:37.0000000
+  modificationDate: 2022-10-17T11:52:11.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -56,6 +56,134 @@ tests:
     - name: UrlAdminDashboard
       value: '{{UrlAdminDashboard}}'
       direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TvOabjgV9U2XiNnUBi-y2w
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: pZsRaHQlT0ygX55sBWk5lg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Mh1b6QxnyEWhMG2MQt4Djg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 9OCgFE8ZBUGLbrmPLutXhg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VuERsbx5C0y7Zmc4WD5haQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: gdMSGGbpPUiyl1FwC4-3oQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lciYp8mKf0eoQprljyg-6Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: gdMSGGbpPUiyl1FwC4-3oQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: T7NCcYVEiE6BaNx7EwBYKw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: gdMSGGbpPUiyl1FwC4-3oQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Test
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: I428DnH68kmZCpjjDcbIwQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 8LnDODq4dkSQZR8x3IocQw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Test
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -362,6 +490,74 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
+- id: pZsRaHQlT0ygX55sBWk5lg
+  name: search
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-2'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='search']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/div/div[1]/div/button[3]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[3]
+    priority: 3
+- id: 9OCgFE8ZBUGLbrmPLutXhg
+  name: Utilisateurs
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Utilisateurs']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div[2]/div[2]/div/div/div/button[2]
+    priority: 2
+- id: gdMSGGbpPUiyl1FwC4-3oQ
+  name: Rechercher des contenus et des utilis...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-11'
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Rechercher des contenus et des utilisateurs']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div[1]/div/div/input
+    priority: 3
+- id: 8LnDODq4dkSQZR8x3IocQw
+  name: SectionResultSearch
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div[3]
+    priority: 1
 projectParameters: []
 addons:
 - id: inW2AJJ04ku45E9-RN2zqA
