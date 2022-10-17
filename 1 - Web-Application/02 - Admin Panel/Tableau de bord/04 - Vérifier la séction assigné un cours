@@ -1,18 +1,18 @@
-id: _rzB3krTdkOVpW40b1enUw
+id: adFzSu3WIUex7z5sRKEPYg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-17T15:01:02.7962379Z
+created: 2022-10-17T15:01:14.0405235Z
 protocol: 1
 tests:
 - id: oPyAAgwGrEeO_F7nlm6_Vg
-  name: Vérifier la séction assigné un cours
+  name: 04 - Vérifier la séction assigné un cours
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-17T14:51:53.0000000
-  modificationDate: 2022-10-17T14:59:03.0000000
+  modificationDate: 2022-10-17T15:01:14.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
