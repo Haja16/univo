@@ -1,7 +1,7 @@
-id: -HTDUJ-uMUytA_IffNU7yw
+id: bBBNeaCVikKipvFbJDcC9A
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-17T11:57:16.5679796Z
+created: 2022-10-17T12:08:43.1761050Z
 protocol: 1
 tests:
 - id: eGG7HmYGYkWzTIiLXFQpnA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-17T11:03:41.0000000
-  modificationDate: 2022-10-17T11:54:24.0000000
+  modificationDate: 2022-10-17T12:07:53.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -88,6 +88,114 @@ tests:
     repeat: 1
     type: Action
     elementId: pZsRaHQlT0ygX55sBWk5lg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mcZdLZ4CLEatjdY-LLHzbg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: tn5y1WGxVkSlg6aQw31__A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KMCplJup9UWf3DclWpdOPA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: gdMSGGbpPUiyl1FwC4-3oQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nQD1SXLyzkO9R_HHGUf2xA
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: gdMSGGbpPUiyl1FwC4-3oQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Anglais
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZqCVDvCH0EGrsybg4i4uCw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 8LnDODq4dkSQZR8x3IocQw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Anglais
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JKaRHKidGUi7ADpjEo1vXQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: u4MgIzi62UKruEZecL9l0g
     settings:
       sleepTime: -1
       timeout: -1
@@ -424,6 +532,67 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[3]
     priority: 3
+- id: gdMSGGbpPUiyl1FwC4-3oQ
+  name: Rechercher des contenus et des utilis...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-11'
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Rechercher des contenus et des utilisateurs']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div[1]/div/div/input
+    priority: 3
+- id: 8LnDODq4dkSQZR8x3IocQw
+  name: SectionResultSearch
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div[3]
+    priority: 1
+- id: tn5y1WGxVkSlg6aQw31__A
+  name: Parcours
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Parcours']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[2]//button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div[2]/div[2]/div/div/div/button[1]
+    priority: 2
+- id: u4MgIzi62UKruEZecL9l0g
+  name: Btn-FermeturePop-upSearh
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div[3]/button//*[name()='path']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/button/*[name()='svg']/*[name()='path']
+    priority: 1
 projectParameters: []
 addons:
 - id: inW2AJJ04ku45E9-RN2zqA
