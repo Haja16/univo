@@ -1,7 +1,7 @@
-id: 63KGeUgEpEWsmUP1sNEbBg
+id: ICXoHWFEh02tcXomnUCjPA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-17T09:10:10.4349743Z
+created: 2022-10-17T10:54:18.2623507Z
 protocol: 1
 tests:
 - id: eXyQp96K4EGrLrX9YxZ09g
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-17T09:09:04.0000000
-  modificationDate: 2022-10-17T09:10:10.0000000
+  modificationDate: 2022-10-17T10:53:01.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -56,6 +56,150 @@ tests:
     - name: UrlAdminDashboard
       value: '{{UrlAdminDashboard}}'
       direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gWRARnuBqESy2gMW5pd57A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: dxLt_PKSoEGm6oIvf2KloA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cW_Ng9rfF0yIFxksddCvDg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: dxLt_PKSoEGm6oIvf2KloA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ukpW_T974EuxAjmihOQ6fg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: qnHYDkXs_k6MFx0z4zPRig
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: voxk5MBwU0GtKhAmKr6BSQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: -oSDJNJknk6xOm_92pyi9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RrlyPB5-FUm31Ad7XfxgWw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: -oSDJNJknk6xOm_92pyi9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fwEtnjYTO0-WzMSU4HK3MQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: yzWLrw0SoEaOpya1VDmDTA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7g0zfmKUJkOBIsBpE0drxQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: yzWLrw0SoEaOpya1VDmDTA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -362,6 +506,77 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
+- id: dxLt_PKSoEGm6oIvf2KloA
+  name: notification
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-1'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='notification']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/div/div[1]/div/button[2]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[2]
+    priority: 3
+- id: -oSDJNJknk6xOm_92pyi9A
+  name: POUR VOUS
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-p-94691-T-1'
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Pour vous']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/div/div/button[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/div/div/div[1]/div/div/div/button[1]
+    priority: 3
+- id: yzWLrw0SoEaOpya1VDmDTA
+  name: MISE À JOUR DU SYSTÈME
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-p-94691-T-2'
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Mise à jour du système']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/div/div/button[2]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/div/div/div[1]/div/div/div/button[2]
+    priority: 3
+- id: qnHYDkXs_k6MFx0z4zPRig
+  name: Pop-Up notification
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTc
+    name: UnorderedList
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/ul
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul
+    priority: 1
 projectParameters: []
 addons:
 - id: inW2AJJ04ku45E9-RN2zqA
