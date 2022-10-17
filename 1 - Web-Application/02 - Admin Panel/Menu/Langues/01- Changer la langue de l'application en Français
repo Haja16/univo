@@ -1,18 +1,18 @@
-id: c4ArtAnzLU2QFNueWp2ntA
+id: waxS0nHanU-_AlrI2oWNMw
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-17T08:57:43.3793241Z
+created: 2022-10-17T09:04:53.0256384Z
 protocol: 1
 tests:
 - id: TsWuEd51C0CIVcmB6fDUXg
-  name: 01- Changer la langue de l'application en anglais
+  name: 01- Changer la langue de l'application en Français
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-17T08:55:43.0000000
-  modificationDate: 2022-10-17T08:56:38.0000000
+  modificationDate: 2022-10-17T09:04:56.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
