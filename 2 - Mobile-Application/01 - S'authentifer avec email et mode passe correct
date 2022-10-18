@@ -1,7 +1,7 @@
-id: r1g_Nfa3zUOmSsGJDZbsHw
+id: s2_0GLCUbEW05ba_Fk2JjA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-18T08:15:41.4686205Z
+created: 2022-10-18T08:20:20.4664733Z
 protocol: 1
 tests:
 - id: 9WfaWgT8skKzjqrskAwkIQ
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2022-10-18T08:15:41.0000000
-  modificationDate: 2022-10-18T08:15:41.0000000
+  modificationDate: 2022-10-18T08:20:14.0000000
   settings:
     automationAssistant: true
     appId: c5DbeUVQ-kOjzEwehqUKFA
@@ -23,7 +23,7 @@ tests:
     stepTakeScreenshotConditionType: Failure
   application:
     id: c5DbeUVQ-kOjzEwehqUKFA
-    appleBundleId: com.apple.SafariViewService
+    appleBundleId: https://app.digitallearningsolution.net/auth/login
     name: Safari
     platform: iOS
   steps:
@@ -47,8 +47,48 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: zxS9JVsIiUezZPUcpKutNg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5uKeqrQAkE2P8gHlfOhfzA
+      source: Store
+      addonId: fyynG__WoUi3JT0PL-44Nw
+    parameterMaps:
+    - name: url
+      value: https://app.digitallearningsolution.net/auth/login
+      direction: Input
+    - name: bundleID
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters: []
 auxTests: []
 elements: []
 projectParameters: []
-addons: []
+addons:
+- id: fyynG__WoUi3JT0PL-44Nw
+  source: Store
+  version: 0.1
+  actions:
+  - id: 5uKeqrQAkE2P8gHlfOhfzA
+    name: Go To Deep Link
+    description: Open a deep link using a url and bundleID
+    className: iOSDeepLink
+  minSdkLevel: 2
+  minSdkVersion: 0.61.0
+  sdkGeneration: 1
+  language: Java
+  hash: 48D39243D0BDDC5209FBE3A36D965AE92A908919586112E329A30E59E874D171
