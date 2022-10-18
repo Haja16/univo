@@ -1,7 +1,7 @@
-id: YHREsyCoT0KdFn-69Ce19w
+id: OjLz9y3KBUOB6WPAgQER0A
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-18T14:30:47.4900828Z
+created: 2022-10-18T15:07:42.3167635Z
 protocol: 1
 tests:
 - id: 97oCEVmXP0u4nopzGqkWpg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-18T14:13:59.0000000
-  modificationDate: 2022-10-18T14:30:47.0000000
+  modificationDate: 2022-10-18T15:02:03.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -77,6 +77,155 @@ tests:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: luq19G2V50a6qnW_30vPSQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 4bI3sE3lW0SDJaLxdC4z5A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9QcxBLB4N0WmPYd7KKnCUg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: NohC5l5DZUurIC5xdrd3uA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bu7h1AbTL0OUCXBrruyXkg
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: sY5Du77H4k-9Y-kMWw1bdg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8YMjr5hHfEup3wGe1W-QDw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: r6KNxHaZA0K_D4-gYAOzpw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lOrRWtaaSEivGFb70ODz5g
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: wVA58dqJokWMjqwbmJ7RUw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MFQSsxWuU0Kaf4JuxGqKKA
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: Rmx-eN05ZE-ozExruXr8tg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 928bf14e-7a56-4371-b92a-9cb9de53f632
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ENTER
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: u-GSvW5a706rzmpWfbhI0w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: Vd7LkgOhM0edU7ML0P5YAg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Test
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -2941,6 +3090,109 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[1]/div/div[2]/button[2]
+    priority: 2
+- id: 4bI3sE3lW0SDJaLxdC4z5A
+  name: Pop-up Nouveau chat
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[3]/div[3]
+    priority: 1
+- id: NohC5l5DZUurIC5xdrd3uA
+  name: Start Chat
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-92'
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/button[. = 'Start Chat']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div[5]/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[3]/div[3]/div[3]/div/div/div/div[2]/div[2]/div[5]/button
+    priority: 3
+- id: sY5Du77H4k-9Y-kMWw1bdg
+  name: ClosePopUpMessage
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div[3]/button
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[3]/div[3]/button
+    priority: 1
+- id: r6KNxHaZA0K_D4-gYAOzpw
+  name: PremierUserMessage
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/nav/div[2]/div/div/div[1]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[2]/nav/div[2]/div/div/div[1]/div
+    priority: 1
+- id: wVA58dqJokWMjqwbmJ7RUw
+  name: ChampsMessage
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div[2]/div/div[2]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div[3]/div/div[3]/div/div/div[2]/div[2]/div[3]/div[2]/div/div[2]/div
+    priority: 1
+- id: Rmx-eN05ZE-ozExruXr8tg
+  name: Test
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'Test']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div[2]/div/div[2]/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div[3]/div/div[3]/div/div/div[2]/div[2]/div[3]/div[2]/div/div[2]/div
+    priority: 2
+- id: Vd7LkgOhM0edU7ML0P5YAg
+  name: v-chat-content
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#v-chat-content'
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[2]/div[3]/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div[3]/div/div[3]/div/div/div[2]/div[2]/div[3]/div[1]
     priority: 2
 projectParameters: []
 addons:
