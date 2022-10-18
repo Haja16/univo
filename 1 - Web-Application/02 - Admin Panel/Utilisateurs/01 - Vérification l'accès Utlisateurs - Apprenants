@@ -1,18 +1,18 @@
-id: OkewP3GB9E2UwUVO9NQaZw
+id: FnbjW2tOJkitrtzH7fRZxQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-14T09:58:14.0229684Z
+created: 2022-10-18T12:33:29.6159861Z
 protocol: 1
 tests:
 - id: HTkf2neWS06emUVel73f4g
-  name: Vérification l'accès Utlisateurs - Apprenants
+  name: 01 - Vérification l'accès Utlisateurs - Apprenants
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-13T10:57:45.0000000
-  modificationDate: 2022-10-13T11:01:08.0000000
+  modificationDate: 2022-10-18T12:33:28.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -23,7 +23,7 @@ tests:
     stepTakeScreenshotConditionType: Failure
   application:
     id: uX8skHSLl0y8h_jfyw997w
-    name: Univo- WebApplication
+    name: UnivoDev- WebApplication
     url: https://app.digitallearningsolution.net/auth/login
     platform: Web
   steps:
@@ -2541,7 +2541,7 @@ elements:
     priority: 2
   - name: XPATH
     value: //div[2]/div/button/button
-    priority: 0
+    priority: 1
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
