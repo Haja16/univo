@@ -1,7 +1,7 @@
-id: 0B4kwONVoUeZzKzgXWUjXg
+id: 9i0UKo6pK0u5SKAntk6MVA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-19T14:38:15.2594587Z
+created: 2022-10-19T14:40:05.1457771Z
 protocol: 1
 tests:
 - id: 7nj0hAbFNkSQmI23Kf5kZw
@@ -12,12 +12,12 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-19T14:35:51.0000000
-  modificationDate: 2022-10-19T14:36:41.0000000
+  modificationDate: 2022-10-19T14:40:09.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
     stepSleepTime: 500
-    stepTimeout: 15000
+    stepTimeout: 35000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
