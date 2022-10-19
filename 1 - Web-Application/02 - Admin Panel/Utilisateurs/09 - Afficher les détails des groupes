@@ -1,7 +1,7 @@
-id: XdZh72Dq-k68leDGQXyiOg
+id: qK1TyJ2nsky2itN-hosZrg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-18T15:14:49.3759203Z
+created: 2022-10-19T14:33:09.5079296Z
 protocol: 1
 tests:
 - id: 4GR99_NLr0uN7ZwCDLJPRg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-18T15:12:41.0000000
-  modificationDate: 2022-10-18T15:13:36.0000000
+  modificationDate: 2022-10-19T14:23:31.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -58,6 +58,97 @@ tests:
       direction: Input
     conditions: []
     validations: []
+    contexts: []
+  - id: VgegJz_Px0iI0-M1m8DLcw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 7VtapOdh8U6Dkx-fGtoc2w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DmMqDvH_aEKkeWOo0LrOkg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: Gzw47sHMYUuwl6H3EcGvUw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KxNdbcqFy0Ke05iAIBDuqw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: MPBNB5p4okeOU6gAzGxyhw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Détail
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tBCI9Frm7E2DsLXzojfh9A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 56a4ad1b-b563-4322-ba29-d165090302b2
+      source: System
+    parameterMaps:
+    - name: url
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Contains
+      invert: false
+      field: url
+      value: user/groups/detail
     contexts: []
   parameters:
   - name: ApplicationURL
@@ -2900,6 +2991,51 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[9]/div
+    priority: 1
+- id: Gzw47sHMYUuwl6H3EcGvUw
+  name: Afficher les détails
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-15'
+    priority: 1
+  - name: XPATH
+    value: //button[. = ' Afficher les détails']
+    priority: 0
+  - name: XPATH
+    value: //a/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div/div/a/button
+    priority: 3
+- id: MPBNB5p4okeOU6gAzGxyhw
+  name: AdminPanel-header
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div[3]/div/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]
+    priority: 1
+- id: 7VtapOdh8U6Dkx-fGtoc2w
+  name: BUTTON (...) Groupe
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div[5]//button
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div/div/div/div[2]/div[1]/div[5]/div/div/button
     priority: 1
 projectParameters: []
 addons:
