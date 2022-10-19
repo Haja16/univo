@@ -1,7 +1,7 @@
-id: EdkeXaLAMkigXKzh3DK8oQ
+id: -bl2mBtFsk-EV_lFiqPqzg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-19T15:39:55.2393072Z
+created: 2022-10-19T15:52:06.6159014Z
 protocol: 1
 tests:
 - id: -jlLdIb9f0e7Ijrhi1QYow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-19T15:01:18.0000000
-  modificationDate: 2022-10-19T15:39:55.0000000
+  modificationDate: 2022-10-19T15:51:55.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -59,13 +59,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 9DRAMdLCBUmAGU2MDY62fQ
+  - id: nCHltuxDrEu2zMYM-Cnx7A
+    comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
-    type: Action
-    elementId: 08IHT3Gf1UGkKjcIvg4fhw
+    type: Test
+    targetTestId: QOIInZJF0kuOuyQbEgft_g
     settings:
       sleepTime: -1
       timeout: -1
@@ -73,224 +74,7 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 4Iq-8YRI3U62h138Vw8sHA
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: v6xgBC9i5ESVuksvGn2JGQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Tae1-qVjIkebK9v7PZrCVw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: 9CfWNV3yUkGsBSlykf6MyQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: I7CzsjoBUUaqRqSKqITRww
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Action
-    elementId: 7YmzgK6rpUa61-Jk6AeljA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: Test
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 5z4MgZpWBUOqv_Yv-zOH7A
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Action
-    elementId: 5NadxQZCdESpcRH1ef7PGQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: sP-khzKyKUOi3iKIbpGt-Q
-    enabled: true
-    invertResult: false
-    order: 7
-    repeat: 1
-    type: Action
-    elementId: x-m5wk-KuUqfrEUMu3POzQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: Univo
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: DpiWiZMS0kG2Z5wcS-fDOA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 8
-    repeat: 1
-    type: Action
-    elementId: WPjAQrP1V06FqwYYWZFOzQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: ZwxgqnoYukKHmQbQGk_S1Q
-    enabled: true
-    invertResult: false
-    order: 9
-    repeat: 1
-    type: Action
-    elementId: WPjAQrP1V06FqwYYWZFOzQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: qa@univo.fr
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: V3sLdBwItEa1ckbTu1cx5g
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 10
-    repeat: 1
-    type: Action
-    elementId: 9ounOnZ9JkG47zvlmgLmnQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: qpeRMyw7tUSPaZC57TJAsQ
-    enabled: true
-    invertResult: false
-    order: 11
-    repeat: 1
-    type: Action
-    elementId: 9ounOnZ9JkG47zvlmgLmnQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: +261 032 45 789 45
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: WLGvV3i370GfR_GWmE8R5w
-    enabled: true
-    invertResult: false
-    order: 12
-    repeat: 1
-    type: Action
-    elementId: sk4FELIbREGkLTtWbIRGgQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
+      source: None
     parameterMaps: []
     conditions: []
     validations: []
@@ -299,7 +83,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 13
+    order: 3
     repeat: 1
     type: Action
     elementId: pGX3CrPLrEqs3BJ4H0KCSw
@@ -429,6 +213,261 @@ auxTests:
     description: ''
     value: UtilisateursTuteurs
     type: Input
+- id: QOIInZJF0kuOuyQbEgft_g
+  name: StepModificationInfoPersonel[Tuteur-Fomateur]
+  description: This test was auto generated from steps of the '11 - Modifier l'information personnels du Tuteur' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-10-19T15:51:55.0000000
+  modificationDate: 2022-10-19T15:51:55.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 9DRAMdLCBUmAGU2MDY62fQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 08IHT3Gf1UGkKjcIvg4fhw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4Iq-8YRI3U62h138Vw8sHA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: v6xgBC9i5ESVuksvGn2JGQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Tae1-qVjIkebK9v7PZrCVw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 9CfWNV3yUkGsBSlykf6MyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: I7CzsjoBUUaqRqSKqITRww
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 7YmzgK6rpUa61-Jk6AeljA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Test
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5z4MgZpWBUOqv_Yv-zOH7A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 5NadxQZCdESpcRH1ef7PGQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: sP-khzKyKUOi3iKIbpGt-Q
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: x-m5wk-KuUqfrEUMu3POzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Univo
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DpiWiZMS0kG2Z5wcS-fDOA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: WPjAQrP1V06FqwYYWZFOzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZwxgqnoYukKHmQbQGk_S1Q
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: WPjAQrP1V06FqwYYWZFOzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: qa@univo.fr
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: V3sLdBwItEa1ckbTu1cx5g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: 9ounOnZ9JkG47zvlmgLmnQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qpeRMyw7tUSPaZC57TJAsQ
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: 9ounOnZ9JkG47zvlmgLmnQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: +261 032 45 789 45
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WLGvV3i370GfR_GWmE8R5w
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: sk4FELIbREGkLTtWbIRGgQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
 - id: cuXtRQl2JUG43HoErWBbyw
   name: Accèder aux onglets Admin Panel
   description: ''
