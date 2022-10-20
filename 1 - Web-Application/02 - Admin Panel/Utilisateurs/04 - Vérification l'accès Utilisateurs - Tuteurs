@@ -1,7 +1,7 @@
-id: d8CSbgYpsUCrqiCuJb8iYw
+id: P9HRR7XGXUyk1mKKkPzobA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-20T07:54:49.9516927Z
+created: 2022-10-20T07:56:56.9083189Z
 protocol: 1
 tests:
 - id: 00M1511FekeLTSz4aT43JA
@@ -667,7 +667,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-20T07:54:25.0000000
+  modificationDate: 2022-10-20T07:56:52.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -698,32 +698,11 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
-  - id: qSemdA9yqkqNXKVuSHWczw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: t66wECOE8U-l_phyrXXnrQ
-      source: Store
-      addonId: Xey4bVsJQEODIUN7ssaJMg
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: nE5Cyc4gVEST-i5OiReBlg
     comments: ''
     enabled: true
     invertResult: false
-    order: 3
+    order: 2
     repeat: 1
     type: Action
     settings:
@@ -746,7 +725,7 @@ auxTests:
     comments: Navigates the specified URL (Auto-generated)
     enabled: true
     invertResult: false
-    order: 4
+    order: 3
     repeat: 1
     type: Action
     settings:
@@ -773,7 +752,7 @@ auxTests:
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
-    order: 5
+    order: 4
     repeat: 1
     type: Test
     targetTestId: 9vrxiBqMO0ymt5cDt3s0qQ
@@ -3055,10 +3034,6 @@ addons:
     name: Delete all cookies
     description: Delete all cookies
     className: io.testproject.addons.web.cookies.DeleteAllCookies
-  - id: t66wECOE8U-l_phyrXXnrQ
-    name: Clear local storage
-    description: Clear local storage
-    className: io.testproject.addons.web.localstorage.ClearLocalStorage
   minSdkLevel: 2
   minSdkVersion: 0.63.1
   sdkGeneration: 1
