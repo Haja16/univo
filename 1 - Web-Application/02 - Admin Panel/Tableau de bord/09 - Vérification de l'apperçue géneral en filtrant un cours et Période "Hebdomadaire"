@@ -1,7 +1,7 @@
-id: jGSChA2ClEOGGmHyK2ribA
+id: sF4D81cqM0uEGnYoNHNVrw
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-20T15:04:44.4101373Z
+created: 2022-10-20T15:28:19.4418457Z
 protocol: 1
 tests:
 - id: 1144GFdeHkuRT8c8dMasfg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-20T08:48:16.0000000
-  modificationDate: 2022-10-20T15:03:43.0000000
+  modificationDate: 2022-10-20T15:23:38.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -59,35 +59,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: EMlO80-SQEOw58aJpfbQTQ
-    comments: ''
+  - id: ZXcVJSYbhE6lyPECX_jkHw
+    comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
-    type: Action
-    elementId: XswUFBBPzUqpoU-6e1DRpQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: pi6N8X92hkuQMKbAA5XC2w
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
     type: Test
-    targetTestId: 48GNbUydLkWpLRXinBLhdA
+    targetTestId: md-FIcz5wUWB55TA52v0iw
     settings:
       sleepTime: -1
       timeout: -1
@@ -107,7 +86,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 3
     repeat: 1
     type: Action
     elementId: 5yv-ZvGPME2Vlzz49sIX-A
@@ -232,15 +211,15 @@ auxTests:
     description: ''
     value: Tableau de bord
     type: Input
-- id: 48GNbUydLkWpLRXinBLhdA
-  name: StepSelectionPeriode
-  description: This test was auto generated from steps of the '06 - Vérification de l'apperçue géneral en filtrant tous les Cours et Période "Hebdomadaire"' test
+- id: md-FIcz5wUWB55TA52v0iw
+  name: StepSelectionUnCours-{période}
+  description: This test was auto generated from steps of the '09 - Vérification de l'apperçue géneral en filtrant un cours et Période "Hebdomadaire"' test
   platform: Web
   type: Web
   driverType: Chrome
   version: 1.0
-  creationDate: 2022-10-20T13:04:26.0000000
-  modificationDate: 2022-10-20T14:16:27.0000000
+  creationDate: 2022-10-20T15:23:38.0000000
+  modificationDate: 2022-10-20T15:23:38.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -250,13 +229,14 @@ auxTests:
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   steps:
-  - id: hg1Ifdx7nEqEGQoQrfOLPQ
+  - id: EMlO80-SQEOw58aJpfbQTQ
+    comments: ''
     enabled: true
     invertResult: false
     order: 1
     repeat: 1
     type: Action
-    elementId: 0yfN98ZLu0K9bt6mtYIE6g
+    elementId: XswUFBBPzUqpoU-6e1DRpQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -270,13 +250,13 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
-  - id: la4KSc20kkq2M2JqkfCYfw
+  - id: uekEJoQe6Uejmpe6t5EfGw
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
     type: Action
-    elementId: F7KYBI7aFEGAOfEz5KhvpQ
+    elementId: MIsDfdFU8UmrlSPeKUBEkw
     settings:
       sleepTime: -1
       timeout: -1
@@ -287,6 +267,29 @@ auxTests:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pi6N8X92hkuQMKbAA5XC2w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Test
+    targetTestId: 48GNbUydLkWpLRXinBLhdA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: periode
+      value: '{{periode}}'
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -364,6 +367,69 @@ auxTests:
   - name: OngletAdminPanel
     description: ''
     value: Tableau de bord
+    type: Input
+- id: 48GNbUydLkWpLRXinBLhdA
+  name: StepSelectionPeriode
+  description: This test was auto generated from steps of the '06 - Vérification de l'apperçue géneral en filtrant tous les Cours et Période "Hebdomadaire"' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-10-20T13:04:26.0000000
+  modificationDate: 2022-10-20T14:16:27.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: hg1Ifdx7nEqEGQoQrfOLPQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 0yfN98ZLu0K9bt6mtYIE6g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: la4KSc20kkq2M2JqkfCYfw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: F7KYBI7aFEGAOfEz5KhvpQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: periode
+    description: ''
+    value: Hebdomadaire
     type: Input
 - id: cuXtRQl2JUG43HoErWBbyw
   name: Accèder aux onglets Admin Panel
@@ -3206,10 +3272,10 @@ elements:
   locators:
   - name: XPATH
     value: //button[. = ' Sélectionner un cours']
-    priority: 0
+    priority: 1
   - name: XPATH
     value: //div/div/div/div[3]/div//button
-    priority: 1
+    priority: 0
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div/div[3]/button
     priority: 2
@@ -3256,6 +3322,22 @@ elements:
   - name: XPATH
     value: //li[. = '{{periode}}']
     priority: 0
+- id: MIsDfdFU8UmrlSPeKUBEkw
+  name: PremierBtnSélectionnerCours
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div/button[. = 'Sélectionner']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[1]/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div[2]/div/div/div/div[2]/div[1]/div[3]/button
+    priority: 2
 projectParameters: []
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
