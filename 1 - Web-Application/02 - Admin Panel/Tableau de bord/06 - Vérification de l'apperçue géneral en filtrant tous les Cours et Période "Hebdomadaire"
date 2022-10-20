@@ -1,7 +1,7 @@
-id: n-3ukkMdOUS1jCOisOpuwg
+id: HBw88Jm1TEO_wC7baxXavw
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-20T14:16:28.2316317Z
+created: 2022-10-20T14:17:19.0894537Z
 protocol: 1
 tests:
 - id: L92ltaT310Gw0QMmiFzx8A
@@ -219,7 +219,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-10-20T14:15:28.0000000
-  modificationDate: 2022-10-20T14:15:28.0000000
+  modificationDate: 2022-10-20T14:17:18.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
