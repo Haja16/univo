@@ -1,7 +1,7 @@
-id: 8v7jATC0tUeeZmVCwN5jfg
+id: IP52qm8X_kawITEkAezqSA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-20T07:56:56.8999621Z
+created: 2022-10-20T08:10:21.7779195Z
 protocol: 1
 tests:
 - id: j3wiQsfU6k28PemrKmHurg
@@ -671,7 +671,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-20T07:56:52.0000000
+  modificationDate: 2022-10-20T08:08:28.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -702,11 +702,34 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
+  - id: 3pwdwg8a6kCXqlSYSZLGEA
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   - id: nE5Cyc4gVEST-i5OiReBlg
     comments: ''
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     settings:
@@ -723,33 +746,6 @@ auxTests:
       value: '{{Url}}'
       direction: Output
     conditions: []
-    validations: []
-    contexts: []
-  - id: 3pwdwg8a6kCXqlSYSZLGEA
-    comments: Navigates the specified URL (Auto-generated)
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
-      source: System
-    parameterMaps:
-    - name: url
-      value: '{{ApplicationURL}}'
-      direction: Input
-    conditions:
-    - parameter: '{{Url}}'
-      type: NotEquals
-      invert: false
-      value: ttps://app.digitallearningsolution.net/auth/login
     validations: []
     contexts: []
   - id: yVKY3vcQKEKsi68IRwJATg
@@ -2406,7 +2402,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-10-20T07:46:55.0000000
-  modificationDate: 2022-10-20T07:46:55.0000000
+  modificationDate: 2022-10-20T08:09:50.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -2530,6 +2526,33 @@ auxTests:
       direction: Input
     conditions: []
     validations: []
+    contexts: []
+  - id: f-KhnS2e4EShMoLgFkYvfQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 56a4ad1b-b563-4322-ba29-d165090302b2
+      source: System
+    parameterMaps:
+    - name: url
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Contains
+      invert: false
+      field: url
+      value: admin/dashboard
     contexts: []
   parameters:
   - name: Identifiant
