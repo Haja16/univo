@@ -1,18 +1,18 @@
-id: RSRauNwyjk6ptZfqET4QkA
+id: hilk32XXtUWhTeW3vH69oQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-20T12:04:23.0324037Z
+created: 2022-10-20T12:10:29.9593437Z
 protocol: 1
 tests:
 - id: UYS8XIWs60qiwKuhWvLOfw
-  name: 12 - Vérification de l'apperçue géneral en filtrant plusieurs cours et Période "Hebdomadaire""
+  name: 12 - Vérification de l'apperçue géneral en filtrant plusieurs cours et Période "Hebdomadaire"
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-20T12:04:23.0000000
-  modificationDate: 2022-10-20T12:04:23.0000000
+  modificationDate: 2022-10-20T12:10:31.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
