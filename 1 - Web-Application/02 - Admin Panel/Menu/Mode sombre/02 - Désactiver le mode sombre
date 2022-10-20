@@ -1,7 +1,7 @@
-id: B16qS_We-0inAvckabw2Zg
+id: NEeYCGhqhEW-DaXT3pml9g
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-17T12:39:29.2149915Z
+created: 2022-10-20T07:54:49.9644713Z
 protocol: 1
 tests:
 - id: 2A3p2v7qN06F1HS-MDjQBQ
@@ -23,7 +23,7 @@ tests:
     stepTakeScreenshotConditionType: Failure
   application:
     id: uX8skHSLl0y8h_jfyw997w
-    name: Univo- WebApplication
+    name: UnivoDev- WebApplication
     url: https://app.digitallearningsolution.net/auth/login
     platform: Web
   steps:
@@ -53,7 +53,7 @@ tests:
     - name: Password
       value: '{{Password}}'
       direction: Input
-    - name: UrlAdminDashboard
+    - name: Url
       value: '{{UrlAdminDashboard}}'
       direction: Output
     conditions: []
@@ -175,7 +175,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-11T08:47:28.0000000
+  modificationDate: 2022-10-20T07:54:25.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -185,11 +185,76 @@ auxTests:
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   steps:
+  - id: 79jOCfcvH0OgOxPennhZ9Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: pYLjHfk2cEORV8cwEh2Stw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qSemdA9yqkqNXKVuSHWczw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: t66wECOE8U-l_phyrXXnrQ
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nE5Cyc4gVEST-i5OiReBlg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 56a4ad1b-b563-4322-ba29-d165090302b2
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{Url}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
   - id: 3pwdwg8a6kCXqlSYSZLGEA
     comments: Navigates the specified URL (Auto-generated)
     enabled: true
     invertResult: false
-    order: 1
+    order: 4
     repeat: 1
     type: Action
     settings:
@@ -205,14 +270,82 @@ auxTests:
     - name: url
       value: '{{ApplicationURL}}'
       direction: Input
-    conditions: []
+    conditions:
+    - parameter: '{{Url}}'
+      type: NotEquals
+      invert: false
+      value: ttps://app.digitallearningsolution.net/auth/login
     validations: []
     contexts: []
+  - id: yVKY3vcQKEKsi68IRwJATg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Test
+    targetTestId: 9vrxiBqMO0ymt5cDt3s0qQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: Identifiant
+      value: '{{Identifiant}}'
+      direction: Input
+    - name: Password
+      value: '{{Password}}'
+      direction: Input
+    conditions:
+    - parameter: '{{Url}}'
+      type: Contains
+      invert: false
+      value: auth/login
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+  - name: Identifiant
+    description: ''
+    value: support@univo.fr
+    type: Input
+  - name: Password
+    description: ''
+    type: Input
+  - name: Url
+    description: ''
+    value: ''
+    type: Output
+- id: 9vrxiBqMO0ymt5cDt3s0qQ
+  name: StepAuthenfication
+  description: This test was auto generated from steps of the '003 - S’authentifer avec un email et mot de passe valide' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-10-20T07:46:55.0000000
+  modificationDate: 2022-10-20T07:46:55.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 35000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
   - id: pTwZ6kypVkqGGQfUPaGP9w
     comments: ''
     enabled: true
     invertResult: false
-    order: 2
+    order: 1
     repeat: 1
     type: Action
     elementId: nrN6GboMbUe27mCbj8HVhQ
@@ -236,7 +369,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 3
+    order: 2
     repeat: 1
     type: Action
     elementId: X6c9G37B00idcnPQxVcSQw
@@ -257,7 +390,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 3
     repeat: 1
     type: Action
     elementId: lnYutaJeJE6My5kHldIXbg
@@ -281,7 +414,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 5
+    order: 4
     repeat: 1
     type: Action
     elementId: UgeO7JhzOEGd-I-wndpDLQ
@@ -302,7 +435,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 6
+    order: 5
     repeat: 1
     type: Addon
     elementId: x-buI32OdEeyLzVcV1M_iQ
@@ -323,38 +456,7 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
-  - id: yI49aPaMLUiastn9r_hSIA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 7
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 56a4ad1b-b563-4322-ba29-d165090302b2
-      source: System
-    parameterMaps:
-    - name: url
-      value: '{{UrlAdminDashboard}}'
-      direction: Output
-    conditions: []
-    validations:
-    - type: Contains
-      invert: false
-      field: url
-      value: admin/dashboard
-    contexts: []
   parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
   - name: Identifiant
     description: ''
     value: support@univo.fr
@@ -362,11 +464,24 @@ auxTests:
   - name: Password
     description: ''
     type: Input
-  - name: UrlAdminDashboard
-    description: ''
-    value: ''
-    type: Output
 elements:
+- id: ffePXeehQU2FqYGa4_meEA
+  name: Mode sombre
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-4'
+    priority: 1
+  - name: XPATH
+    value: //div[3]/button[5]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[5]
+    priority: 2
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
   type:
@@ -449,27 +564,10 @@ elements:
     priority: 2
   - name: XPATH
     value: //div[2]/div/button/button
-    priority: 0
+    priority: 1
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
-- id: ffePXeehQU2FqYGa4_meEA
-  name: Mode sombre
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-4'
-    priority: 0
-  - name: XPATH
-    value: //div[3]/button[5]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[5]
-    priority: 2
 projectParameters: []
 addons:
 - id: SweuoT7ZvE2HBzPlitQMTg
@@ -485,6 +583,23 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: 3E271456BA83F673EF24D60BF09BD387C772FCCA11F2FC6554A731680C047C69
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: pYLjHfk2cEORV8cwEh2Stw
+    name: Delete all cookies
+    description: Delete all cookies
+    className: io.testproject.addons.web.cookies.DeleteAllCookies
+  - id: t66wECOE8U-l_phyrXXnrQ
+    name: Clear local storage
+    description: Clear local storage
+    className: io.testproject.addons.web.localstorage.ClearLocalStorage
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
 - id: inW2AJJ04ku45E9-RN2zqA
   source: Store
   version: 2.10
@@ -493,6 +608,18 @@ addons:
     name: Click if visible
     description: Click {{element}} if it's visible
     className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
+  - id: Wl9sAAe1r0qiS9fcNrHMPg
+    name: Is clickable? (if visible)
+    description: Is {{element}} clickable?
+    className: io.testproject.addon.IsClickableActions.IsClickableWeb
+  - id: _PKL_koWWkaH7f5nBaj7UA
+    name: Type text (if visible)
+    description: Type {{text}} in {{element}} if visible
+    className: io.testproject.addon.TypeActions.TypeTextIfVisibleWeb
+  - id: NLB4QolOjEiJ4WNftvS4EQ
+    name: Contains text? (if visible)
+    description: '{{element}} contains text {{text}}?'
+    className: io.testproject.addon.ContainsTextActions.ContainsTextIfVisibleWeb
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
