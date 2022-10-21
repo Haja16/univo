@@ -1,7 +1,7 @@
-id: WB_83Rmpf0CXHyUdl7kXNw
+id: 5i2lOrxNk0ejBUtma3MJxA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-21T13:16:22.4881380Z
+created: 2022-10-21T13:16:43.7671011Z
 protocol: 1
 tests:
 - id: Sf5jal9hBk-rqQbw7_fgCA
@@ -218,7 +218,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-10-21T13:15:42.0000000
-  modificationDate: 2022-10-21T13:15:42.0000000
+  modificationDate: 2022-10-21T13:16:43.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -2457,128 +2457,6 @@ auxTests:
     description: Auto generated application URL parameter
     value: https://app.digitallearningsolution.net/auth/login
     type: Input
-- id: sfasXkbSaEaXt_pgvG15Iw
-  name: StepAccesCatalogue
-  description: This test was auto generated from steps of the 'Navigation Catalogue - Cours' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-10-12T14:02:18.0000000
-  modificationDate: 2022-10-12T14:02:18.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: ENG6BQzWaES6MQmzUUSkQg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: ue8VfORpNUm0ewNmyAQCYQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a59f3a20-d08d-4293-9add-b279f92e6c41
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 7n4uGLROmEahkZjlxPJZAQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: ue8VfORpNUm0ewNmyAQCYQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
-- id: iU01z0ykK0SsKzrvEYRrjg
-  name: StepAccesParmètres
-  description: This test was auto generated from steps of the 'Navigation Paramètres - Général' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-10-12T14:43:45.0000000
-  modificationDate: 2022-10-12T14:43:45.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: I6kBARqoOUmz0uC9ZFUe0g
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: MJivZXFMmEmEVW5vQcFWwg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a59f3a20-d08d-4293-9add-b279f92e6c41
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: cWAEys9lbku-Ca84J8xHeQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: MJivZXFMmEmEVW5vQcFWwg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
 - id: 9vrxiBqMO0ymt5cDt3s0qQ
   name: StepAuthenfication
   description: This test was auto generated from steps of the '003 - S’authentifer avec un email et mot de passe valide' test
@@ -2747,7 +2625,142 @@ auxTests:
   - name: Password
     description: ''
     type: Input
+- id: sfasXkbSaEaXt_pgvG15Iw
+  name: StepAccesCatalogue
+  description: This test was auto generated from steps of the 'Navigation Catalogue - Cours' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-10-12T14:02:18.0000000
+  modificationDate: 2022-10-12T14:02:18.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: ENG6BQzWaES6MQmzUUSkQg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: ue8VfORpNUm0ewNmyAQCYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7n4uGLROmEahkZjlxPJZAQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: ue8VfORpNUm0ewNmyAQCYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: iU01z0ykK0SsKzrvEYRrjg
+  name: StepAccesParmètres
+  description: This test was auto generated from steps of the 'Navigation Paramètres - Général' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-10-12T14:43:45.0000000
+  modificationDate: 2022-10-12T14:43:45.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: I6kBARqoOUmz0uC9ZFUe0g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: MJivZXFMmEmEVW5vQcFWwg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cWAEys9lbku-Ca84J8xHeQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: MJivZXFMmEmEVW5vQcFWwg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
 elements:
+- id: wvnVCZIaIEionCOXkMpZkA
+  name: 'Button (...) - (1er apprenant) '
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div[9]//button
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div[1]/div/div/div/div[2]/div[1]/div[9]/div/button
+    priority: 1
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
   type:
@@ -2886,6 +2899,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[3]/div[2]/div/div/div/div[1]
     priority: 1
+- id: cXabrAWv1kmP7GNQmYVHag
+  name: Utilisateurs
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul/div/div[3]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[3]/div[1]
+    priority: 1
 - id: 3uVw8jsDDkah5Uc2IsAX4g
   name: Utilisateurs - Groupe
   description: ''
@@ -2899,6 +2926,20 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[3]/div[2]/div/div/div/div[2]
+    priority: 1
+- id: cXabrAWv1kmP7GNQmYVHag
+  name: Utilisateurs
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul/div/div[3]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[3]/div[1]
     priority: 1
 - id: rc64tbNQTEWh1GPQVkyVrw
   name: Utilisateur - Tuteurs
@@ -2914,6 +2955,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[3]/div[2]/div/div/div/div[3]
     priority: 1
+- id: cXabrAWv1kmP7GNQmYVHag
+  name: Utilisateurs
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul/div/div[3]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[3]/div[1]
+    priority: 1
 - id: IdfQH_rYa0qjGwZ0Iuh6Fg
   name: Utilisateurs - Formateurs
   description: ''
@@ -2927,20 +2982,6 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[3]/div[2]/div/div/div/div[4]
-    priority: 1
-- id: ue8VfORpNUm0ewNmyAQCYQ
-  name: Catalogue
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //ul/div/div[4]/div[1]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[4]/div[1]
     priority: 1
 - id: rmGj4mdNMUWYtUYqfFKzBA
   name: Catalogue - Cours
@@ -2956,6 +2997,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[4]/div[2]/div/div/div/div[1]
     priority: 1
+- id: ue8VfORpNUm0ewNmyAQCYQ
+  name: Catalogue
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul/div/div[4]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[4]/div[1]
+    priority: 1
 - id: hAwdqurslk6AVq3G1Z-uhw
   name: Catalogue -  Catégories
   description: ''
@@ -2969,6 +3024,20 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[4]/div[2]/div/div/div/div[2]
+    priority: 1
+- id: ue8VfORpNUm0ewNmyAQCYQ
+  name: Catalogue
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul/div/div[4]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[4]/div[1]
     priority: 1
 - id: DNHWYAfXp0u5RHkCCUQ3Pg
   name: Catalogue - Classes virtuelles
@@ -2984,6 +3053,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[4]/div[2]/div/div/div/div[3]
     priority: 1
+- id: ue8VfORpNUm0ewNmyAQCYQ
+  name: Catalogue
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul/div/div[4]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[4]/div[1]
+    priority: 1
 - id: 7cGxC1ASNkmj3sFsfPiMKA
   name: Catalogue -  Sessions physiques
   description: ''
@@ -2997,6 +3080,20 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[4]/div[2]/div/div/div/div[4]
+    priority: 1
+- id: ue8VfORpNUm0ewNmyAQCYQ
+  name: Catalogue
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul/div/div[4]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[4]/div[1]
     priority: 1
 - id: qnfL4Grs30aZKQ-15IhacQ
   name: E-mail
@@ -3040,6 +3137,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[8]/div
     priority: 1
+- id: YzNmIqoyC0erImGwiVcdhw
+  name: Site public
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[9]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[9]/div
+    priority: 1
 - id: upacRw_qukG_s1IXOwjvAg
   name: Besoin d'aide?
   description: ''
@@ -3053,20 +3164,6 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/nav[2]/div[1]
-    priority: 1
-- id: MJivZXFMmEmEVW5vQcFWwg
-  name: Paramètres
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //nav/div[2]/div[1]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div[1]/div/div/div/nav[2]/div[2]/div[1]
     priority: 1
 - id: rXh6p3MeB0yyThoSccWUUg
   name: 'Paramètres - Général '
@@ -3082,6 +3179,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/nav[2]/div[2]/div[2]/div/div/div/div[1]
     priority: 1
+- id: MJivZXFMmEmEVW5vQcFWwg
+  name: Paramètres
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/nav[2]/div[2]/div[1]
+    priority: 1
 - id: U1e5nc8W5katFMkml8xH6A
   name: 'Paramètres - Personnalisation '
   description: ''
@@ -3095,6 +3206,20 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/nav[2]/div[2]/div[2]/div/div/div/div[2]
+    priority: 1
+- id: MJivZXFMmEmEVW5vQcFWwg
+  name: Paramètres
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/nav[2]/div[2]/div[1]
     priority: 1
 - id: wjZIjAyak0eVSp0HLH4qIA
   name: Paramètres - Conditions
@@ -3110,8 +3235,8 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/nav[2]/div[2]/div[2]/div/div/div/div[3]
     priority: 1
-- id: YzNmIqoyC0erImGwiVcdhw
-  name: Site public
+- id: MJivZXFMmEmEVW5vQcFWwg
+  name: Paramètres
   description: ''
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
@@ -3119,39 +3244,10 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //div[9]/div
+    value: //nav/div[2]/div[1]
     priority: 0
   - name: XPATH
-    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[9]/div
-    priority: 1
-- id: RLmmaiStwkKWvBgbLJRUDg
-  name: D'ACCORD
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = concat('D', "'", 'ACCORD')]
-    priority: 0
-  - name: XPATH
-    value: //div[3]/div/div/button[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div[3]/div/div[2]/button[2]
-    priority: 2
-- id: wvnVCZIaIEionCOXkMpZkA
-  name: 'Button (...) - (1er apprenant) '
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[1]/div[9]//button
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div[1]/div/div/div/div[2]/div[1]/div[9]/div/button
+    value: /html/body/div/div[2]/div[1]/div/div/div/nav[2]/div[2]/div[1]
     priority: 1
 - id: uoBxhunz40afQfHo6Hewmw
   name: Supprimer (Apprenant-Groupe-...)
@@ -3169,6 +3265,22 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[2]/div[3]/div/div/button[2]
+    priority: 2
+- id: RLmmaiStwkKWvBgbLJRUDg
+  name: D'ACCORD
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = concat('D', "'", 'ACCORD')]
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div/div[2]/button[2]
     priority: 2
 - id: sdeNI3bu7EGgzXp07VdPjQ
   name: PopUp-ConfirmationSuppressionUser
