@@ -1,7 +1,7 @@
-id: tYlCFUgwj0CLrgNUFcaTXw
+id: LlLeNmA8C0Smsk7nCBkgaA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-24T10:41:39.4291707Z
+created: 2022-10-24T10:42:24.5972383Z
 protocol: 1
 tests:
 - id: EMuEUBOaWEeIjfB1cggdYg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:53:38.0000000
-  modificationDate: 2022-10-24T10:41:39.0000000
+  modificationDate: 2022-10-24T10:42:13.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -59,14 +59,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: WK4-S0x-5ES6rFEDIjz52Q
-    comments: ''
+  - id: n93_kXusmkW-ihpRLYaYAg
+    comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
-    type: Action
-    elementId: IXdP_fl-0Ei9LhnC65P6Vw
+    type: Test
+    targetTestId: oK7BbZotlEGOIDTsoqcImQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -74,55 +74,8 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
+      source: None
     parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: y9NbLQmm10SOhMFPB0y3aQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: 96Z8APo6xEqIMrNYshI9Mw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: oroG950uY0aY_SPiGY9Hnw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Addon
-    elementId: nrN6GboMbUe27mCbj8HVhQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: U2veSbE9E0aIfg5GFB2HtQ
-      source: Store
-      addonId: inW2AJJ04ku45E9-RN2zqA
-    parameterMaps:
-    - name: timeout
-      value: 100000
-      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -130,7 +83,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 5
+    order: 3
     repeat: 1
     type: Action
     settings:
@@ -301,6 +254,92 @@ auxTests:
     description: ''
     value: ''
     type: Output
+- id: oK7BbZotlEGOIDTsoqcImQ
+  name: StepLogout
+  description: This test was auto generated from steps of the '001 -  Logout' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-10-24T10:42:13.0000000
+  modificationDate: 2022-10-24T10:42:13.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 35000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: WK4-S0x-5ES6rFEDIjz52Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: IXdP_fl-0Ei9LhnC65P6Vw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: y9NbLQmm10SOhMFPB0y3aQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 96Z8APo6xEqIMrNYshI9Mw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oroG950uY0aY_SPiGY9Hnw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Addon
+    elementId: nrN6GboMbUe27mCbj8HVhQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: U2veSbE9E0aIfg5GFB2HtQ
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: 100000
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
 - id: 9vrxiBqMO0ymt5cDt3s0qQ
   name: StepAuthenfication
   description: This test was auto generated from steps of the '003 - S’authentifer avec un email et mot de passe valide' test
