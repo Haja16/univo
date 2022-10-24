@@ -1,7 +1,7 @@
-id: 9cIkScZ4j0ylHBB4eUSYuA
+id: A4dJq3jBI0ykSNZu2W3cZA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-20T08:11:03.7143018Z
+created: 2022-10-24T10:03:26.5817446Z
 protocol: 1
 tests:
 - id: oPyAAgwGrEeO_F7nlm6_Vg
@@ -745,14 +745,14 @@ auxTests:
     value: ''
     type: Input
 - id: 2A867jnChEmE_hhKJOLtng
-  name: 003 - S’authentifer avec un email et mot de passe valide
+  name: 003 - Authenticate with email and password valid
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-20T08:08:28.0000000
+  modificationDate: 2022-10-24T10:03:24.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -2651,20 +2651,17 @@ elements:
     name: Button
     source: System
   locators:
-  - name: CSSSELECTOR
-    value: '#mui-7'
-    priority: 0
   - name: XPATH
     value: //button[. = ' Sélectionner un cours']
     priority: 1
   - name: XPATH
     value: //div/div/div/div[3]/div//button
-    priority: 2
+    priority: 0
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div/div[3]/button
-    priority: 3
+    priority: 2
 - id: 0yfN98ZLu0K9bt6mtYIE6g
-  name: Hebdomadaire1
+  name: Période
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button

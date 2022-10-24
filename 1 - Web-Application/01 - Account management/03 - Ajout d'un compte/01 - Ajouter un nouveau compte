@@ -1,23 +1,23 @@
-id: M0njQ_7N0EeYyJ-GJV6KCg
+id: PDT8bd_C0km82w8PMlnl9A
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-20T08:11:03.6589555Z
+created: 2022-10-24T10:03:26.5728756Z
 protocol: 1
 tests:
-- id: EMuEUBOaWEeIjfB1cggdYg
-  name: 001 -  Déconnexion
+- id: -B5XllJT1UeE5XMBtBCo8Q
+  name: 01 - Ajouter un nouveau compte
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
-  creationDate: 2022-10-09T15:53:38.0000000
-  modificationDate: 2022-10-13T10:40:35.0000000
+  creationDate: 2022-10-16T08:39:15.0000000
+  modificationDate: 2022-10-16T08:45:12.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
     stepSleepTime: 500
-    stepTimeout: 35000
+    stepTimeout: 15000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
@@ -27,7 +27,7 @@ tests:
     url: https://app.digitallearningsolution.net/auth/login
     platform: Web
   steps:
-  - id: -JNV9sGrlE-Vc_WQNPFS3w
+  - id: hBzPzwvSfkSO0PDhiEHcew
     comments: ''
     enabled: true
     invertResult: false
@@ -59,7 +59,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: WK4-S0x-5ES6rFEDIjz52Q
+  - id: g6CGA9El90W9hQhvD-3Jhg
     comments: ''
     enabled: true
     invertResult: false
@@ -80,14 +80,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: y9NbLQmm10SOhMFPB0y3aQ
+  - id: wYTeDQO30Uqp5zr0l3EZ7w
     comments: ''
     enabled: true
     invertResult: false
     order: 3
     repeat: 1
     type: Action
-    elementId: 96Z8APo6xEqIMrNYshI9Mw
+    elementId: LX-XPudO5kCKEoDXvItJ1g
     settings:
       sleepTime: -1
       timeout: -1
@@ -100,58 +100,6 @@ tests:
     parameterMaps: []
     conditions: []
     validations: []
-    contexts: []
-  - id: oroG950uY0aY_SPiGY9Hnw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Addon
-    elementId: nrN6GboMbUe27mCbj8HVhQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: U2veSbE9E0aIfg5GFB2HtQ
-      source: Store
-      addonId: inW2AJJ04ku45E9-RN2zqA
-    parameterMaps:
-    - name: timeout
-      value: 100000
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: yjAcm3WBo0iIlbTDYjcdwg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 56a4ad1b-b563-4322-ba29-d165090302b2
-      source: System
-    parameterMaps:
-    - name: url
-      value: '{{UrlAdminDashboard}}'
-      direction: Output
-    conditions: []
-    validations:
-    - type: Contains
-      invert: false
-      field: url
-      value: auth/login
     contexts: []
   parameters:
   - name: ApplicationURL
@@ -171,14 +119,14 @@ tests:
     type: Private
 auxTests:
 - id: 2A867jnChEmE_hhKJOLtng
-  name: 003 - S’authentifer avec un email et mot de passe valide
+  name: 003 - Authenticate with email and password valid
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-20T08:08:28.0000000
+  modificationDate: 2022-10-24T10:03:24.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -492,43 +440,25 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[7]
     priority: 4
-- id: 96Z8APo6xEqIMrNYshI9Mw
-  name: Déconnecter
+- id: LX-XPudO5kCKEoDXvItJ1g
+  name: Ajouter un autre compte
+  description: ''
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
   - name: CSSSELECTOR
-    value: '#mui-22'
-    priority: 1
-  - name: XPATH
-    value: //button[. = '  Déconnecter']
+    value: '#mui-12'
     priority: 0
   - name: XPATH
-    value: //div[3]/a/button
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[2]/div[3]/ul/div/div/div[3]/a/button
-    priority: 3
-- id: nrN6GboMbUe27mCbj8HVhQ
-  name: email
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='email']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'votremail@mail.com']
+    value: //button[. = '  Ajouter un autre compte']
     priority: 1
   - name: XPATH
-    value: //input
+    value: //div[1]/button
     priority: 2
   - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
+    value: /html/body/div[2]/div[3]/ul/div/div/div[1]/button
     priority: 3
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
@@ -618,6 +548,19 @@ elements:
     priority: 3
 projectParameters: []
 addons:
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: pYLjHfk2cEORV8cwEh2Stw
+    name: Delete all cookies
+    description: Delete all cookies
+    className: io.testproject.addons.web.cookies.DeleteAllCookies
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
 - id: inW2AJJ04ku45E9-RN2zqA
   source: Store
   version: 2.10
@@ -643,16 +586,3 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
-- id: Xey4bVsJQEODIUN7ssaJMg
-  source: Store
-  version: 1.1.9
-  actions:
-  - id: pYLjHfk2cEORV8cwEh2Stw
-    name: Delete all cookies
-    description: Delete all cookies
-    className: io.testproject.addons.web.cookies.DeleteAllCookies
-  minSdkLevel: 2
-  minSdkVersion: 0.63.1
-  sdkGeneration: 1
-  language: Java
-  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
