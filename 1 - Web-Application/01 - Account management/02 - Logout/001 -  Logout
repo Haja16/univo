@@ -1,7 +1,7 @@
-id: LlLeNmA8C0Smsk7nCBkgaA
+id: JiKJwzwr-UCPQMk_kHTJEw
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-24T10:42:24.5972383Z
+created: 2022-10-24T10:42:43.0839173Z
 protocol: 1
 tests:
 - id: EMuEUBOaWEeIjfB1cggdYg
@@ -262,7 +262,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-10-24T10:42:13.0000000
-  modificationDate: 2022-10-24T10:42:13.0000000
+  modificationDate: 2022-10-24T10:42:42.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -635,6 +635,25 @@ elements:
     priority: 2
   - name: XPATH
     value: /html/body/div[2]/div[3]/ul/div/div/div[3]/a/button
+    priority: 3
+- id: nrN6GboMbUe27mCbj8HVhQ
+  name: email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='email']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'votremail@mail.com']
+    priority: 1
+  - name: XPATH
+    value: //input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
     priority: 3
 projectParameters: []
 addons:
