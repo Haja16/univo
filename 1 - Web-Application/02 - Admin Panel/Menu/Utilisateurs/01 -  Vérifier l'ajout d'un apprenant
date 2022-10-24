@@ -1,7 +1,7 @@
-id: pDiU1TtWV0K1bnrGiIbp3w
+id: m2aH_qNQS06K8zlJR1MnSA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-21T13:54:30.2242912Z
+created: 2022-10-24T10:03:26.5722017Z
 protocol: 1
 tests:
 - id: tYkrG2c7nk-7UlV4oEprCA
@@ -172,14 +172,14 @@ tests:
     type: Output
 auxTests:
 - id: 2A867jnChEmE_hhKJOLtng
-  name: 003 - S’authentifer avec un email et mot de passe valide
+  name: 003 - Authenticate with email and password valid
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-20T08:08:28.0000000
+  modificationDate: 2022-10-24T10:03:24.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -302,113 +302,6 @@ auxTests:
     description: ''
     value: ''
     type: Output
-- id: kYPqHFl-W0ekcG_jloxpnQ
-  name: Navigation Utilisateurs - Apprenants
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-11T10:35:18.0000000
-  modificationDate: 2022-10-12T13:16:46.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 35000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: AtaNQlVv00up4J6bWBmZ5A
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: cXabrAWv1kmP7GNQmYVHag
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a59f3a20-d08d-4293-9add-b279f92e6c41
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: uO813izHzUSuMrOq2YFegw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: cXabrAWv1kmP7GNQmYVHag
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Eszp0es_e0yCxRRWXvrHOg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: cIRTq0mHiES8w9Twpj9vmw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a59f3a20-d08d-4293-9add-b279f92e6c41
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 4KLv9kw8K0WqbHgjnkryJA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: cIRTq0mHiES8w9Twpj9vmw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
 - id: YYwHhqEOVU2XDSgYmxtjxA
   name: StepEcritureFormulaireApprenant
   description: This test was auto generated from steps of the '01- Ajouter un apprenant' test
@@ -693,6 +586,113 @@ auxTests:
     description: ''
     value: ''
     type: Output
+- id: kYPqHFl-W0ekcG_jloxpnQ
+  name: Navigation Utilisateurs - Apprenants
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-11T10:35:18.0000000
+  modificationDate: 2022-10-12T13:16:46.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 35000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: AtaNQlVv00up4J6bWBmZ5A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: cXabrAWv1kmP7GNQmYVHag
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uO813izHzUSuMrOq2YFegw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: cXabrAWv1kmP7GNQmYVHag
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Eszp0es_e0yCxRRWXvrHOg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: cIRTq0mHiES8w9Twpj9vmw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4KLv9kw8K0WqbHgjnkryJA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: cIRTq0mHiES8w9Twpj9vmw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
 - id: 9vrxiBqMO0ymt5cDt3s0qQ
   name: StepAuthenfication
   description: This test was auto generated from steps of the '003 - S’authentifer avec un email et mot de passe valide' test
@@ -862,92 +862,20 @@ auxTests:
     description: ''
     type: Input
 elements:
-- id: nrN6GboMbUe27mCbj8HVhQ
-  name: email
+- id: sljqHZNY402yrchcDJFUrw
+  name: Liste(Apprenant-Groupe-Tuteurs)
+  description: ''
   type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='email']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'votremail@mail.com']
-    priority: 1
-  - name: XPATH
-    value: //input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
-    priority: 3
-- id: X6c9G37B00idcnPQxVcSQw
-  name: Suivant
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
     source: System
   locators:
   - name: XPATH
-    value: //button[. = 'Suivant']
+    value: //div[3]/div/div/div[3]/div/div/div/div/div[2]/div
     priority: 0
   - name: XPATH
-    value: //button
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div/div/div/div[2]/div
     priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
-    priority: 2
-- id: lnYutaJeJE6My5kHldIXbg
-  name: password
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='password']"
-    priority: 0
-  - name: XPATH
-    value: //input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/input
-    priority: 2
-- id: UgeO7JhzOEGd-I-wndpDLQ
-  name: Je me connecte
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Je me connecte']
-    priority: 0
-  - name: XPATH
-    value: //button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
-    priority: 2
-- id: x-buI32OdEeyLzVcV1M_iQ
-  name: Ignorer
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-9'
-    priority: 0
-  - name: XPATH
-    value: //button/button[. = 'Ignorer']
-    priority: 2
-  - name: XPATH
-    value: //div[2]/div/button/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
-    priority: 3
 - id: cXabrAWv1kmP7GNQmYVHag
   name: Utilisateurs
   description: ''
@@ -1144,26 +1072,102 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[25]/button
     priority: 2
-- id: sljqHZNY402yrchcDJFUrw
-  name: 'ListeApprenant '
-  description: ''
+- id: nrN6GboMbUe27mCbj8HVhQ
+  name: email
   type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='email']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'votremail@mail.com']
+    priority: 1
+  - name: XPATH
+    value: //input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
+    priority: 3
+- id: X6c9G37B00idcnPQxVcSQw
+  name: Suivant
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
     source: System
   locators:
   - name: XPATH
-    value: //div[3]/div/div/div[3]/div/div/div/div/div[2]/div
+    value: //button[. = 'Suivant']
     priority: 0
   - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div/div/div/div[2]/div
+    value: //button
     priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: lnYutaJeJE6My5kHldIXbg
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/input
+    priority: 2
+- id: UgeO7JhzOEGd-I-wndpDLQ
+  name: Je me connecte
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Je me connecte']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: x-buI32OdEeyLzVcV1M_iQ
+  name: Ignorer
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-9'
+    priority: 0
+  - name: XPATH
+    value: //button/button[. = 'Ignorer']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/button/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
+    priority: 3
 projectParameters: []
 addons:
 - id: 9k_I6NoN_06CR22QXqBpAQ
   source: Store
   version: 1.4
   actions:
+  - id: ZrQnHZWNkkKqSMe6hGqh1Q
+    name: Get the current DateTime
+    description: Get current date
+    className: Actions.CurrentDate
   - id: l5aurwBzi0ej2yhzoXEgpw
     name: Get the current DateTime
     description: Get current DateTime in ISO 8601 format
@@ -1194,6 +1198,18 @@ addons:
     name: Click if visible
     description: Click {{element}} if it's visible
     className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
+  - id: Wl9sAAe1r0qiS9fcNrHMPg
+    name: Is clickable? (if visible)
+    description: Is {{element}} clickable?
+    className: io.testproject.addon.IsClickableActions.IsClickableWeb
+  - id: _PKL_koWWkaH7f5nBaj7UA
+    name: Type text (if visible)
+    description: Type {{text}} in {{element}} if visible
+    className: io.testproject.addon.TypeActions.TypeTextIfVisibleWeb
+  - id: NLB4QolOjEiJ4WNftvS4EQ
+    name: Contains text? (if visible)
+    description: '{{element}} contains text {{text}}?'
+    className: io.testproject.addon.ContainsTextActions.ContainsTextIfVisibleWeb
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
