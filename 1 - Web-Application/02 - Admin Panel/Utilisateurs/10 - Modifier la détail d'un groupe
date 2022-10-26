@@ -1,7 +1,7 @@
-id: Gp8aw64tJEm2lOTeWpmp5w
+id: FeV8DiPWxUa3b5MmNqIFMA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-24T10:04:37.9875541Z
+created: 2022-10-26T09:03:15.4339334Z
 protocol: 1
 tests:
 - id: 7nj0hAbFNkSQmI23Kf5kZw
@@ -1054,7 +1054,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-24T10:04:36.0000000
+  modificationDate: 2022-10-26T09:02:59.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -1075,7 +1075,7 @@ auxTests:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: Inherit
+      failureBehaviorType: AlwaysPass
       takeScreenshotConditionType: Inherit
     action:
       id: pYLjHfk2cEORV8cwEh2Stw
@@ -3571,10 +3571,6 @@ addons:
   source: Store
   version: 2.10
   actions:
-  - id: U2veSbE9E0aIfg5GFB2HtQ
-    name: Click if visible
-    description: Click {{element}} if it's visible
-    className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
   - id: Wl9sAAe1r0qiS9fcNrHMPg
     name: Is clickable? (if visible)
     description: Is {{element}} clickable?
@@ -3583,6 +3579,10 @@ addons:
     name: Type text (if visible)
     description: Type {{text}} in {{element}} if visible
     className: io.testproject.addon.TypeActions.TypeTextIfVisibleWeb
+  - id: U2veSbE9E0aIfg5GFB2HtQ
+    name: Click if visible
+    description: Click {{element}} if it's visible
+    className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
   - id: NLB4QolOjEiJ4WNftvS4EQ
     name: Contains text? (if visible)
     description: '{{element}} contains text {{text}}?'

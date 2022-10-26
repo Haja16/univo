@@ -1,7 +1,7 @@
-id: YenMg7DPAkud8AwXaEhLmg
+id: 65anyukDQ0qmg8iiP_-D3w
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-24T10:09:02.5658938Z
+created: 2022-10-26T09:03:15.4061255Z
 protocol: 1
 tests:
 - id: -B5XllJT1UeE5XMBtBCo8Q
@@ -126,7 +126,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-24T10:04:36.0000000
+  modificationDate: 2022-10-26T09:02:59.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -147,7 +147,7 @@ auxTests:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: Inherit
+      failureBehaviorType: AlwaysPass
       takeScreenshotConditionType: Inherit
     action:
       id: pYLjHfk2cEORV8cwEh2Stw
@@ -418,6 +418,48 @@ auxTests:
     description: ''
     type: Input
 elements:
+- id: IXdP_fl-0Ei9LhnC65P6Vw
+  name: MenuCompte
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-5'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='menu']"
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Super AdminSUPERADMIN']
+    priority: 2
+  - name: XPATH
+    value: //button[7]
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[7]
+    priority: 4
+- id: LX-XPudO5kCKEoDXvItJ1g
+  name: Ajouter un autre compte
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-12'
+    priority: 0
+  - name: XPATH
+    value: //button[. = '  Ajouter un autre compte']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/div/div/div[1]/button
+    priority: 3
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
   type:
@@ -504,48 +546,6 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
-- id: IXdP_fl-0Ei9LhnC65P6Vw
-  name: MenuCompte
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-5'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='menu']"
-    priority: 1
-  - name: XPATH
-    value: //button[. = 'Super AdminSUPERADMIN']
-    priority: 2
-  - name: XPATH
-    value: //button[7]
-    priority: 3
-  - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[7]
-    priority: 4
-- id: LX-XPudO5kCKEoDXvItJ1g
-  name: Ajouter un autre compte
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-12'
-    priority: 0
-  - name: XPATH
-    value: //button[. = '  Ajouter un autre compte']
-    priority: 1
-  - name: XPATH
-    value: //div[1]/button
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[2]/div[3]/ul/div/div/div[1]/button
-    priority: 3
 projectParameters: []
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
@@ -565,10 +565,22 @@ addons:
   source: Store
   version: 2.10
   actions:
+  - id: Wl9sAAe1r0qiS9fcNrHMPg
+    name: Is clickable? (if visible)
+    description: Is {{element}} clickable?
+    className: io.testproject.addon.IsClickableActions.IsClickableWeb
+  - id: _PKL_koWWkaH7f5nBaj7UA
+    name: Type text (if visible)
+    description: Type {{text}} in {{element}} if visible
+    className: io.testproject.addon.TypeActions.TypeTextIfVisibleWeb
   - id: U2veSbE9E0aIfg5GFB2HtQ
     name: Click if visible
     description: Click {{element}} if it's visible
     className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
+  - id: NLB4QolOjEiJ4WNftvS4EQ
+    name: Contains text? (if visible)
+    description: '{{element}} contains text {{text}}?'
+    className: io.testproject.addon.ContainsTextActions.ContainsTextIfVisibleWeb
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
