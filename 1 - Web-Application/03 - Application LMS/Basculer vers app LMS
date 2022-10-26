@@ -1,7 +1,7 @@
-id: eOSw4eORF0eE7uph4Oam9w
+id: DyxPwe34aUSB-Nh0RxWw7A
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-24T13:53:07.4379393Z
+created: 2022-10-26T09:03:15.4198603Z
 protocol: 1
 tests:
 - id: UioWaSVc2kCVUNJbzYiqTA
@@ -141,7 +141,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-24T10:04:36.0000000
+  modificationDate: 2022-10-26T09:02:59.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -162,7 +162,7 @@ auxTests:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: Inherit
+      failureBehaviorType: AlwaysPass
       takeScreenshotConditionType: Inherit
     action:
       id: pYLjHfk2cEORV8cwEh2Stw
@@ -577,6 +577,83 @@ auxTests:
     description: ''
     type: Input
 elements:
+- id: T-lT9Xhlv0GrumTBATRsQQ
+  name: Logo
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#v-tour-sidebar'
+    priority: 0
+  - name: XPATH
+    value: //nav[1]/div/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[1]/div/div/div/nav[1]/div/div
+    priority: 2
+- id: ELyzLZOcEkecQ_MNeVyVnA
+  name: App
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-11'
+    priority: 0
+  - name: XPATH
+    value: //button[. = ' App']
+    priority: 1
+  - name: XPATH
+    value: //a[1]/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div/div/a[1]/button
+    priority: 3
+- id: iOHJ463ZcECa6wP4cGEMEw
+  name: Studio
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-12'
+    priority: 0
+  - name: XPATH
+    value: //button[. = ' Studio']
+    priority: 1
+  - name: XPATH
+    value: //a[2]/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div/div/a[2]/button
+    priority: 3
+- id: 5n66mkLkQEG14oifKcE7Bw
+  name: Admin
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-31'
+    priority: 0
+  - name: XPATH
+    value: //button[. = ' Admin']
+    priority: 1
+  - name: XPATH
+    value: //div[3]/div/a[1]/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div/a[1]/button
+    priority: 3
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
   type:
@@ -663,83 +740,6 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
-- id: T-lT9Xhlv0GrumTBATRsQQ
-  name: Logo
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#v-tour-sidebar'
-    priority: 0
-  - name: XPATH
-    value: //nav[1]/div/div
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div[1]/div/div/div/nav[1]/div/div
-    priority: 2
-- id: ELyzLZOcEkecQ_MNeVyVnA
-  name: App
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-11'
-    priority: 0
-  - name: XPATH
-    value: //button[. = ' App']
-    priority: 1
-  - name: XPATH
-    value: //a[1]/button
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[2]/div[3]/div/div/a[1]/button
-    priority: 3
-- id: iOHJ463ZcECa6wP4cGEMEw
-  name: Studio
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-12'
-    priority: 0
-  - name: XPATH
-    value: //button[. = ' Studio']
-    priority: 1
-  - name: XPATH
-    value: //a[2]/button
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[2]/div[3]/div/div/a[2]/button
-    priority: 3
-- id: 5n66mkLkQEG14oifKcE7Bw
-  name: Admin
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-31'
-    priority: 0
-  - name: XPATH
-    value: //button[. = ' Admin']
-    priority: 1
-  - name: XPATH
-    value: //div[3]/div/a[1]/button
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[2]/div[3]/div/a[1]/button
-    priority: 3
 projectParameters: []
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
@@ -759,10 +759,22 @@ addons:
   source: Store
   version: 2.10
   actions:
+  - id: Wl9sAAe1r0qiS9fcNrHMPg
+    name: Is clickable? (if visible)
+    description: Is {{element}} clickable?
+    className: io.testproject.addon.IsClickableActions.IsClickableWeb
+  - id: _PKL_koWWkaH7f5nBaj7UA
+    name: Type text (if visible)
+    description: Type {{text}} in {{element}} if visible
+    className: io.testproject.addon.TypeActions.TypeTextIfVisibleWeb
   - id: U2veSbE9E0aIfg5GFB2HtQ
     name: Click if visible
     description: Click {{element}} if it's visible
     className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
+  - id: NLB4QolOjEiJ4WNftvS4EQ
+    name: Contains text? (if visible)
+    description: '{{element}} contains text {{text}}?'
+    className: io.testproject.addon.ContainsTextActions.ContainsTextIfVisibleWeb
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
