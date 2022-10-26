@@ -1,7 +1,7 @@
-id: f7NvnKqwr0y2Hr8grF6DwA
+id: lHJWntdPNk2Qf5DbDs4KuQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-24T13:53:53.7644463Z
+created: 2022-10-26T09:03:15.4015384Z
 protocol: 1
 tests:
 - id: jqs-5krko0mAK8Kg-Qhciw
@@ -407,7 +407,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-24T10:04:36.0000000
+  modificationDate: 2022-10-26T09:02:59.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -428,7 +428,7 @@ auxTests:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: Inherit
+      failureBehaviorType: AlwaysPass
       takeScreenshotConditionType: Inherit
     action:
       id: pYLjHfk2cEORV8cwEh2Stw
@@ -674,71 +674,6 @@ auxTests:
     description: ''
     value: ''
     type: Input
-- id: OVNJikS9eE2Kmd3J5LN88Q
-  name: '[App] Navigation Tableau de bord'
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-15T12:46:41.0000000
-  modificationDate: 2022-10-15T12:51:12.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: M0sM59ZcQ0m9XTmYnZpcIw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: C9SV6pnbbUet9bsOuP6OJQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a59f3a20-d08d-4293-9add-b279f92e6c41
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 0qESTgd1XECus4tgg-tuzA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: C9SV6pnbbUet9bsOuP6OJQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
 - id: TM6qXCa54UWHRB7_bclLXw
   name: '[App] Navigation Attribué - Tous les contenus'
   description: ''
@@ -846,71 +781,6 @@ auxTests:
     description: Auto generated application URL parameter
     value: https://app.digitallearningsolution.net/auth/login
     type: Input
-- id: Efq8exoOjkuYHMyjFThFAw
-  name: '[App] Navigation Attribué Cours'
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-15T13:06:53.0000000
-  modificationDate: 2022-10-15T13:07:42.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: WhKRYisUqUynlgajF6HhcQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: VXCOipqTmE-gH74XCitjQQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: jHt7B9DuvUimkJOBEgYb4A
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: S2biZAch90uYkZMRO4FkmQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
 - id: oKjvooc45U2DEX_GCoa2fQ
   name: '[App] Navigation Attribué - Classes virtuelles'
   description: ''
@@ -958,6 +828,71 @@ auxTests:
     repeat: 1
     type: Action
     elementId: qlhNoMMFUkCOKSlV8y06sQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: Efq8exoOjkuYHMyjFThFAw
+  name: '[App] Navigation Attribué Cours'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T13:06:53.0000000
+  modificationDate: 2022-10-15T13:07:42.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: WhKRYisUqUynlgajF6HhcQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: VXCOipqTmE-gH74XCitjQQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jHt7B9DuvUimkJOBEgYb4A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: S2biZAch90uYkZMRO4FkmQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -1171,6 +1106,71 @@ auxTests:
     description: Auto generated application URL parameter
     value: https://app.digitallearningsolution.net/auth/login
     type: Input
+- id: OVNJikS9eE2Kmd3J5LN88Q
+  name: '[App] Navigation Tableau de bord'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T12:46:41.0000000
+  modificationDate: 2022-10-15T12:51:12.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: M0sM59ZcQ0m9XTmYnZpcIw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: C9SV6pnbbUet9bsOuP6OJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0qESTgd1XECus4tgg-tuzA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: C9SV6pnbbUet9bsOuP6OJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
 - id: 9vrxiBqMO0ymt5cDt3s0qQ
   name: StepAuthenfication
   description: This test was auto generated from steps of the '003 - S’authentifer avec un email et mot de passe valide' test
@@ -1340,92 +1340,6 @@ auxTests:
     description: ''
     type: Input
 elements:
-- id: nrN6GboMbUe27mCbj8HVhQ
-  name: email
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='email']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'votremail@mail.com']
-    priority: 1
-  - name: XPATH
-    value: //input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
-    priority: 3
-- id: X6c9G37B00idcnPQxVcSQw
-  name: Suivant
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Suivant']
-    priority: 0
-  - name: XPATH
-    value: //button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
-    priority: 2
-- id: lnYutaJeJE6My5kHldIXbg
-  name: password
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='password']"
-    priority: 0
-  - name: XPATH
-    value: //input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/input
-    priority: 2
-- id: UgeO7JhzOEGd-I-wndpDLQ
-  name: Je me connecte
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Je me connecte']
-    priority: 0
-  - name: XPATH
-    value: //button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
-    priority: 2
-- id: x-buI32OdEeyLzVcV1M_iQ
-  name: Ignorer
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-9'
-    priority: 0
-  - name: XPATH
-    value: //button/button[. = 'Ignorer']
-    priority: 2
-  - name: XPATH
-    value: //div[2]/div/button/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
-    priority: 3
 - id: T-lT9Xhlv0GrumTBATRsQQ
   name: Logo
   description: ''
@@ -1530,20 +1444,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
     priority: 1
-- id: MuNcfZiew06Oy7ntlPH0Rw
-  name: '[App] Explorer'
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //nav/div[3]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
-    priority: 1
 - id: REtRaJpsqUOawqfRvjz0qw
   name: '[App- Attribué] Tous les contenus'
   description: ''
@@ -1561,6 +1461,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[1]
     priority: 2
+- id: VXCOipqTmE-gH74XCitjQQ
+  name: '[App] Attribué'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
+    priority: 1
 - id: S2biZAch90uYkZMRO4FkmQ
   name: '[App-Attribué] Cours'
   description: ''
@@ -1578,6 +1492,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[2]
     priority: 2
+- id: VXCOipqTmE-gH74XCitjQQ
+  name: '[App] Attribué'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
+    priority: 1
 - id: qlhNoMMFUkCOKSlV8y06sQ
   name: '[App-Attribué] Classe virtuelle'
   description: ''
@@ -1595,6 +1523,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[3]
     priority: 2
+- id: MuNcfZiew06Oy7ntlPH0Rw
+  name: '[App] Explorer'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
+    priority: 1
 - id: rMYx9Id8Wkq_4qLlLV6SrQ
   name: '[App- Explorer ] Tous les contenus'
   description: ''
@@ -1612,6 +1554,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[1]
     priority: 2
+- id: MuNcfZiew06Oy7ntlPH0Rw
+  name: '[App] Explorer'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
+    priority: 1
 - id: E-mGp9k71U6nMRuNEwohGA
   name: '[App-Explorer] Cours'
   description: ''
@@ -1629,6 +1585,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[2]
     priority: 2
+- id: MuNcfZiew06Oy7ntlPH0Rw
+  name: '[App] Explorer'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
+    priority: 1
 - id: 1rtbEbdxsU6URULQneqBrA
   name: '[App-Explorer] Classes virtuelles'
   description: ''
@@ -1646,6 +1616,92 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[3]
     priority: 2
+- id: nrN6GboMbUe27mCbj8HVhQ
+  name: email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='email']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'votremail@mail.com']
+    priority: 1
+  - name: XPATH
+    value: //input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
+    priority: 3
+- id: X6c9G37B00idcnPQxVcSQw
+  name: Suivant
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Suivant']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: lnYutaJeJE6My5kHldIXbg
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/input
+    priority: 2
+- id: UgeO7JhzOEGd-I-wndpDLQ
+  name: Je me connecte
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Je me connecte']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: x-buI32OdEeyLzVcV1M_iQ
+  name: Ignorer
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-9'
+    priority: 0
+  - name: XPATH
+    value: //button/button[. = 'Ignorer']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/button/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
+    priority: 3
 projectParameters: []
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
@@ -1665,10 +1721,22 @@ addons:
   source: Store
   version: 2.10
   actions:
+  - id: Wl9sAAe1r0qiS9fcNrHMPg
+    name: Is clickable? (if visible)
+    description: Is {{element}} clickable?
+    className: io.testproject.addon.IsClickableActions.IsClickableWeb
+  - id: _PKL_koWWkaH7f5nBaj7UA
+    name: Type text (if visible)
+    description: Type {{text}} in {{element}} if visible
+    className: io.testproject.addon.TypeActions.TypeTextIfVisibleWeb
   - id: U2veSbE9E0aIfg5GFB2HtQ
     name: Click if visible
     description: Click {{element}} if it's visible
     className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
+  - id: NLB4QolOjEiJ4WNftvS4EQ
+    name: Contains text? (if visible)
+    description: '{{element}} contains text {{text}}?'
+    className: io.testproject.addon.ContainsTextActions.ContainsTextIfVisibleWeb
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
