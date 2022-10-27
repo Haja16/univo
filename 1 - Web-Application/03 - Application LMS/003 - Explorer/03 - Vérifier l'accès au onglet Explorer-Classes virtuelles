@@ -1,7 +1,7 @@
-id: kLr4vgivkkqNapUtGGj3Sw
+id: Sr5wXO1wFEKu8_kytJKfqg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T14:52:36.4489874Z
+created: 2022-10-27T14:59:34.9274351Z
 protocol: 1
 tests:
 - id: F9v8Qti76kakwin8XWTBSQ
@@ -559,7 +559,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-14T13:22:45.0000000
-  modificationDate: 2022-10-27T12:41:04.0000000
+  modificationDate: 2022-10-27T14:59:28.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -576,12 +576,13 @@ auxTests:
     order: 1
     repeat: 1
     type: Action
+    recoveryTestId: Qo_0ygIAPkOBPZ4t6hMmIQ
     elementId: T-lT9Xhlv0GrumTBATRsQQ
     settings:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: Inherit
+      failureBehaviorType: RecoveryAbort
       takeScreenshotConditionType: Inherit
     action:
       id: a59f3a20-d08d-4293-9add-b279f92e6c41
@@ -602,7 +603,7 @@ auxTests:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: Inherit
+      failureBehaviorType: Continue
       takeScreenshotConditionType: Inherit
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
@@ -1359,6 +1360,29 @@ auxTests:
     type: Input
   - name: Password
     description: ''
+    type: Input
+- id: Qo_0ygIAPkOBPZ4t6hMmIQ
+  name: EnModeMobile
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-27T14:53:27.0000000
+  modificationDate: 2022-10-27T14:53:32.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
     type: Input
 elements:
 - id: nrN6GboMbUe27mCbj8HVhQ
