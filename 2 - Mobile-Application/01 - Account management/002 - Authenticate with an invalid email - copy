@@ -1,7 +1,7 @@
-id: -wGyCiQVCE6kN1SOoppgbw
+id: T7PF9DFbRkG3cG9Ul2CqYw
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T15:45:23.0259330Z
+created: 2022-10-27T15:46:09.0343997Z
 protocol: 1
 tests:
 - id: uvfggN77BkKwmvAC7sVjjA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-27T15:33:02.0000000
-  modificationDate: 2022-10-27T15:45:23.0000000
+  modificationDate: 2022-10-27T15:46:09.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -145,6 +145,8 @@ tests:
     description: Auto generated application URL parameter
     value: https://app.digitallearningsolution.net/auth/login
     type: Input
+  tags:
+  - Mobile-Application
 auxTests: []
 elements:
 - id: nrN6GboMbUe27mCbj8HVhQ
