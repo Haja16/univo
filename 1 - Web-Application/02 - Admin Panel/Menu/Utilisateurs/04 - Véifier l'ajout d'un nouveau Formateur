@@ -1,7 +1,7 @@
-id: y_Qvh_uxak6FgBNJ3u0dXA
+id: NxqJuNKdnku8bvEObAw2dQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T15:32:41.5532658Z
+created: 2022-10-27T15:33:49.3140859Z
 protocol: 1
 tests:
 - id: JB9J4_3-xEWd0chldrCNDA
@@ -424,7 +424,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-27T15:32:39.0000000
+  modificationDate: 2022-10-27T15:33:47.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -569,7 +569,7 @@ auxTests:
     value: ''
     type: Output
   tags:
-  - WebApplication
+  - MobileApplication
 - id: Jk9GXnD3Q0SwDuDdwY-cYA
   name: Navigation Utilisateurs - Formateurs
   description: ''
