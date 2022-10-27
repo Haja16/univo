@@ -1,7 +1,7 @@
-id: cg6vZ2MdRECB9P344zIfTw
+id: q7rOMKls_U-4QJfq1BrP1w
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T13:17:28.9720754Z
+created: 2022-10-27T14:10:19.0407880Z
 protocol: 1
 tests:
 - id: _IXMZyHhcEize-YCrtOpxg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-27T13:13:26.0000000
-  modificationDate: 2022-10-27T13:16:19.0000000
+  modificationDate: 2022-10-27T14:08:12.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -62,6 +62,147 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: XepRrFs7KkWmQe0X5-MFZQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: vpcDAPV9YESJSBmx09fH9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6K7EaiusQkOD8whSLmNSAQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Addon
+    elementId: GNT0NywiYUeHFv1hqtVRsQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: _eKo7zbUNEaI9yCeGICBnw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: output
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SvWsQDCQBEqio8Gl7iLDJg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Test
+    targetTestId: oKjvooc45U2DEX_GCoa2fQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Ocsop3t2XkKl5OlfrkNaGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Addon
+    elementId: VqH0l5S6gUyyxhr22SPYBg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: _eKo7zbUNEaI9yCeGICBnw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: output
+      value: '{{NumberTotalClassevirtuelle}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zlBV5rj4qEi2NwguJl2ynQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Test
+    targetTestId: OVNJikS9eE2Kmd3J5LN88Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vQoQWmqN40GDaoXk2S5ycg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: GNT0NywiYUeHFv1hqtVRsQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{NumberTotalClassevirtuelle}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -82,7 +223,141 @@ tests:
     description: ''
     value: App
     type: Input
+  - name: NumberTotalClassevirtuelle
+    description: ''
+    value: ''
+    type: Output
 auxTests:
+- id: OVNJikS9eE2Kmd3J5LN88Q
+  name: '[App] Navigation Tableau de bord'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T12:46:41.0000000
+  modificationDate: 2022-10-15T12:51:12.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: M0sM59ZcQ0m9XTmYnZpcIw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: C9SV6pnbbUet9bsOuP6OJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0qESTgd1XECus4tgg-tuzA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: C9SV6pnbbUet9bsOuP6OJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: oKjvooc45U2DEX_GCoa2fQ
+  name: '[App] Navigation Attribué - Classes virtuelles'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T13:09:39.0000000
+  modificationDate: 2022-10-15T13:10:19.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 8aCoNRAvRUyJRDb0ZjEUkw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: VXCOipqTmE-gH74XCitjQQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -DGK_i3ECUywfmjKI3cuGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: qlhNoMMFUkCOKSlV8y06sQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
 - id: m3I4PIvCikSR3dMxnVwh2g
   name: 01 - Vérification l'accès au tableau de bord de l'application LMS
   description: ''
@@ -480,7 +755,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-26T09:02:59.0000000
+  modificationDate: 2022-10-27T14:09:41.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -511,11 +786,32 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
+  - id: Wf_NBrmzqUq-tzNRFOGypw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: oss77pMS7U-Bt7cdueaJUw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: 3pwdwg8a6kCXqlSYSZLGEA
     comments: Navigates the specified URL (Auto-generated)
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     settings:
@@ -538,7 +834,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 3
+    order: 4
     repeat: 1
     type: Action
     settings:
@@ -561,7 +857,7 @@ auxTests:
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Test
     targetTestId: 9vrxiBqMO0ymt5cDt3s0qQ
@@ -747,71 +1043,6 @@ auxTests:
     description: ''
     value: App
     type: Input
-- id: OVNJikS9eE2Kmd3J5LN88Q
-  name: '[App] Navigation Tableau de bord'
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-15T12:46:41.0000000
-  modificationDate: 2022-10-15T12:51:12.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: M0sM59ZcQ0m9XTmYnZpcIw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: C9SV6pnbbUet9bsOuP6OJQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a59f3a20-d08d-4293-9add-b279f92e6c41
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 0qESTgd1XECus4tgg-tuzA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: C9SV6pnbbUet9bsOuP6OJQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
 - id: TM6qXCa54UWHRB7_bclLXw
   name: '[App] Navigation Attribué - Tous les contenus'
   description: ''
@@ -966,71 +1197,6 @@ auxTests:
     repeat: 1
     type: Action
     elementId: S2biZAch90uYkZMRO4FkmQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
-- id: oKjvooc45U2DEX_GCoa2fQ
-  name: '[App] Navigation Attribué - Classes virtuelles'
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-15T13:09:39.0000000
-  modificationDate: 2022-10-15T13:10:19.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: 8aCoNRAvRUyJRDb0ZjEUkw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: VXCOipqTmE-gH74XCitjQQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: -DGK_i3ECUywfmjKI3cuGA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: qlhNoMMFUkCOKSlV8y06sQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -1701,16 +1867,60 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[3]
     priority: 2
+- id: vpcDAPV9YESJSBmx09fH9A
+  name: Sommaire
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div[4]/div[2]/div[2]
+    priority: 0
+- id: VqH0l5S6gUyyxhr22SPYBg
+  name: TitreContenusAutotal
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div[2]/div/div[2]/div[1]/div/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[2]/div[1]/div/div[1]
+    priority: 1
+- id: GNT0NywiYUeHFv1hqtVRsQ
+  name: NumberOfClasseVSommaire
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/span[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div[4]/div[2]/div[2]/div/div[3]/div[1]/span[2]
+    priority: 1
 projectParameters: []
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
   version: 1.1.9
   actions:
+  - id: _eKo7zbUNEaI9yCeGICBnw
+    name: Get Numbers Only
+    description: Return only numbers from the text
+    className: io.testproject.addons.web.element.GetNumbersOnly
   - id: pYLjHfk2cEORV8cwEh2Stw
     name: Delete all cookies
     description: Delete all cookies
     className: io.testproject.addons.web.cookies.DeleteAllCookies
+  - id: oss77pMS7U-Bt7cdueaJUw
+    name: Maximize window
+    description: Maximize window
+    className: io.testproject.addons.web.window.MaximizeWindow
   minSdkLevel: 2
   minSdkVersion: 0.63.1
   sdkGeneration: 1
