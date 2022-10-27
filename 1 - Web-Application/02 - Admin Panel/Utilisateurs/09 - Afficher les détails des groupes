@@ -1,7 +1,7 @@
-id: VHeTFjQPdkCra0eGfJoGqA
+id: OIi9NZiw_Ees2YtX-T5I-g
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-26T09:03:15.4319309Z
+created: 2022-10-27T15:32:41.5708044Z
 protocol: 1
 tests:
 - id: 4GR99_NLr0uN7ZwCDLJPRg
@@ -824,7 +824,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-26T09:02:59.0000000
+  modificationDate: 2022-10-27T15:32:39.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -855,11 +855,32 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
+  - id: Wf_NBrmzqUq-tzNRFOGypw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: oss77pMS7U-Bt7cdueaJUw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: 3pwdwg8a6kCXqlSYSZLGEA
     comments: Navigates the specified URL (Auto-generated)
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     settings:
@@ -882,7 +903,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 3
+    order: 4
     repeat: 1
     type: Action
     settings:
@@ -905,7 +926,7 @@ auxTests:
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Test
     targetTestId: 9vrxiBqMO0ymt5cDt3s0qQ
@@ -947,6 +968,8 @@ auxTests:
     description: ''
     value: ''
     type: Output
+  tags:
+  - WebApplication
 - id: JggK7ga0xUyWATpSbhSCtQ
   name: Navigation tableau de bord
   description: ''
@@ -3259,6 +3282,14 @@ addons:
     name: Delete all cookies
     description: Delete all cookies
     className: io.testproject.addons.web.cookies.DeleteAllCookies
+  - id: oss77pMS7U-Bt7cdueaJUw
+    name: Maximize window
+    description: Maximize window
+    className: io.testproject.addons.web.window.MaximizeWindow
+  - id: _eKo7zbUNEaI9yCeGICBnw
+    name: Get Numbers Only
+    description: Return only numbers from the text
+    className: io.testproject.addons.web.element.GetNumbersOnly
   minSdkLevel: 2
   minSdkVersion: 0.63.1
   sdkGeneration: 1
