@@ -1,7 +1,7 @@
-id: MXuWF-U2Mk6o62pLO0sZeg
+id: OHwR43RbhESQ5Jbago1L7w
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T15:32:41.5549815Z
+created: 2022-10-27T15:33:49.3151679Z
 protocol: 1
 tests:
 - id: TsWuEd51C0CIVcmB6fDUXg
@@ -109,7 +109,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-27T15:32:39.0000000
+  modificationDate: 2022-10-27T15:33:47.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -254,7 +254,7 @@ auxTests:
     value: ''
     type: Output
   tags:
-  - WebApplication
+  - MobileApplication
 - id: fyRppiBbXkOGCwPddwmaLA
   name: StepChangeLangueFrench
   description: This test was auto generated from steps of the '01- Changer la langue de l'application en Français' test
