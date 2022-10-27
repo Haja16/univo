@@ -1,7 +1,7 @@
-id: TFIH8o8Qj0mukVyna6PKwg
+id: tb51Hf_ABEGWOdeFCmzczQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T15:12:35.3779173Z
+created: 2022-10-27T15:48:29.1173653Z
 protocol: 1
 tests:
 - id: rXx_E8Q4BESl-BN53FNPmA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-14T13:22:45.0000000
-  modificationDate: 2022-10-27T15:12:24.0000000
+  modificationDate: 2022-10-27T15:48:11.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -28,41 +28,18 @@ tests:
     platform: Web
   steps:
   - id: jWYVYDWZNUew1UT8Xv2HSQ
-    comments: ''
+    comments: The recovery test EnModeMobile was removed
     enabled: true
     invertResult: false
     order: 1
     repeat: 1
     type: Action
-    recoveryTestId: Qo_0ygIAPkOBPZ4t6hMmIQ
     elementId: T-lT9Xhlv0GrumTBATRsQQ
     settings:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: RecoveryContinue
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a59f3a20-d08d-4293-9add-b279f92e6c41
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: SmwfmYKO5ECbkz0B7hkzOw
-    comments: ''
-    enabled: true
-    invertResult: true
-    order: 2
-    repeat: 1
-    type: Action
-    recoveryTestId: ZR7Z63mn-kqzobjvoGdeoQ
-    elementId: T-lT9Xhlv0GrumTBATRsQQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: RecoveryContinue
+      failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
       id: a59f3a20-d08d-4293-9add-b279f92e6c41
@@ -73,9 +50,9 @@ tests:
     contexts: []
   - id: sIcUnw7VckuJLy8nOqKWhA
     comments: ''
-    enabled: false
+    enabled: true
     invertResult: false
-    order: 3
+    order: 2
     repeat: 1
     type: Action
     elementId: T-lT9Xhlv0GrumTBATRsQQ
@@ -96,7 +73,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 3
     repeat: 1
     type: Action
     elementId: ELyzLZOcEkecQ_MNeVyVnA
@@ -121,7 +98,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 5
+    order: 4
     repeat: 1
     type: Action
     elementId: iOHJ463ZcECa6wP4cGEMEw
@@ -146,7 +123,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 6
+    order: 5
     repeat: 1
     type: Action
     elementId: 5n66mkLkQEG14oifKcE7Bw
@@ -176,74 +153,7 @@ tests:
     description: ''
     value: App
     type: Input
-auxTests:
-- id: Qo_0ygIAPkOBPZ4t6hMmIQ
-  name: EnModeMobile
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-27T14:53:27.0000000
-  modificationDate: 2022-10-27T14:53:32.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
-- id: ZR7Z63mn-kqzobjvoGdeoQ
-  name: EnModeDesktop
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-27T15:11:26.0000000
-  modificationDate: 2022-10-27T15:11:56.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: tqSRXPaD60mKnBxgW9QWUg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: T-lT9Xhlv0GrumTBATRsQQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
+auxTests: []
 elements:
 - id: T-lT9Xhlv0GrumTBATRsQQ
   name: Logo
@@ -304,22 +214,5 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div[3]/div/a[1]/button
     priority: 1
-- id: T-lT9Xhlv0GrumTBATRsQQ
-  name: Logo
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#v-tour-sidebar'
-    priority: 0
-  - name: XPATH
-    value: //nav[1]/div/div
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div[1]/div/div/div/nav[1]/div/div
-    priority: 2
 projectParameters: []
 addons: []
