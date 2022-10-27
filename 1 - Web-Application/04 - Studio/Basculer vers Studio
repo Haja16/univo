@@ -1,7 +1,7 @@
-id: cnYhRP-e3kqzgAjPPQhpag
+id: KrUdVgf8xUSLceeRzMWPHQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T14:59:34.9278994Z
+created: 2022-10-27T15:08:15.9093826Z
 protocol: 1
 tests:
 - id: rEbeEU_lykagWtH6jzRSOw
@@ -293,7 +293,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-14T13:22:45.0000000
-  modificationDate: 2022-10-27T14:59:28.0000000
+  modificationDate: 2022-10-27T15:08:06.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -316,7 +316,7 @@ auxTests:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: RecoveryAbort
+      failureBehaviorType: RecoveryContinue
       takeScreenshotConditionType: Inherit
     action:
       id: a59f3a20-d08d-4293-9add-b279f92e6c41
