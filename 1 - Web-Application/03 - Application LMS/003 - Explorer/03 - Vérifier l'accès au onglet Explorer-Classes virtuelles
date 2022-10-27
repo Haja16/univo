@@ -1,7 +1,7 @@
-id: x1yyG-1Gzke8Ma5WUsognA
+id: Bvjo9hhns0quLfvq_ZF5vA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T15:10:42.4272545Z
+created: 2022-10-27T15:12:35.3809937Z
 protocol: 1
 tests:
 - id: F9v8Qti76kakwin8XWTBSQ
@@ -559,7 +559,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-14T13:22:45.0000000
-  modificationDate: 2022-10-27T15:10:38.0000000
+  modificationDate: 2022-10-27T15:12:24.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -598,7 +598,7 @@ auxTests:
     order: 2
     repeat: 1
     type: Action
-    recoveryTestId: _rT4-dPLO0-_Jjkf3yK_tA
+    recoveryTestId: ZR7Z63mn-kqzobjvoGdeoQ
     elementId: T-lT9Xhlv0GrumTBATRsQQ
     settings:
       sleepTime: -1
@@ -1406,79 +1406,32 @@ auxTests:
     description: Auto generated application URL parameter
     value: https://app.digitallearningsolution.net/auth/login
     type: Input
-- id: _rT4-dPLO0-_Jjkf3yK_tA
-  name: 002 - Authenticate with an invalid email
+- id: ZR7Z63mn-kqzobjvoGdeoQ
+  name: EnModeDesktop
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
-  creationDate: 2022-10-10T12:28:24.0000000
-  modificationDate: 2022-10-24T10:04:13.0000000
+  creationDate: 2022-10-27T15:11:26.0000000
+  modificationDate: 2022-10-27T15:11:56.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
     stepSleepTime: 500
-    stepTimeout: 35000
+    stepTimeout: 15000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   steps:
-  - id: l4swgDNS9kKvxT5KaofQ7w
-    comments: Navigates the specified URL (Auto-generated)
+  - id: tqSRXPaD60mKnBxgW9QWUg
+    comments: ''
     enabled: true
     invertResult: false
     order: 1
     repeat: 1
     type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
-      source: System
-    parameterMaps:
-    - name: url
-      value: '{{ApplicationURL}}'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: xCfRHdnUcUeRZ9Ynu62JRw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: nrN6GboMbUe27mCbj8HVhQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: InvalidEmail
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: uZxQVLVll06lS4usXr09SQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: X6c9G37B00idcnPQxVcSQw
+    elementId: T-lT9Xhlv0GrumTBATRsQQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -1489,51 +1442,6 @@ auxTests:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: fQBhXZTYVkWFssiulrNT_w
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: fyFmxmkrekuXSOZhnhegGQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: iCIg1qNeYUiUyhEw2SD5-A
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Action
-    elementId: fyFmxmkrekuXSOZhnhegGQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: 'Mince, votre adresse n’a pas le bon format, ex : nom@gmail.com ou encore nom@entreprise.com'
-      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -1887,56 +1795,22 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div[3]/div/a[1]/button
     priority: 1
-- id: nrN6GboMbUe27mCbj8HVhQ
-  name: email
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='email']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'votremail@mail.com']
-    priority: 1
-  - name: XPATH
-    value: //input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
-    priority: 3
-- id: X6c9G37B00idcnPQxVcSQw
-  name: Suivant
+- id: T-lT9Xhlv0GrumTBATRsQQ
+  name: Logo
+  description: ''
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
-  - name: XPATH
-    value: //button[. = 'Suivant']
+  - name: CSSSELECTOR
+    value: '#v-tour-sidebar'
     priority: 0
   - name: XPATH
-    value: //button
+    value: //nav[1]/div/div
     priority: 1
   - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
-    priority: 2
-- id: fyFmxmkrekuXSOZhnhegGQ
-  name: IvalidMailError
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: "//div[. = 'Mince, votre adresse n’a pas le bon format, ex : nom@gmail.com ou encore nom@entreprise.com']"
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div[2]/div
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div
+    value: /html/body/div/div[2]/div[1]/div/div/div/nav[1]/div/div
     priority: 2
 projectParameters: []
 addons:
