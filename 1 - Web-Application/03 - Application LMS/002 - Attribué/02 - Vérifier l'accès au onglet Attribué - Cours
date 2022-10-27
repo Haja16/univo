@@ -1,7 +1,7 @@
-id: lHJWntdPNk2Qf5DbDs4KuQ
+id: b2xUGLjTOU64I1PAtFjIIQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-26T09:03:15.4015384Z
+created: 2022-10-27T14:52:36.4481122Z
 protocol: 1
 tests:
 - id: jqs-5krko0mAK8Kg-Qhciw
@@ -407,7 +407,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-26T09:02:59.0000000
+  modificationDate: 2022-10-27T14:09:41.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -438,11 +438,32 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
+  - id: Wf_NBrmzqUq-tzNRFOGypw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: oss77pMS7U-Bt7cdueaJUw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: 3pwdwg8a6kCXqlSYSZLGEA
     comments: Navigates the specified URL (Auto-generated)
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     settings:
@@ -465,7 +486,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 3
+    order: 4
     repeat: 1
     type: Action
     settings:
@@ -488,7 +509,7 @@ auxTests:
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Test
     targetTestId: 9vrxiBqMO0ymt5cDt3s0qQ
@@ -538,7 +559,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-14T13:22:45.0000000
-  modificationDate: 2022-10-14T13:51:29.0000000
+  modificationDate: 2022-10-27T12:41:04.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -672,7 +693,7 @@ auxTests:
     type: Input
   - name: AppAdminStudio
     description: ''
-    value: ''
+    value: App
     type: Input
 - id: TM6qXCa54UWHRB7_bclLXw
   name: '[App] Navigation Attribué - Tous les contenus'
@@ -1340,82 +1361,91 @@ auxTests:
     description: ''
     type: Input
 elements:
-- id: T-lT9Xhlv0GrumTBATRsQQ
-  name: Logo
-  description: ''
+- id: nrN6GboMbUe27mCbj8HVhQ
+  name: email
   type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
     source: System
   locators:
   - name: CSSSELECTOR
-    value: '#v-tour-sidebar'
+    value: "[name='email']"
     priority: 0
   - name: XPATH
-    value: //nav[1]/div/div
+    value: //input[@placeholder = 'votremail@mail.com']
     priority: 1
   - name: XPATH
-    value: /html/body/div/div[2]/div[1]/div/div/div/nav[1]/div/div
-    priority: 2
-- id: ELyzLZOcEkecQ_MNeVyVnA
-  name: App
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-11'
-    priority: 0
-  - name: XPATH
-    value: //button[. = ' App']
-    priority: 1
-  - name: XPATH
-    value: //a[1]/button
+    value: //input
     priority: 2
   - name: XPATH
-    value: /html/body/div[2]/div[3]/div/div/a[1]/button
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
     priority: 3
-- id: iOHJ463ZcECa6wP4cGEMEw
-  name: Studio
-  description: ''
+- id: X6c9G37B00idcnPQxVcSQw
+  name: Suivant
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Suivant']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: lnYutaJeJE6My5kHldIXbg
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/input
+    priority: 2
+- id: UgeO7JhzOEGd-I-wndpDLQ
+  name: Je me connecte
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Je me connecte']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: x-buI32OdEeyLzVcV1M_iQ
+  name: Ignorer
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
   - name: CSSSELECTOR
-    value: '#mui-12'
+    value: '#mui-9'
     priority: 0
   - name: XPATH
-    value: //button[. = ' Studio']
-    priority: 1
-  - name: XPATH
-    value: //a[2]/button
+    value: //button/button[. = 'Ignorer']
     priority: 2
   - name: XPATH
-    value: /html/body/div[2]/div[3]/div/div/a[2]/button
-    priority: 3
-- id: 5n66mkLkQEG14oifKcE7Bw
-  name: Admin
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-31'
-    priority: 0
-  - name: XPATH
-    value: //button[. = ' Admin']
+    value: //div[2]/div/button/button
     priority: 1
   - name: XPATH
-    value: //div[3]/div/a[1]/button
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[2]/div[3]/div/a[1]/button
+    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
 - id: C9SV6pnbbUet9bsOuP6OJQ
   name: '[App] Tableau de bord'
@@ -1616,102 +1646,83 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[3]
     priority: 2
-- id: nrN6GboMbUe27mCbj8HVhQ
-  name: email
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='email']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'votremail@mail.com']
-    priority: 1
-  - name: XPATH
-    value: //input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
-    priority: 3
-- id: X6c9G37B00idcnPQxVcSQw
-  name: Suivant
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Suivant']
-    priority: 0
-  - name: XPATH
-    value: //button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
-    priority: 2
-- id: lnYutaJeJE6My5kHldIXbg
-  name: password
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='password']"
-    priority: 0
-  - name: XPATH
-    value: //input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/input
-    priority: 2
-- id: UgeO7JhzOEGd-I-wndpDLQ
-  name: Je me connecte
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Je me connecte']
-    priority: 0
-  - name: XPATH
-    value: //button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
-    priority: 2
-- id: x-buI32OdEeyLzVcV1M_iQ
-  name: Ignorer
+- id: T-lT9Xhlv0GrumTBATRsQQ
+  name: Logo
+  description: ''
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
   - name: CSSSELECTOR
-    value: '#mui-9'
+    value: '#v-tour-sidebar'
     priority: 0
   - name: XPATH
-    value: //button/button[. = 'Ignorer']
-    priority: 2
-  - name: XPATH
-    value: //div[2]/div/button/button
+    value: //nav[1]/div/div
     priority: 1
   - name: XPATH
-    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
-    priority: 3
+    value: /html/body/div/div[2]/div[1]/div/div/div/nav[1]/div/div
+    priority: 2
+- id: ELyzLZOcEkecQ_MNeVyVnA
+  name: App
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = ' App']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div/div/a[1]/button
+    priority: 1
+- id: iOHJ463ZcECa6wP4cGEMEw
+  name: Studio
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = ' Studio']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div/div/a[2]/button
+    priority: 1
+- id: 5n66mkLkQEG14oifKcE7Bw
+  name: Admin
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = ' Admin']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div/a[1]/button
+    priority: 1
 projectParameters: []
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
   version: 1.1.9
   actions:
+  - id: _eKo7zbUNEaI9yCeGICBnw
+    name: Get Numbers Only
+    description: Return only numbers from the text
+    className: io.testproject.addons.web.element.GetNumbersOnly
   - id: pYLjHfk2cEORV8cwEh2Stw
     name: Delete all cookies
     description: Delete all cookies
     className: io.testproject.addons.web.cookies.DeleteAllCookies
+  - id: oss77pMS7U-Bt7cdueaJUw
+    name: Maximize window
+    description: Maximize window
+    className: io.testproject.addons.web.window.MaximizeWindow
   minSdkLevel: 2
   minSdkVersion: 0.63.1
   sdkGeneration: 1
@@ -1721,22 +1732,10 @@ addons:
   source: Store
   version: 2.10
   actions:
-  - id: Wl9sAAe1r0qiS9fcNrHMPg
-    name: Is clickable? (if visible)
-    description: Is {{element}} clickable?
-    className: io.testproject.addon.IsClickableActions.IsClickableWeb
-  - id: _PKL_koWWkaH7f5nBaj7UA
-    name: Type text (if visible)
-    description: Type {{text}} in {{element}} if visible
-    className: io.testproject.addon.TypeActions.TypeTextIfVisibleWeb
   - id: U2veSbE9E0aIfg5GFB2HtQ
     name: Click if visible
     description: Click {{element}} if it's visible
     className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
-  - id: NLB4QolOjEiJ4WNftvS4EQ
-    name: Contains text? (if visible)
-    description: '{{element}} contains text {{text}}?'
-    className: io.testproject.addon.ContainsTextActions.ContainsTextIfVisibleWeb
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
