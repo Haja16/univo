@@ -1,7 +1,7 @@
-id: VT0rAi8oAEadic2G_iOfLQ
+id: vFV8FAb4VUqdd2xxxAnqNw
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T15:32:41.5564947Z
+created: 2022-10-27T15:33:49.3163252Z
 protocol: 1
 tests:
 - id: XFHGQ4qBBUSyE-j8GsfTwg
@@ -158,7 +158,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-27T15:32:39.0000000
+  modificationDate: 2022-10-27T15:33:47.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -303,7 +303,7 @@ auxTests:
     value: ''
     type: Output
   tags:
-  - WebApplication
+  - MobileApplication
 - id: 9vrxiBqMO0ymt5cDt3s0qQ
   name: StepAuthenfication
   description: This test was auto generated from steps of the '003 - S’authentifer avec un email et mot de passe valide' test
