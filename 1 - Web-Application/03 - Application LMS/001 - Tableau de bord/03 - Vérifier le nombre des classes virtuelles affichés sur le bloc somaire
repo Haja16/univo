@@ -1,7 +1,7 @@
-id: q7rOMKls_U-4QJfq1BrP1w
+id: 1parqK5MJESSQ-HAe_DupQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T14:10:19.0407880Z
+created: 2022-10-27T14:52:36.4498844Z
 protocol: 1
 tests:
 - id: _IXMZyHhcEize-YCrtOpxg
@@ -228,136 +228,6 @@ tests:
     value: ''
     type: Output
 auxTests:
-- id: OVNJikS9eE2Kmd3J5LN88Q
-  name: '[App] Navigation Tableau de bord'
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-15T12:46:41.0000000
-  modificationDate: 2022-10-15T12:51:12.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: M0sM59ZcQ0m9XTmYnZpcIw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: C9SV6pnbbUet9bsOuP6OJQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a59f3a20-d08d-4293-9add-b279f92e6c41
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 0qESTgd1XECus4tgg-tuzA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: C9SV6pnbbUet9bsOuP6OJQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
-- id: oKjvooc45U2DEX_GCoa2fQ
-  name: '[App] Navigation Attribué - Classes virtuelles'
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-15T13:09:39.0000000
-  modificationDate: 2022-10-15T13:10:19.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: 8aCoNRAvRUyJRDb0ZjEUkw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: VXCOipqTmE-gH74XCitjQQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: -DGK_i3ECUywfmjKI3cuGA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: qlhNoMMFUkCOKSlV8y06sQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
 - id: m3I4PIvCikSR3dMxnVwh2g
   name: 01 - Vérification l'accès au tableau de bord de l'application LMS
   description: ''
@@ -457,6 +327,136 @@ auxTests:
   - name: AppAdminStudio
     description: ''
     value: App
+    type: Input
+- id: oKjvooc45U2DEX_GCoa2fQ
+  name: '[App] Navigation Attribué - Classes virtuelles'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T13:09:39.0000000
+  modificationDate: 2022-10-15T13:10:19.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 8aCoNRAvRUyJRDb0ZjEUkw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: VXCOipqTmE-gH74XCitjQQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -DGK_i3ECUywfmjKI3cuGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: qlhNoMMFUkCOKSlV8y06sQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: OVNJikS9eE2Kmd3J5LN88Q
+  name: '[App] Navigation Tableau de bord'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T12:46:41.0000000
+  modificationDate: 2022-10-15T12:51:12.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: M0sM59ZcQ0m9XTmYnZpcIw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: C9SV6pnbbUet9bsOuP6OJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0qESTgd1XECus4tgg-tuzA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: C9SV6pnbbUet9bsOuP6OJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
     type: Input
 - id: dKgWvOccfkS1Qfr5x6I6bQ
   name: Accèder aux onglets applicationLMS
@@ -1579,6 +1579,86 @@ auxTests:
     description: ''
     type: Input
 elements:
+- id: vpcDAPV9YESJSBmx09fH9A
+  name: Sommaire
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div[4]/div[2]/div[2]
+    priority: 0
+- id: GNT0NywiYUeHFv1hqtVRsQ
+  name: NumberOfClasseVSommaire
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/span[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div[4]/div[2]/div[2]/div/div[3]/div[1]/span[2]
+    priority: 1
+- id: VqH0l5S6gUyyxhr22SPYBg
+  name: TitreContenusAutotal
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div[2]/div/div[2]/div[1]/div/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[2]/div[1]/div/div[1]
+    priority: 1
+- id: C9SV6pnbbUet9bsOuP6OJQ
+  name: '[App] Tableau de bord'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav[2]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[1]
+    priority: 1
+- id: VXCOipqTmE-gH74XCitjQQ
+  name: '[App] Attribué'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
+    priority: 1
+- id: qlhNoMMFUkCOKSlV8y06sQ
+  name: '[App-Attribué] Classe virtuelle'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Classe virtuelle']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[3]
+    priority: 2
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
   type:
@@ -1665,6 +1745,205 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
+- id: C9SV6pnbbUet9bsOuP6OJQ
+  name: '[App] Tableau de bord'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav[2]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[1]
+    priority: 1
+- id: VXCOipqTmE-gH74XCitjQQ
+  name: '[App] Attribué'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
+    priority: 1
+- id: REtRaJpsqUOawqfRvjz0qw
+  name: '[App- Attribué] Tous les contenus'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Tous les contenus']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[1]
+    priority: 2
+- id: VXCOipqTmE-gH74XCitjQQ
+  name: '[App] Attribué'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
+    priority: 1
+- id: S2biZAch90uYkZMRO4FkmQ
+  name: '[App-Attribué] Cours'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Cours']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[2]
+    priority: 2
+- id: VXCOipqTmE-gH74XCitjQQ
+  name: '[App] Attribué'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
+    priority: 1
+- id: qlhNoMMFUkCOKSlV8y06sQ
+  name: '[App-Attribué] Classe virtuelle'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Classe virtuelle']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[3]
+    priority: 2
+- id: MuNcfZiew06Oy7ntlPH0Rw
+  name: '[App] Explorer'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
+    priority: 1
+- id: rMYx9Id8Wkq_4qLlLV6SrQ
+  name: '[App- Explorer ] Tous les contenus'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Tous les contenus']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[1]
+    priority: 2
+- id: MuNcfZiew06Oy7ntlPH0Rw
+  name: '[App] Explorer'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
+    priority: 1
+- id: E-mGp9k71U6nMRuNEwohGA
+  name: '[App-Explorer] Cours'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Cours']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[2]
+    priority: 2
+- id: MuNcfZiew06Oy7ntlPH0Rw
+  name: '[App] Explorer'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
+    priority: 1
+- id: 1rtbEbdxsU6URULQneqBrA
+  name: '[App-Explorer] Classes virtuelles'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Classes virtuelles']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[3]
+    priority: 2
 - id: T-lT9Xhlv0GrumTBATRsQQ
   name: Logo
   description: ''
@@ -1723,185 +2002,6 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div[2]/div[3]/div/a[1]/button
-    priority: 1
-- id: C9SV6pnbbUet9bsOuP6OJQ
-  name: '[App] Tableau de bord'
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //nav[2]/div[1]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[1]
-    priority: 1
-- id: VXCOipqTmE-gH74XCitjQQ
-  name: '[App] Attribué'
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //nav/div[2]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
-    priority: 1
-- id: MuNcfZiew06Oy7ntlPH0Rw
-  name: '[App] Explorer'
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //nav/div[3]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
-    priority: 1
-- id: REtRaJpsqUOawqfRvjz0qw
-  name: '[App- Attribué] Tous les contenus'
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Tous les contenus']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/div/button[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[1]
-    priority: 2
-- id: S2biZAch90uYkZMRO4FkmQ
-  name: '[App-Attribué] Cours'
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Cours']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/div/button[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[2]
-    priority: 2
-- id: qlhNoMMFUkCOKSlV8y06sQ
-  name: '[App-Attribué] Classe virtuelle'
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Classe virtuelle']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div//button[3]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[3]
-    priority: 2
-- id: rMYx9Id8Wkq_4qLlLV6SrQ
-  name: '[App- Explorer ] Tous les contenus'
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Tous les contenus']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/div/button[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[1]
-    priority: 2
-- id: E-mGp9k71U6nMRuNEwohGA
-  name: '[App-Explorer] Cours'
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Cours']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/div/button[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[2]
-    priority: 2
-- id: 1rtbEbdxsU6URULQneqBrA
-  name: '[App-Explorer] Classes virtuelles'
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Classes virtuelles']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div//button[3]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[3]
-    priority: 2
-- id: vpcDAPV9YESJSBmx09fH9A
-  name: Sommaire
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div/div[3]/div[2]/div[4]/div[2]/div[2]
-    priority: 0
-- id: VqH0l5S6gUyyxhr22SPYBg
-  name: TitreContenusAutotal
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[3]/div[2]/div/div[2]/div[1]/div/div[1]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[3]/div[2]/div/div[2]/div[1]/div/div[1]
-    priority: 1
-- id: GNT0NywiYUeHFv1hqtVRsQ
-  name: NumberOfClasseVSommaire
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[3]/div/span[2]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[3]/div[2]/div[4]/div[2]/div[2]/div/div[3]/div[1]/span[2]
     priority: 1
 projectParameters: []
 addons:
