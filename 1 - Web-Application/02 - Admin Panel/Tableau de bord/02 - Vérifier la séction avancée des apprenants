@@ -1,7 +1,7 @@
-id: COnALBGyQEGlIimrKRq5ZA
+id: nai91RyobUyvvYEX7T9Cdw
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T15:32:41.5585096Z
+created: 2022-10-27T15:33:49.3180398Z
 protocol: 1
 tests:
 - id: IJqmxujnrkqiijD8_5HW3A
@@ -890,7 +890,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-27T15:32:39.0000000
+  modificationDate: 2022-10-27T15:33:47.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -1035,7 +1035,7 @@ auxTests:
     value: ''
     type: Output
   tags:
-  - WebApplication
+  - MobileApplication
 - id: JggK7ga0xUyWATpSbhSCtQ
   name: Navigation tableau de bord
   description: ''
