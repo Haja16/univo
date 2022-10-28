@@ -1,7 +1,7 @@
-id: BOlZdjzBX0qTBRu0giCPyQ
+id: ztF0MmKgKUubLD8NC2wg4w
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T15:33:49.3149011Z
+created: 2022-10-28T12:49:10.2205496Z
 protocol: 1
 tests:
 - id: Tjdzw6KJmU-LAIlxqESWcA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-16T13:03:21.0000000
-  modificationDate: 2022-10-17T08:07:14.0000000
+  modificationDate: 2022-10-28T12:49:07.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -99,10 +99,34 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: DfD5ha48nkKrJ-aDQJGibw
+  - id: osT3Ae_B9UiBkXeun83W6g
+    comments: ''
     enabled: true
     invertResult: false
     order: 4
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: Dy3SuIjSuUSvXzCwx7SVdg
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: result
+      value: '{{PosteCode}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DfD5ha48nkKrJ-aDQJGibw
+    enabled: true
+    invertResult: false
+    order: 5
     repeat: 1
     type: Action
     elementId: mhtxeqfBWUC9ISAgGjHOqg
@@ -122,7 +146,7 @@ tests:
   - id: 57J12IGVyEKSDhe2df-5KQ
     enabled: true
     invertResult: false
-    order: 5
+    order: 6
     repeat: 1
     type: Action
     elementId: mhtxeqfBWUC9ISAgGjHOqg
@@ -137,7 +161,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: Sujet Classe virtuelles
+      value: Classe virtuelles{{PosteCode}}
       direction: Input
     conditions: []
     validations: []
@@ -145,7 +169,7 @@ tests:
   - id: PCL-_D4ASkKcJtbUy0Cung
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     elementId: UF_FjZRBD0-x04N_d5im-A
@@ -165,7 +189,7 @@ tests:
   - id: ijI2cu8LDkyiik6QIcsK4w
     enabled: true
     invertResult: false
-    order: 7
+    order: 8
     repeat: 1
     type: Action
     elementId: UF_FjZRBD0-x04N_d5im-A
@@ -188,7 +212,7 @@ tests:
   - id: _TzbqT8Qk0-7-mHNy_FKVA
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     elementId: 5Vvl4QssfUGFvJ0Cntt8bA
@@ -208,7 +232,7 @@ tests:
   - id: _yjn1NsJA06XJ1yvYi-xgA
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Action
     elementId: vA0FTcbaN0GLsbEUT5oFqA
@@ -228,7 +252,7 @@ tests:
   - id: zGMpuXJZjkWjYSP9Q_H7bw
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     elementId: tjonZL8dkUu-jZrtaVtpZg
@@ -248,7 +272,7 @@ tests:
   - id: R0zKMO9CRUy0VjBm0YJ2Eg
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     elementId: KOxfW5oi9UmflTGiBsrG4g
@@ -268,7 +292,7 @@ tests:
   - id: re5IBEaDtEWh_OP5E9mHzQ
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Action
     elementId: 1mGqCZ007EaH1M1kzdBCaw
@@ -288,7 +312,7 @@ tests:
   - id: GXmhfxcm5E6H_KFbMcXcGw
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Action
     elementId: 61vMXA5vNEyPVD_r0IlHsA
@@ -308,7 +332,7 @@ tests:
   - id: RzDlVLMwL0SN9lGwzm5Zuw
     enabled: true
     invertResult: false
-    order: 14
+    order: 15
     repeat: 1
     type: Action
     elementId: AEr4qg7XXUaV7vN9ePtFCA
@@ -331,7 +355,7 @@ tests:
   - id: DUxo-gKDq0SLyz9xcpV0mQ
     enabled: true
     invertResult: false
-    order: 15
+    order: 16
     repeat: 1
     type: Action
     elementId: BZK44H8XuUSH87DuYdX3Yg
@@ -351,7 +375,7 @@ tests:
   - id: H4DSJYOkTkCnIOyA7Nq9Gg
     enabled: true
     invertResult: false
-    order: 16
+    order: 17
     repeat: 1
     type: Action
     elementId: BZK44H8XuUSH87DuYdX3Yg
@@ -374,7 +398,7 @@ tests:
   - id: kpe1cdY4b0SfSdyhrragJA
     enabled: true
     invertResult: false
-    order: 17
+    order: 18
     repeat: 1
     type: Action
     elementId: fz3HtT5YH0aqAYBZB08LgQ
@@ -394,7 +418,7 @@ tests:
   - id: VIvd1mDxfk6vYBRNHAnIpA
     enabled: true
     invertResult: false
-    order: 18
+    order: 19
     repeat: 1
     type: Action
     elementId: IvWjoZKGTE-P3TwS4O4IDA
@@ -414,7 +438,7 @@ tests:
   - id: vv79ocZAQkq-lQpJm_8BVQ
     enabled: true
     invertResult: false
-    order: 19
+    order: 20
     repeat: 1
     type: Action
     elementId: OdrqyQvHekOVOAbnJylVzg
@@ -428,6 +452,117 @@ tests:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EwLzZN4bKUSf9cej9Y4iYg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: pZsRaHQlT0ygX55sBWk5lg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JLl9V_QXlkSd02FqnP5pmQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: tn5y1WGxVkSlg6aQw31__A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wctwftQjfkqvk05H5dLmwA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: gdMSGGbpPUiyl1FwC4-3oQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ycpgKtGugkGYtPeD4PNhwA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: gdMSGGbpPUiyl1FwC4-3oQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Classe virtuelle{{PosteCode}}
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MZzaOtkhcEaxBougutTRFQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: 8LnDODq4dkSQZR8x3IocQw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Continue
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Classe virtuelle{{PosteCode}}
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -447,6 +582,10 @@ tests:
     description: ''
     value: ''
     type: Private
+  - name: PosteCode
+    description: ''
+    value: ''
+    type: Output
 auxTests:
 - id: 2A867jnChEmE_hhKJOLtng
   name: 003 - Authenticate with a valid email and password
@@ -456,7 +595,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-27T15:33:47.0000000
+  modificationDate: 2022-10-27T15:34:24.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -600,8 +739,6 @@ auxTests:
     description: ''
     value: ''
     type: Output
-  tags:
-  - MobileApplication
 - id: 9vrxiBqMO0ymt5cDt3s0qQ
   name: StepAuthenfication
   description: This test was auto generated from steps of the '003 - S’authentifer avec un email et mot de passe valide' test
@@ -771,6 +908,92 @@ auxTests:
     description: ''
     type: Input
 elements:
+- id: nrN6GboMbUe27mCbj8HVhQ
+  name: email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='email']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'votremail@mail.com']
+    priority: 1
+  - name: XPATH
+    value: //input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
+    priority: 3
+- id: X6c9G37B00idcnPQxVcSQw
+  name: Suivant
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Suivant']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: lnYutaJeJE6My5kHldIXbg
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/input
+    priority: 2
+- id: UgeO7JhzOEGd-I-wndpDLQ
+  name: Je me connecte
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Je me connecte']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: x-buI32OdEeyLzVcV1M_iQ
+  name: Ignorer
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-9'
+    priority: 0
+  - name: XPATH
+    value: //button/button[. = 'Ignorer']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/button/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
+    priority: 3
 - id: Pi1tN5aP20i2q10sdmpU_w
   name: add [+]
   description: ''
@@ -791,6 +1014,23 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[1]
     priority: 3
+- id: pZsRaHQlT0ygX55sBWk5lg
+  name: search
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='search']"
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div[1]/div/button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[3]
+    priority: 2
 - id: gUS7yinyVUSJGpXM8hjDuA
   name: '[+] Créer une classe virtuelle'
   description: ''
@@ -1043,94 +1283,69 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div[2]/div/div[12]/button
     priority: 3
-- id: nrN6GboMbUe27mCbj8HVhQ
-  name: email
+- id: gdMSGGbpPUiyl1FwC4-3oQ
+  name: Rechercher des contenus et des utilis...
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
     name: Textbox
     source: System
   locators:
   - name: CSSSELECTOR
-    value: "[name='email']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'votremail@mail.com']
+    value: '#mui-11'
     priority: 1
   - name: XPATH
-    value: //input
+    value: //input[@placeholder = 'Rechercher des contenus et des utilisateurs']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/div/input
     priority: 2
   - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
+    value: /html/body/div[2]/div[3]/div[1]/div/div/input
     priority: 3
-- id: X6c9G37B00idcnPQxVcSQw
-  name: Suivant
+- id: 8LnDODq4dkSQZR8x3IocQw
+  name: SectionResultSearch
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div[3]
+    priority: 0
+- id: tn5y1WGxVkSlg6aQw31__A
+  name: Parcours
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
   - name: XPATH
-    value: //button[. = 'Suivant']
+    value: //button[. = 'Parcours']
     priority: 0
   - name: XPATH
-    value: //button
+    value: //div[2]/div[2]//button[1]
     priority: 1
   - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    value: /html/body/div[2]/div[3]/div[2]/div[2]/div/div/div/button[1]
     priority: 2
-- id: lnYutaJeJE6My5kHldIXbg
-  name: password
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='password']"
-    priority: 0
-  - name: XPATH
-    value: //input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/input
-    priority: 2
-- id: UgeO7JhzOEGd-I-wndpDLQ
-  name: Je me connecte
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Je me connecte']
-    priority: 0
-  - name: XPATH
-    value: //button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
-    priority: 2
-- id: x-buI32OdEeyLzVcV1M_iQ
-  name: Ignorer
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-9'
-    priority: 0
-  - name: XPATH
-    value: //button/button[. = 'Ignorer']
-    priority: 2
-  - name: XPATH
-    value: //div[2]/div/button/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
-    priority: 3
 projectParameters: []
 addons:
+- id: -kT4Fi1xFk6PF8xkHU4vDg
+  source: Store
+  version: 2.2
+  actions:
+  - id: Dy3SuIjSuUSvXzCwx7SVdg
+    name: Random postcode
+    description: Generate random postcode
+    className: GeneratePostcode
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: B8E84E0F0EE92A1E8BB93EB3C515DB4F0106CAA6087A437A171B1B0191F14F88
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
   version: 1.1.9
@@ -1143,10 +1358,6 @@ addons:
     name: Maximize window
     description: Maximize window
     className: io.testproject.addons.web.window.MaximizeWindow
-  - id: _eKo7zbUNEaI9yCeGICBnw
-    name: Get Numbers Only
-    description: Return only numbers from the text
-    className: io.testproject.addons.web.element.GetNumbersOnly
   minSdkLevel: 2
   minSdkVersion: 0.63.1
   sdkGeneration: 1
@@ -1156,22 +1367,10 @@ addons:
   source: Store
   version: 2.10
   actions:
-  - id: Wl9sAAe1r0qiS9fcNrHMPg
-    name: Is clickable? (if visible)
-    description: Is {{element}} clickable?
-    className: io.testproject.addon.IsClickableActions.IsClickableWeb
-  - id: _PKL_koWWkaH7f5nBaj7UA
-    name: Type text (if visible)
-    description: Type {{text}} in {{element}} if visible
-    className: io.testproject.addon.TypeActions.TypeTextIfVisibleWeb
   - id: U2veSbE9E0aIfg5GFB2HtQ
     name: Click if visible
     description: Click {{element}} if it's visible
     className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
-  - id: NLB4QolOjEiJ4WNftvS4EQ
-    name: Contains text? (if visible)
-    description: '{{element}} contains text {{text}}?'
-    className: io.testproject.addon.ContainsTextActions.ContainsTextIfVisibleWeb
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
