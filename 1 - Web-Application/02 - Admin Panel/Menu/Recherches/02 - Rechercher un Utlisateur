@@ -1,7 +1,7 @@
-id: fzYXLgOqSU2PZJTESuZkYA
+id: iIC7MmhEWku422Unj2WReg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-27T15:33:49.3161023Z
+created: 2022-10-28T13:36:04.8434414Z
 protocol: 1
 tests:
 - id: iOISZIzDdUun3ozBSkhdZA
@@ -212,7 +212,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-27T15:33:47.0000000
+  modificationDate: 2022-10-28T13:35:54.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -254,7 +254,7 @@ auxTests:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: Inherit
+      failureBehaviorType: AlwaysPass
       takeScreenshotConditionType: Inherit
     action:
       id: oss77pMS7U-Bt7cdueaJUw
@@ -356,8 +356,6 @@ auxTests:
     description: ''
     value: ''
     type: Output
-  tags:
-  - MobileApplication
 - id: 9vrxiBqMO0ymt5cDt3s0qQ
   name: StepAuthenfication
   description: This test was auto generated from steps of the '003 - S’authentifer avec un email et mot de passe valide' test
@@ -536,17 +534,14 @@ elements:
     source: System
   locators:
   - name: CSSSELECTOR
-    value: '#mui-2'
-    priority: 0
-  - name: CSSSELECTOR
     value: "[name='search']"
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //div[3]/div/div[1]/div/button[3]
-    priority: 2
+    priority: 1
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[3]
-    priority: 3
+    priority: 2
 - id: 9OCgFE8ZBUGLbrmPLutXhg
   name: Utilisateurs
   type:
@@ -591,10 +586,10 @@ elements:
   locators:
   - name: XPATH
     value: //div[2]/div/div[3]
-    priority: 0
+    priority: 1
   - name: XPATH
     value: /html/body/div[2]/div[3]/div[3]
-    priority: 1
+    priority: 0
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
   type:
