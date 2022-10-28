@@ -1,7 +1,7 @@
-id: Dcn4Q-QLHUmhhJsjP9mkhw
+id: CUlGtlBpP0igdf2pHBIZQg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-28T08:51:58.5911050Z
+created: 2022-10-28T11:44:34.5970730Z
 protocol: 1
 tests:
 - id: JB9J4_3-xEWd0chldrCNDA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-16T12:20:39.0000000
-  modificationDate: 2022-10-28T08:45:09.0000000
+  modificationDate: 2022-10-28T11:43:30.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -166,10 +166,34 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 3Dz7ssRjUUWbVhv7nxm8xA
+  - id: PNncr0f3v0q4oo8iHFl8GQ
+    comments: ''
     enabled: true
     invertResult: false
     order: 7
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: Dy3SuIjSuUSvXzCwx7SVdg
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: result
+      value: '{{Postcode}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3Dz7ssRjUUWbVhv7nxm8xA
+    enabled: true
+    invertResult: false
+    order: 8
     repeat: 1
     type: Action
     elementId: x-m5wk-KuUqfrEUMu3POzQ
@@ -184,7 +208,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: Formateurs
+      value: Formateurs{{Postcode}}
       direction: Input
     conditions: []
     validations: []
@@ -192,7 +216,7 @@ tests:
   - id: ua3SXsIY4kyJvO8BdpWP9g
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     elementId: BeFvQWLkyEacYGf26723oA
@@ -212,7 +236,7 @@ tests:
   - id: Ovg5uZe2Tk2-BQ7rd8XNsQ
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Action
     elementId: BeFvQWLkyEacYGf26723oA
@@ -236,7 +260,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Addon
     settings:
@@ -277,7 +301,7 @@ tests:
   - id: 0R61u2CpXU-55WGMF7qCog
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     elementId: WPjAQrP1V06FqwYYWZFOzQ
@@ -300,7 +324,7 @@ tests:
   - id: 2x5HjZrsO065XVJ2Jud5xQ
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Action
     elementId: KQKnLPwQEEapGI5coyD2lg
@@ -320,7 +344,7 @@ tests:
   - id: 499PLd5cl06W3JmzmUZJVQ
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Action
     elementId: h-uK_OaeikKOAYTtTsDYjA
@@ -340,7 +364,7 @@ tests:
   - id: 2OZlTvTvpk-e5cDKEknqaw
     enabled: true
     invertResult: false
-    order: 14
+    order: 15
     repeat: 1
     type: Action
     elementId: fR73VNfmMUC_TqW_uKHe4Q
@@ -357,37 +381,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: djzsJKWpd0acEycWceOvTg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 15
-    repeat: 1
-    type: Test
-    targetTestId: Jk9GXnD3Q0SwDuDdwY-cYA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      source: None
-    parameterMaps:
-    - name: ApplicationURL
-      value: '{{ApplicationURL}}'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: MZ-PwClg4EGWvcwESoOTeA
+  - id: nEhbmEhd_UKFJMh032A_2A
     comments: ''
     enabled: true
     invertResult: false
     order: 16
     repeat: 1
     type: Action
-    elementId: sljqHZNY402yrchcDJFUrw
+    elementId: pZsRaHQlT0ygX55sBWk5lg
     settings:
       sleepTime: -1
       timeout: -1
@@ -395,20 +396,65 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: Pb1V0Gcz7Ue5dgpp_8mXHA
+  - id: BXLf1W91nkWp9yC12ecmgg
     comments: ''
     enabled: true
     invertResult: false
     order: 17
     repeat: 1
     type: Action
-    elementId: sljqHZNY402yrchcDJFUrw
+    elementId: cXabrAWv1kmP7GNQmYVHag
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DxUpeKpNX0q1lK5KOqfJ2A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: gdMSGGbpPUiyl1FwC4-3oQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{fisrtname}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Qv_6DPHfukiF9ZJ_ZlVKwg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: 8LnDODq4dkSQZR8x3IocQw
     settings:
       sleepTime: -1
       timeout: -1
@@ -420,7 +466,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: '{{fisrtname}} Formateurs'
+      value: '{{fisrtname}} Formateurs{{Postcode}}'
       direction: Input
     conditions: []
     validations: []
@@ -446,6 +492,10 @@ tests:
     value: ''
     type: Output
   - name: emailFormateur
+    description: ''
+    value: ''
+    type: Output
+  - name: Postcode
     description: ''
     value: ''
     type: Output
@@ -602,113 +652,6 @@ auxTests:
     description: ''
     value: ''
     type: Output
-- id: Jk9GXnD3Q0SwDuDdwY-cYA
-  name: Navigation Utilisateurs - Formateurs
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-12T13:51:30.0000000
-  modificationDate: 2022-10-12T13:53:51.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: y508kTEq_UGxyyBBpmBr7A
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: cXabrAWv1kmP7GNQmYVHag
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a59f3a20-d08d-4293-9add-b279f92e6c41
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: lbUmAVAMZEClleoK6j5uFQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: cXabrAWv1kmP7GNQmYVHag
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: uwvzwRntWEuoeavqEFlsiQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: IdfQH_rYa0qjGwZ0Iuh6Fg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a59f3a20-d08d-4293-9add-b279f92e6c41
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: KrZ1c6U3q0GpAOCEImFR8g
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: IdfQH_rYa0qjGwZ0Iuh6Fg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
 - id: 9vrxiBqMO0ymt5cDt3s0qQ
   name: StepAuthenfication
   description: This test was auto generated from steps of the '003 - S’authentifer avec un email et mot de passe valide' test
@@ -978,20 +921,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[3]/div[1]
     priority: 1
-- id: IdfQH_rYa0qjGwZ0Iuh6Fg
-  name: Utilisateurs - Formateurs
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[3]/div[2]//div[4]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[3]/div[2]/div/div/div/div[4]
-    priority: 1
 - id: Pi1tN5aP20i2q10sdmpU_w
   name: add [+]
   description: ''
@@ -1012,6 +941,23 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[1]
     priority: 3
+- id: pZsRaHQlT0ygX55sBWk5lg
+  name: search
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='search']"
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div[1]/div/button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[3]
+    priority: 2
 - id: BYzH0YaydUuYI1wzr90Ghg
   name: '[+] Créer un nouveau formateur'
   description: ''
@@ -1156,20 +1102,38 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[14]/button
     priority: 3
-- id: sljqHZNY402yrchcDJFUrw
-  name: Liste(Apprenant-Groupe-Tuteurs)
-  description: ''
+- id: gdMSGGbpPUiyl1FwC4-3oQ
+  name: Rechercher des contenus et des utilis...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-11'
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Rechercher des contenus et des utilisateurs']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div[1]/div/div/input
+    priority: 3
+- id: 8LnDODq4dkSQZR8x3IocQw
+  name: SectionResultSearch
   type:
     id: jUwODgyNjAyNzk2NTk1NjM
     name: Div
     source: System
   locators:
   - name: XPATH
-    value: //div[3]/div/div/div[3]/div/div/div/div/div[2]/div
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div/div/div/div[2]/div
+    value: //div[2]/div/div[3]
     priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div[3]
+    priority: 0
 projectParameters: []
 addons:
 - id: uhFWuHjwpU-gl6uzWR5TXA
@@ -1193,6 +1157,10 @@ addons:
     name: Random first name
     description: Generate random first name
     className: GenerateFirstName
+  - id: Dy3SuIjSuUSvXzCwx7SVdg
+    name: Random postcode
+    description: Generate random postcode
+    className: GeneratePostcode
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
