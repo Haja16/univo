@@ -1,7 +1,7 @@
-id: CUlGtlBpP0igdf2pHBIZQg
+id: foDHRMaYBUykJIBYhI8OCA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-28T11:44:34.5970730Z
+created: 2022-10-28T12:08:42.3177794Z
 protocol: 1
 tests:
 - id: JB9J4_3-xEWd0chldrCNDA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-16T12:20:39.0000000
-  modificationDate: 2022-10-28T11:43:30.0000000
+  modificationDate: 2022-10-28T12:07:35.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -278,10 +278,10 @@ tests:
       value: ''
       direction: Input
     - name: domain
-      value: ''
+      value: univo.fr
       direction: Input
     - name: localPartLength
-      value: ''
+      value: 5
       direction: Input
     - name: isLower
       value: true
@@ -290,7 +290,7 @@ tests:
       value: ''
       direction: Input
     - name: isSpecial
-      value: ''
+      value: false
       direction: Input
     - name: emailAddress
       value: '{{emailFormateur}}'
@@ -381,11 +381,34 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: nEhbmEhd_UKFJMh032A_2A
+  - id: pteyAqWonU29aboW61W6Pw
     comments: ''
     enabled: true
     invertResult: false
     order: 16
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5ac5d621-7a53-45a6-94e5-a3348be3969e
+      source: System
+    parameterMaps:
+    - name: milliseconds
+      value: 2000
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nEhbmEhd_UKFJMh032A_2A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
     repeat: 1
     type: Action
     elementId: pZsRaHQlT0ygX55sBWk5lg
@@ -406,10 +429,10 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 17
+    order: 18
     repeat: 1
     type: Action
-    elementId: cXabrAWv1kmP7GNQmYVHag
+    elementId: 9OCgFE8ZBUGLbrmPLutXhg
     settings:
       sleepTime: -1
       timeout: -1
@@ -423,11 +446,32 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: q6xync_OFEi_J2E6rFQgPg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: gdMSGGbpPUiyl1FwC4-3oQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: DxUpeKpNX0q1lK5KOqfJ2A
     comments: ''
     enabled: true
     invertResult: false
-    order: 18
+    order: 20
     repeat: 1
     type: Action
     elementId: gdMSGGbpPUiyl1FwC4-3oQ
@@ -451,7 +495,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 19
+    order: 21
     repeat: 1
     type: Action
     elementId: 8LnDODq4dkSQZR8x3IocQw
@@ -459,7 +503,7 @@ tests:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: Inherit
+      failureBehaviorType: Continue
       takeScreenshotConditionType: Inherit
     action:
       id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
@@ -907,20 +951,6 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
-- id: cXabrAWv1kmP7GNQmYVHag
-  name: Utilisateurs
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //ul/div/div[3]/div[1]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div[1]/div/div/div/ul/div/div[3]/div[1]
-    priority: 1
 - id: Pi1tN5aP20i2q10sdmpU_w
   name: add [+]
   description: ''
@@ -966,18 +996,15 @@ elements:
     name: Button
     source: System
   locators:
-  - name: CSSSELECTOR
-    value: '#mui-12'
-    priority: 0
   - name: XPATH
     value: //button[. = '  Créer un nouveau formateur']
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //div[4]//button
-    priority: 2
+    priority: 1
   - name: XPATH
     value: /html/body/div[2]/div[3]/ul/div/div/div[4]/a/button
-    priority: 3
+    priority: 2
 - id: 7YmzgK6rpUa61-Jk6AeljA
   name: first_name
   type:
@@ -1102,6 +1129,22 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[14]/button
     priority: 3
+- id: 9OCgFE8ZBUGLbrmPLutXhg
+  name: Utilisateurs
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Utilisateurs']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div[2]/div[2]/div/div/div/button[2]
+    priority: 2
 - id: gdMSGGbpPUiyl1FwC4-3oQ
   name: Rechercher des contenus et des utilis...
   type:
