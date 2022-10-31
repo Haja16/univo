@@ -1,7 +1,7 @@
-id: W_TyuyYZc0CL40GGsob2mA
+id: ITc2xD0x202bxvloDwcTNQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-31T15:50:32.7411852Z
+created: 2022-10-31T15:52:22.7590530Z
 protocol: 1
 tests:
 - id: _hnSM9cYaUSQGo7yA3KlHQ
@@ -637,14 +637,14 @@ auxTests:
     value: ''
     type: Input
 - id: 2A867jnChEmE_hhKJOLtng
-  name: 003 - Authenticate with a valid email and password
+  name: 001- Authenticate with a valid email and password - Super Admin
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-31T15:49:56.0000000
+  modificationDate: 2022-10-31T15:52:20.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
