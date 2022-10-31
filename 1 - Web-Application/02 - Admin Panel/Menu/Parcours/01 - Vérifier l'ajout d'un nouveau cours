@@ -1,7 +1,7 @@
-id: qcrmVUA0o06je3PMWSFM2A
+id: 3TOIoYVhgka2FvGGqSkcvw
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-31T10:38:51.4742981Z
+created: 2022-10-31T10:49:17.6261172Z
 protocol: 1
 tests:
 - id: t1l7hEAf8EiV7U9wL99xkQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-16T12:29:49.0000000
-  modificationDate: 2022-10-31T10:38:44.0000000
+  modificationDate: 2022-10-31T10:48:19.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -147,35 +147,11 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: wXYiinn_j0Sq32q1Rdcw7w
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: Dy3SuIjSuUSvXzCwx7SVdg
-      source: Store
-      addonId: -kT4Fi1xFk6PF8xkHU4vDg
-    parameterMaps:
-    - name: result
-      value: '{{PosteCode}}'
-      direction: Output
-    conditions: []
-    validations: []
-    contexts: []
   - id: iFXjhkBL3kC68HH2KoKTdg
     comments: ''
     enabled: true
     invertResult: false
-    order: 7
+    order: 6
     repeat: 1
     type: Addon
     settings:
@@ -204,7 +180,7 @@ tests:
   - id: _M0QjAvBBUiGiYECE4jTMw
     enabled: true
     invertResult: false
-    order: 8
+    order: 7
     repeat: 1
     type: Action
     elementId: QCtEv5kp9kuHCVsGph20yQ
@@ -227,7 +203,7 @@ tests:
   - id: at_qnnMj5EatLgtqLzsZaQ
     enabled: true
     invertResult: false
-    order: 9
+    order: 8
     repeat: 1
     type: Action
     elementId: Ig6Ul5DV1karhfOfgXe3aA
@@ -247,7 +223,7 @@ tests:
   - id: ErrxC7wDyEWaZnhRhg0e_Q
     enabled: true
     invertResult: false
-    order: 10
+    order: 9
     repeat: 1
     type: Action
     elementId: Ig6Ul5DV1karhfOfgXe3aA
@@ -270,7 +246,7 @@ tests:
   - id: hSRTBiODVk2PDyx-hBbGNw
     enabled: true
     invertResult: false
-    order: 11
+    order: 10
     repeat: 1
     type: Action
     elementId: bOY8ezyr90uc7-4x4MoxEA
@@ -290,7 +266,7 @@ tests:
   - id: 4a0z4mwvtEG9SzuJebmGbA
     enabled: true
     invertResult: false
-    order: 12
+    order: 11
     repeat: 1
     type: Action
     elementId: bOY8ezyr90uc7-4x4MoxEA
@@ -313,7 +289,7 @@ tests:
   - id: EbQxufDFKk2pRO9poglooQ
     enabled: true
     invertResult: false
-    order: 13
+    order: 12
     repeat: 1
     type: Action
     elementId: g0xm-YpE7k2OuOyBKGMuLQ
@@ -333,7 +309,7 @@ tests:
   - id: BUD9-DO9tkC2-U5Salx_gw
     enabled: true
     invertResult: false
-    order: 14
+    order: 13
     repeat: 1
     type: Action
     elementId: g0xm-YpE7k2OuOyBKGMuLQ
@@ -356,7 +332,7 @@ tests:
   - id: 2VNADwLJ5UWmfIlzACglpw
     enabled: true
     invertResult: false
-    order: 15
+    order: 14
     repeat: 1
     type: Action
     elementId: fV0Kc-Ul-k-_WPRS6_YOVg
@@ -375,9 +351,9 @@ tests:
     contexts: []
   - id: wS9CpKnOMUWiBeAN5KfCew
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
-    order: 16
+    order: 15
     repeat: 1
     type: Action
     elementId: pZsRaHQlT0ygX55sBWk5lg
@@ -396,9 +372,9 @@ tests:
     contexts: []
   - id: DJzeSaT-L0yaKkr_ghZZlQ
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
-    order: 17
+    order: 16
     repeat: 1
     type: Action
     elementId: tn5y1WGxVkSlg6aQw31__A
@@ -417,9 +393,9 @@ tests:
     contexts: []
   - id: WLMmloW0skuoIcgFow-OXQ
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
-    order: 18
+    order: 17
     repeat: 1
     type: Action
     elementId: gdMSGGbpPUiyl1FwC4-3oQ
@@ -438,9 +414,9 @@ tests:
     contexts: []
   - id: n40XKzQoikGkRhLtKX_OsA
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
-    order: 19
+    order: 18
     repeat: 1
     type: Action
     elementId: gdMSGGbpPUiyl1FwC4-3oQ
@@ -462,9 +438,9 @@ tests:
     contexts: []
   - id: 5LO7MbPwcUW87f-NCCE-Lg
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
-    order: 20
+    order: 19
     repeat: 1
     type: Action
     elementId: 8LnDODq4dkSQZR8x3IocQw
@@ -500,10 +476,6 @@ tests:
     description: ''
     value: ''
     type: Private
-  - name: PosteCode
-    description: ''
-    value: ''
-    type: Output
   - name: Number
     description: ''
     value: ''
@@ -1156,10 +1128,6 @@ addons:
   source: Store
   version: 2.2
   actions:
-  - id: Dy3SuIjSuUSvXzCwx7SVdg
-    name: Random postcode
-    description: Generate random postcode
-    className: GeneratePostcode
   - id: nHBKyka6qkCOqAudow9lbg
     name: Random number in a range
     description: Generate random number between {{min}} and {{max}}
