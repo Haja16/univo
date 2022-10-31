@@ -1,7 +1,7 @@
-id: 1Gp2oC_O9kKXUs9au02BqQ
+id: FeeEX9IBmUye-5WsjLK7AA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-31T10:52:27.6382263Z
+created: 2022-10-31T12:30:24.5289064Z
 protocol: 1
 tests:
 - id: Tjdzw6KJmU-LAIlxqESWcA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-16T13:03:21.0000000
-  modificationDate: 2022-10-31T10:51:43.0000000
+  modificationDate: 2022-10-31T11:42:56.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -59,51 +59,11 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 0hjmlxn5506cwOR81y1GTw
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: Pi1tN5aP20i2q10sdmpU_w
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 1s7as8o8pEWBDKhHtIUBWQ
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: gUS7yinyVUSJGpXM8hjDuA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: FfJK25yUGUagCC0jTYdIGA
     comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 2
     repeat: 1
     type: Addon
     settings:
@@ -126,6 +86,46 @@ tests:
     - name: result
       value: '{{Number}}'
       direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0hjmlxn5506cwOR81y1GTw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: Pi1tN5aP20i2q10sdmpU_w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1s7as8o8pEWBDKhHtIUBWQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: gUS7yinyVUSJGpXM8hjDuA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -358,13 +358,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: DUxo-gKDq0SLyz9xcpV0mQ
+  - id: WeP0JwLKB0-ihQdT2DvuFQ
+    comments: ''
     enabled: true
     invertResult: false
     order: 16
     repeat: 1
-    type: Action
-    elementId: BZK44H8XuUSH87DuYdX3Yg
+    type: Addon
     settings:
       sleepTime: -1
       timeout: -1
@@ -372,9 +372,16 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
+      id: ZrQnHZWNkkKqSMe6hGqh1Q
+      source: Store
+      addonId: 9k_I6NoN_06CR22QXqBpAQ
+    parameterMaps:
+    - name: format
+      value: 'dd/MM/yyyy '
+      direction: Input
+    - name: result
+      value: '{{CurrrentDate}}'
+      direction: Output
     conditions: []
     validations: []
     contexts: []
@@ -396,7 +403,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: 16/10/2022 16:07
+      value: '{{CurrrentDate}} 23:30'
       direction: Input
     conditions: []
     validations: []
@@ -589,6 +596,10 @@ tests:
     value: ''
     type: Private
   - name: Number
+    description: ''
+    value: ''
+    type: Output
+  - name: CurrrentDate
     description: ''
     value: ''
     type: Output
@@ -1339,6 +1350,19 @@ elements:
     priority: 2
 projectParameters: []
 addons:
+- id: 9k_I6NoN_06CR22QXqBpAQ
+  source: Store
+  version: 1.4
+  actions:
+  - id: ZrQnHZWNkkKqSMe6hGqh1Q
+    name: Get the current DateTime
+    description: Get current date
+    className: Actions.CurrentDate
+  minSdkLevel: 2
+  minSdkVersion: 0.63.0
+  sdkGeneration: 1
+  language: Java
+  hash: FAB3FD2E0F114456BE22C986BC93E52A574EBC0E798B69C2858D65F09B58E84C
 - id: -kT4Fi1xFk6PF8xkHU4vDg
   source: Store
   version: 2.2
