@@ -1,7 +1,7 @@
-id: GFe1PIztaEiEdyXH_Z-U9g
+id: QOZBVC5yXUe5jpoc9hdwsw
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-31T11:05:05.6574903Z
+created: 2022-10-31T15:50:32.7758715Z
 protocol: 1
 tests:
 - id: t1l7hEAf8EiV7U9wL99xkQ
@@ -512,7 +512,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-28T13:35:54.0000000
+  modificationDate: 2022-10-31T15:49:56.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -640,6 +640,58 @@ auxTests:
       value: auth/login
     validations: []
     contexts: []
+  - id: _7Z2w237n0qjOVwtlsb1vA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    elementId: x-buI32OdEeyLzVcV1M_iQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: U2veSbE9E0aIfg5GFB2HtQ
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: 100000
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8J9zKtb5xUqYFxB6meY2jw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 56a4ad1b-b563-4322-ba29-d165090302b2
+      source: System
+    parameterMaps:
+    - name: url
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Contains
+      invert: false
+      field: url
+      value: admin/
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -664,7 +716,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-10-20T07:46:55.0000000
-  modificationDate: 2022-10-20T08:11:01.0000000
+  modificationDate: 2022-10-31T15:47:46.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -766,7 +818,7 @@ auxTests:
     contexts: []
   - id: u6T38E5t2EWMxHMW_0c0QQ
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
     order: 5
     repeat: 1
@@ -791,7 +843,7 @@ auxTests:
     contexts: []
   - id: f-KhnS2e4EShMoLgFkYvfQ
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
     order: 6
     repeat: 1
@@ -825,92 +877,6 @@ auxTests:
     description: ''
     type: Input
 elements:
-- id: nrN6GboMbUe27mCbj8HVhQ
-  name: email
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='email']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'votremail@mail.com']
-    priority: 1
-  - name: XPATH
-    value: //input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
-    priority: 3
-- id: X6c9G37B00idcnPQxVcSQw
-  name: Suivant
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Suivant']
-    priority: 0
-  - name: XPATH
-    value: //button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
-    priority: 2
-- id: lnYutaJeJE6My5kHldIXbg
-  name: password
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='password']"
-    priority: 0
-  - name: XPATH
-    value: //input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/input
-    priority: 2
-- id: UgeO7JhzOEGd-I-wndpDLQ
-  name: Je me connecte
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Je me connecte']
-    priority: 0
-  - name: XPATH
-    value: //button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
-    priority: 2
-- id: x-buI32OdEeyLzVcV1M_iQ
-  name: Ignorer
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-9'
-    priority: 0
-  - name: XPATH
-    value: //button/button[. = 'Ignorer']
-    priority: 2
-  - name: XPATH
-    value: //div[2]/div/button/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
-    priority: 3
 - id: Pi1tN5aP20i2q10sdmpU_w
   name: add [+]
   description: ''
@@ -931,23 +897,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[1]
     priority: 3
-- id: pZsRaHQlT0ygX55sBWk5lg
-  name: search
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='search']"
-    priority: 0
-  - name: XPATH
-    value: //div[3]/div/div[1]/div/button[3]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[3]
-    priority: 2
 - id: blHDpq0h8UG4oPQu9b3moA
   name: '[+] Créer un nouveau cours'
   description: ''
@@ -1084,6 +1033,39 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/main/div/div[2]/section/article/div[1]/form/div[3]/input[2]
     priority: 1
+- id: pZsRaHQlT0ygX55sBWk5lg
+  name: search
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='search']"
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div[1]/div/button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[3]
+    priority: 2
+- id: tn5y1WGxVkSlg6aQw31__A
+  name: Parcours
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Parcours']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[2]//button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div[2]/div[2]/div/div/div/button[1]
+    priority: 2
 - id: gdMSGGbpPUiyl1FwC4-3oQ
   name: Rechercher des contenus et des utilis...
   type:
@@ -1116,22 +1098,111 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div[3]/div[3]
     priority: 0
-- id: tn5y1WGxVkSlg6aQw31__A
-  name: Parcours
+- id: x-buI32OdEeyLzVcV1M_iQ
+  name: Ignorer
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-9'
+    priority: 0
+  - name: XPATH
+    value: //button/button[. = 'Ignorer']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/button/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
+    priority: 3
+- id: nrN6GboMbUe27mCbj8HVhQ
+  name: email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='email']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'votremail@mail.com']
+    priority: 1
+  - name: XPATH
+    value: //input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
+    priority: 3
+- id: X6c9G37B00idcnPQxVcSQw
+  name: Suivant
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
   - name: XPATH
-    value: //button[. = 'Parcours']
+    value: //button[. = 'Suivant']
     priority: 0
   - name: XPATH
-    value: //div[2]/div[2]//button[1]
+    value: //button
     priority: 1
   - name: XPATH
-    value: /html/body/div[2]/div[3]/div[2]/div[2]/div/div/div/button[1]
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
     priority: 2
+- id: lnYutaJeJE6My5kHldIXbg
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/input
+    priority: 2
+- id: UgeO7JhzOEGd-I-wndpDLQ
+  name: Je me connecte
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Je me connecte']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: x-buI32OdEeyLzVcV1M_iQ
+  name: Ignorer
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-9'
+    priority: 0
+  - name: XPATH
+    value: //button/button[. = 'Ignorer']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/button/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
+    priority: 3
 projectParameters: []
 addons:
 - id: 9k_I6NoN_06CR22QXqBpAQ
@@ -1151,6 +1222,18 @@ addons:
   source: Store
   version: 2.2
   actions:
+  - id: -H98fdaDgEmY3UvRXNL7xQ
+    name: Random first name
+    description: Generate random first name
+    className: GenerateFirstName
+  - id: Dy3SuIjSuUSvXzCwx7SVdg
+    name: Random postcode
+    description: Generate random postcode
+    className: GeneratePostcode
+  - id: VeUQrR-nIkOyaCraosF0lw
+    name: Random lorem ipsum
+    description: Generate random lorem ipsum
+    className: GenerateLoremIpsum
   - id: nHBKyka6qkCOqAudow9lbg
     name: Random number in a range
     description: Generate random number between {{min}} and {{max}}
@@ -1172,6 +1255,10 @@ addons:
     name: Maximize window
     description: Maximize window
     className: io.testproject.addons.web.window.MaximizeWindow
+  - id: _eKo7zbUNEaI9yCeGICBnw
+    name: Get Numbers Only
+    description: Return only numbers from the text
+    className: io.testproject.addons.web.element.GetNumbersOnly
   minSdkLevel: 2
   minSdkVersion: 0.63.1
   sdkGeneration: 1
@@ -1185,6 +1272,18 @@ addons:
     name: Click if visible
     description: Click {{element}} if it's visible
     className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
+  - id: Wl9sAAe1r0qiS9fcNrHMPg
+    name: Is clickable? (if visible)
+    description: Is {{element}} clickable?
+    className: io.testproject.addon.IsClickableActions.IsClickableWeb
+  - id: _PKL_koWWkaH7f5nBaj7UA
+    name: Type text (if visible)
+    description: Type {{text}} in {{element}} if visible
+    className: io.testproject.addon.TypeActions.TypeTextIfVisibleWeb
+  - id: NLB4QolOjEiJ4WNftvS4EQ
+    name: Contains text? (if visible)
+    description: '{{element}} contains text {{text}}?'
+    className: io.testproject.addon.ContainsTextActions.ContainsTextIfVisibleWeb
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
