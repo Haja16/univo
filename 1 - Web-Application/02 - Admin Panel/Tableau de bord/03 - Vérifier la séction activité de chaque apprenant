@@ -1,7 +1,7 @@
-id: EvmZNImXaESgnNjjYibLGA
+id: ZcDkCFPCpkyNdVaVA4KDNA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-28T13:36:04.8462725Z
+created: 2022-10-31T15:50:32.7829035Z
 protocol: 1
 tests:
 - id: v9cMsutOxkGVKJuCmymQMg
@@ -755,7 +755,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-28T13:35:54.0000000
+  modificationDate: 2022-10-31T15:49:56.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -882,6 +882,58 @@ auxTests:
       invert: false
       value: auth/login
     validations: []
+    contexts: []
+  - id: _7Z2w237n0qjOVwtlsb1vA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    elementId: x-buI32OdEeyLzVcV1M_iQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: U2veSbE9E0aIfg5GFB2HtQ
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: 100000
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8J9zKtb5xUqYFxB6meY2jw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 56a4ad1b-b563-4322-ba29-d165090302b2
+      source: System
+    parameterMaps:
+    - name: url
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Contains
+      invert: false
+      field: url
+      value: admin/
     contexts: []
   parameters:
   - name: ApplicationURL
@@ -2507,7 +2559,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-10-20T07:46:55.0000000
-  modificationDate: 2022-10-20T08:11:01.0000000
+  modificationDate: 2022-10-31T15:47:46.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -2609,7 +2661,7 @@ auxTests:
     contexts: []
   - id: u6T38E5t2EWMxHMW_0c0QQ
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
     order: 5
     repeat: 1
@@ -2634,7 +2686,7 @@ auxTests:
     contexts: []
   - id: f-KhnS2e4EShMoLgFkYvfQ
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
     order: 6
     repeat: 1
@@ -3084,6 +3136,25 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[1]/div/div/div/nav[2]/div[2]/div[1]
     priority: 1
+- id: x-buI32OdEeyLzVcV1M_iQ
+  name: Ignorer
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-9'
+    priority: 0
+  - name: XPATH
+    value: //button/button[. = 'Ignorer']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/button/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
+    priority: 3
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
   type:
@@ -3197,6 +3268,10 @@ addons:
   source: Store
   version: 2.10
   actions:
+  - id: U2veSbE9E0aIfg5GFB2HtQ
+    name: Click if visible
+    description: Click {{element}} if it's visible
+    className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
   - id: Wl9sAAe1r0qiS9fcNrHMPg
     name: Is clickable? (if visible)
     description: Is {{element}} clickable?
@@ -3205,10 +3280,6 @@ addons:
     name: Type text (if visible)
     description: Type {{text}} in {{element}} if visible
     className: io.testproject.addon.TypeActions.TypeTextIfVisibleWeb
-  - id: U2veSbE9E0aIfg5GFB2HtQ
-    name: Click if visible
-    description: Click {{element}} if it's visible
-    className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
   - id: NLB4QolOjEiJ4WNftvS4EQ
     name: Contains text? (if visible)
     description: '{{element}} contains text {{text}}?'
