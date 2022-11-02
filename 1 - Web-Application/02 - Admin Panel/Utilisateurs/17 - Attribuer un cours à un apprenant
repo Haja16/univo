@@ -1,7 +1,7 @@
-id: sHdzsRpSNkGi9qVxqaXmKg
+id: dh67I-pWqk2Bfq1jgLfP6g
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T13:35:21.0708012Z
+created: 2022-11-02T13:51:24.8156496Z
 protocol: 1
 tests:
 - id: k2EI520q70KgMYlhy5s0ag
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-11-02T12:04:47.0000000
-  modificationDate: 2022-11-02T13:34:23.0000000
+  modificationDate: 2022-11-02T13:51:19.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -185,6 +185,26 @@ tests:
     - name: text
       value: Allemand
       direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ApdFJlQTYEWUjPsJUoKb7g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Test
+    targetTestId: gacKeGaKEUqc8F89fhVWbg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -590,6 +610,112 @@ auxTests:
     validations: []
     contexts: []
   parameters: []
+- id: gacKeGaKEUqc8F89fhVWbg
+  name: '{adminPanel}StepSupprParcoursAttrAllem'
+  description: This test was auto generated from steps of the '18 - Supprimer un cours attribué à un apprenant' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-11-02T13:50:02.0000000
+  modificationDate: 2022-11-02T13:50:02.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: dDY0-pG0UkaVbPhhX46Rog
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: eY8JImFE1kSZfBal88Mf0w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MocaOrFjlU27tEecdHwHdw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: eY8JImFE1kSZfBal88Mf0w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vqtE5iejNE20Yhb3ZIe8bA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: RLmmaiStwkKWvBgbLJRUDg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kLJbTpDoUUuiye0XA-jeVw
+    comments: ''
+    enabled: true
+    invertResult: true
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 9vzvEnncXkuBrUMIP_udgg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Allemand
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
 - id: 9vrxiBqMO0ymt5cDt3s0qQ
   name: StepAuthenfication
   description: This test was auto generated from steps of the '003 - S’authentifer avec un email et mot de passe valide' test
@@ -862,6 +988,22 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[3]
     priority: 2
+- id: RLmmaiStwkKWvBgbLJRUDg
+  name: D'ACCORD
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = concat('D', "'", 'ACCORD')]
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div/div[2]/button[2]
+    priority: 2
 - id: gdMSGGbpPUiyl1FwC4-3oQ
   name: Rechercher des contenus et des utilis...
   type:
@@ -1007,6 +1149,22 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]
     priority: 1
+- id: eY8JImFE1kSZfBal88Mf0w
+  name: SupprimerCoursAllemand
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div/div/button[. = ' Supprimer']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/div[5]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div[2]/div/div/div[1]/div/div[5]/button
+    priority: 2
 projectParameters: []
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
