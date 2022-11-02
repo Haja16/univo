@@ -1,7 +1,7 @@
-id: y9Ck0H50bk6eC0oLBYISow
+id: 3Z8kyCvJmUmeqRphRYVHgg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T14:13:03.8666429Z
+created: 2022-11-02T14:25:43.5787635Z
 protocol: 1
 tests:
 - id: k2EI520q70KgMYlhy5s0ag
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-11-02T12:04:47.0000000
-  modificationDate: 2022-11-02T14:13:02.0000000
+  modificationDate: 2022-11-02T14:21:49.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -107,12 +107,13 @@ tests:
     order: 4
     repeat: 1
     type: Addon
+    recoveryTestId: gacKeGaKEUqc8F89fhVWbg
     elementId: 8ygglFEbJkKG17gAJhwvbw
     settings:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: Inherit
+      failureBehaviorType: RecoveryContinue
       takeScreenshotConditionType: Inherit
     action:
       id: bDphxmVHjUilT1vqXMuW2A
@@ -618,7 +619,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-11-02T13:50:02.0000000
-  modificationDate: 2022-11-02T13:56:24.0000000
+  modificationDate: 2022-11-02T14:25:15.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -735,6 +736,27 @@ auxTests:
     - name: text
       value: Allemand
       direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NM0ylUSoREWl-yMx6fSLmw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: TmkiiWVe606BHCiqaQc6Lw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -1190,18 +1212,15 @@ elements:
     name: Button
     source: System
   locators:
-  - name: CSSSELECTOR
-    value: '#mui-58'
-    priority: 0
   - name: XPATH
     value: //button[. = ' Attribuer un cours']
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //div[2]/button[2]
-    priority: 2
+    priority: 1
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div[1]/div[2]/button[2]
-    priority: 3
+    priority: 2
 - id: 8ygglFEbJkKG17gAJhwvbw
   name: select-row-course-v1:Digital-Learning...
   type:
