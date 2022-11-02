@@ -1,7 +1,7 @@
-id: 3Z8kyCvJmUmeqRphRYVHgg
+id: kcGKr5tkr0mOybdoYkxZLg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T14:25:43.5787635Z
+created: 2022-11-02T15:03:09.1976771Z
 protocol: 1
 tests:
 - id: k2EI520q70KgMYlhy5s0ag
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-11-02T12:04:47.0000000
-  modificationDate: 2022-11-02T14:21:49.0000000
+  modificationDate: 2022-11-02T15:02:55.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -186,26 +186,6 @@ tests:
     - name: text
       value: Allemand
       direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: ApdFJlQTYEWUjPsJUoKb7g
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 8
-    repeat: 1
-    type: Test
-    targetTestId: gacKeGaKEUqc8F89fhVWbg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      source: None
-    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -619,7 +599,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-11-02T13:50:02.0000000
-  modificationDate: 2022-11-02T14:25:15.0000000
+  modificationDate: 2022-11-02T14:56:08.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -629,11 +609,32 @@ auxTests:
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   steps:
-  - id: dDY0-pG0UkaVbPhhX46Rog
+  - id: VLBJrwYcBkWObdS-e6dyMg
     comments: ''
     enabled: true
     invertResult: false
     order: 1
+    repeat: 1
+    type: Action
+    elementId: hsGiyvNepkq_5qj1TBQ5_Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dDY0-pG0UkaVbPhhX46Rog
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
     repeat: 1
     type: Action
     elementId: eY8JImFE1kSZfBal88Mf0w
@@ -654,7 +655,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     elementId: eY8JImFE1kSZfBal88Mf0w
@@ -675,7 +676,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 3
+    order: 4
     repeat: 1
     type: Action
     elementId: RLmmaiStwkKWvBgbLJRUDg
@@ -696,7 +697,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Action
     settings:
@@ -719,7 +720,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: true
-    order: 5
+    order: 6
     repeat: 1
     type: Action
     elementId: 9vzvEnncXkuBrUMIP_udgg
@@ -743,7 +744,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     elementId: TmkiiWVe606BHCiqaQc6Lw
@@ -1244,18 +1245,15 @@ elements:
     name: Button
     source: System
   locators:
-  - name: CSSSELECTOR
-    value: '#mui-79'
-    priority: 0
   - name: XPATH
     value: //button[. = 'Attribuer']
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //div[3]/div[1]/button
-    priority: 2
+    priority: 1
   - name: XPATH
     value: /html/body/div[2]/div[3]/div[1]/button
-    priority: 3
+    priority: 2
 - id: 9vzvEnncXkuBrUMIP_udgg
   name: Parcours attribué
   type:
@@ -1277,14 +1275,11 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //div[1]/div/div/button[. = ' Supprimer']
+    value: //div[1]/div/div[5]/button
     priority: 0
   - name: XPATH
-    value: //div[1]/div/div[5]/button
-    priority: 1
-  - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div[2]/div/div/div[1]/div/div[5]/button
-    priority: 2
+    priority: 1
 projectParameters: []
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
