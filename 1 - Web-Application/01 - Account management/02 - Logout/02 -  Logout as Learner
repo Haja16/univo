@@ -1,7 +1,7 @@
-id: RM287TMQ4kmdzJ1DZyo0Og
+id: tGVUkZBoxkebjgOq9zwXkQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T10:33:23.6117061Z
+created: 2022-11-02T10:35:39.2661978Z
 protocol: 1
 tests:
 - id: EMuEUBOaWEeIjfB1cggdYg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:53:38.0000000
-  modificationDate: 2022-11-02T10:33:23.0000000
+  modificationDate: 2022-11-02T10:35:31.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -27,14 +27,14 @@ tests:
     url: https://app.digitallearningsolution.net/auth/login
     platform: Web
   steps:
-  - id: -JNV9sGrlE-Vc_WQNPFS3w
+  - id: RhRe6XvnxUiesxkbW8Qccg
     comments: ''
     enabled: true
     invertResult: false
     order: 1
     repeat: 1
     type: Test
-    targetTestId: 2A867jnChEmE_hhKJOLtng
+    targetTestId: QxRq7LHPeE6_E5WkRtbDDQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -53,9 +53,6 @@ tests:
     - name: Password
       value: '{{Password}}'
       direction: Input
-    - name: Url
-      value: '{{UrlAdminDashboard}}'
-      direction: Output
     conditions: []
     validations: []
     contexts: []
@@ -113,7 +110,7 @@ tests:
     type: Input
   - name: Identifiant
     description: ''
-    value: support@univo.fr
+    value: qa@univo.fr
     type: Input
   - name: Password
     description: ''
@@ -123,210 +120,6 @@ tests:
     value: ''
     type: Private
 auxTests:
-- id: 2A867jnChEmE_hhKJOLtng
-  name: 01 - Authenticate as admin
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-11-02T07:18:22.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 35000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: 79jOCfcvH0OgOxPennhZ9Q
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: AlwaysPass
-      takeScreenshotConditionType: Inherit
-    action:
-      id: pYLjHfk2cEORV8cwEh2Stw
-      source: Store
-      addonId: Xey4bVsJQEODIUN7ssaJMg
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Wf_NBrmzqUq-tzNRFOGypw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: AlwaysPass
-      takeScreenshotConditionType: Inherit
-    action:
-      id: oss77pMS7U-Bt7cdueaJUw
-      source: Store
-      addonId: Xey4bVsJQEODIUN7ssaJMg
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 3pwdwg8a6kCXqlSYSZLGEA
-    comments: Navigates the specified URL (Auto-generated)
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
-      source: System
-    parameterMaps:
-    - name: url
-      value: '{{ApplicationURL}}'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: nE5Cyc4gVEST-i5OiReBlg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 56a4ad1b-b563-4322-ba29-d165090302b2
-      source: System
-    parameterMaps:
-    - name: url
-      value: '{{Url}}'
-      direction: Output
-    conditions: []
-    validations: []
-    contexts: []
-  - id: yVKY3vcQKEKsi68IRwJATg
-    comments: This step was auto generated from several steps
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Test
-    targetTestId: 9vrxiBqMO0ymt5cDt3s0qQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      source: None
-    parameterMaps:
-    - name: Identifiant
-      value: '{{Identifiant}}'
-      direction: Input
-    - name: Password
-      value: '{{Password}}'
-      direction: Input
-    conditions:
-    - parameter: '{{Url}}'
-      type: Contains
-      invert: false
-      value: auth/login
-    validations: []
-    contexts: []
-  - id: _7Z2w237n0qjOVwtlsb1vA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Addon
-    elementId: x-buI32OdEeyLzVcV1M_iQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: U2veSbE9E0aIfg5GFB2HtQ
-      source: Store
-      addonId: inW2AJJ04ku45E9-RN2zqA
-    parameterMaps:
-    - name: timeout
-      value: 100000
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 8J9zKtb5xUqYFxB6meY2jw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 7
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 56a4ad1b-b563-4322-ba29-d165090302b2
-      source: System
-    parameterMaps:
-    - name: url
-      value: ''
-      direction: Output
-    conditions: []
-    validations:
-    - type: Contains
-      invert: false
-      field: url
-      value: admin/
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
-  - name: Identifiant
-    description: ''
-    value: support@univo.fr
-    type: Input
-  - name: Password
-    description: ''
-    type: Input
-  - name: Url
-    description: ''
-    value: ''
-    type: Output
 - id: oK7BbZotlEGOIDTsoqcImQ
   name: StepLogout
   description: This test was auto generated from steps of the '001 -  Logout' test
@@ -413,6 +206,112 @@ auxTests:
     validations: []
     contexts: []
   parameters: []
+- id: QxRq7LHPeE6_E5WkRtbDDQ
+  name: 01 - Authenticate as Learner
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-31T15:54:48.0000000
+  modificationDate: 2022-11-02T07:30:46.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 5ia2THkdB0yvZtpM9rr7EQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: M_LUKGfvC0qr4ux1K74NCQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Test
+    targetTestId: 9vrxiBqMO0ymt5cDt3s0qQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: Identifiant
+      value: '{{Identifiant}}'
+      direction: Input
+    - name: Password
+      value: '{{Password}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _PgrzpsFIU-xXSVN5Zud0g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 56a4ad1b-b563-4322-ba29-d165090302b2
+      source: System
+    parameterMaps:
+    - name: url
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Contains
+      invert: false
+      field: url
+      value: app/dashboard
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+  - name: Identifiant
+    description: ''
+    value: support@univo.fr
+    type: Input
+  - name: Password
+    description: ''
+    type: Input
 - id: 9vrxiBqMO0ymt5cDt3s0qQ
   name: StepAuthenfication
   description: This test was auto generated from steps of the '003 - S’authentifer avec un email et mot de passe valide' test
@@ -711,23 +610,6 @@ elements:
     priority: 3
 projectParameters: []
 addons:
-- id: Xey4bVsJQEODIUN7ssaJMg
-  source: Store
-  version: 1.1.9
-  actions:
-  - id: pYLjHfk2cEORV8cwEh2Stw
-    name: Delete all cookies
-    description: Delete all cookies
-    className: io.testproject.addons.web.cookies.DeleteAllCookies
-  - id: oss77pMS7U-Bt7cdueaJUw
-    name: Maximize window
-    description: Maximize window
-    className: io.testproject.addons.web.window.MaximizeWindow
-  minSdkLevel: 2
-  minSdkVersion: 0.63.1
-  sdkGeneration: 1
-  language: Java
-  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
 - id: inW2AJJ04ku45E9-RN2zqA
   source: Store
   version: 2.10
