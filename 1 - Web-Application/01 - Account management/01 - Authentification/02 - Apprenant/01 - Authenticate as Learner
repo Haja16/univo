@@ -1,7 +1,7 @@
-id: yR6kVVC9L0OhBSUtpIErlw
+id: Xl2H07fzckqZwuzOOvkF9w
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T07:20:17.0448381Z
+created: 2022-11-02T07:31:00.6339570Z
 protocol: 1
 tests:
 - id: QxRq7LHPeE6_E5WkRtbDDQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-31T15:54:48.0000000
-  modificationDate: 2022-11-02T07:20:17.0000000
+  modificationDate: 2022-11-02T07:30:46.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -97,7 +97,11 @@ tests:
       value: ''
       direction: Output
     conditions: []
-    validations: []
+    validations:
+    - type: Contains
+      invert: false
+      field: url
+      value: app/dashboard
     contexts: []
   parameters:
   - name: ApplicationURL
