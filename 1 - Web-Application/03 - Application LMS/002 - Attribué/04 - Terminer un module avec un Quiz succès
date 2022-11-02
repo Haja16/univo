@@ -1,7 +1,7 @@
-id: PEfVJ2vlgEaOjUwviV8dyw
+id: Uc6aPZItI0W2vgTLxh7VPA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T08:56:41.0173418Z
+created: 2022-11-02T10:22:35.2137629Z
 protocol: 1
 tests:
 - id: Z7L2H389HES6I7MAhe3Czw
@@ -91,7 +91,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-15T14:04:06.0000000
-  modificationDate: 2022-10-24T13:53:53.0000000
+  modificationDate: 2022-11-02T10:22:26.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -101,7 +101,7 @@ auxTests:
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   steps:
-  - id: IwN6JAVp-kuGoFg7obia3Q
+  - id: Q5N8v4a-MEiV3QkJ_AvkaQ
     comments: ''
     enabled: true
     invertResult: false
@@ -132,6 +132,9 @@ auxTests:
       direction: Input
     - name: AppAdminStudio
       value: '{{AppAdminStudio}}'
+      direction: Input
+    - name: Compte
+      value: '{{Compte}}'
       direction: Input
     conditions: []
     validations: []
@@ -183,6 +186,10 @@ auxTests:
     description: ''
     value: App
     type: Input
+  - name: Compte
+    description: ''
+    value: Learner
+    type: Input
 - id: dKgWvOccfkS1Qfr5x6I6bQ
   name: Accèder aux onglets applicationLMS
   description: ''
@@ -191,7 +198,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-14T12:59:12.0000000
-  modificationDate: 2022-11-02T08:55:27.0000000
+  modificationDate: 2022-11-02T09:05:51.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -231,7 +238,7 @@ auxTests:
       value: '{{UrlAdminDashboard}}'
       direction: Output
     conditions:
-    - parameter: '{{AppAdminStudio}}'
+    - parameter: '{{Compte}}'
       type: Equals
       invert: false
       value: Admin
@@ -264,10 +271,10 @@ auxTests:
       value: '{{Password}}'
       direction: Input
     conditions:
-    - parameter: '{{AppAdminStudio}}'
+    - parameter: '{{Compte}}'
       type: Equals
       invert: false
-      value: App
+      value: Learner
     validations: []
     contexts: []
   - id: AJ1DaPCHb0CVZedICex7KA
@@ -294,7 +301,7 @@ auxTests:
       value: '{{AppAdminStudio}}'
       direction: Input
     conditions:
-    - parameter: '{{AppAdminStudio}}'
+    - parameter: '{{Compte}}'
       type: Equals
       invert: false
       value: Admin
@@ -512,6 +519,10 @@ auxTests:
   - name: AppAdminStudio
     description: ''
     value: App
+    type: Input
+  - name: Compte
+    description: ''
+    value: Admin
     type: Input
 - id: 2A867jnChEmE_hhKJOLtng
   name: 01 - Authenticate as admin
@@ -2088,10 +2099,6 @@ addons:
   source: Store
   version: 1.1.9
   actions:
-  - id: _eKo7zbUNEaI9yCeGICBnw
-    name: Get Numbers Only
-    description: Return only numbers from the text
-    className: io.testproject.addons.web.element.GetNumbersOnly
   - id: pYLjHfk2cEORV8cwEh2Stw
     name: Delete all cookies
     description: Delete all cookies
