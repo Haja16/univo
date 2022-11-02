@@ -1,7 +1,7 @@
-id: IYTcsqM4j0qIiL_sIbJQ5g
+id: 0_hmEQY4nkWNPnqi54m9Yw
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T13:56:33.8808706Z
+created: 2022-11-02T14:13:29.1727549Z
 protocol: 1
 tests:
 - id: seYs9GYTlUeR24B0-zUHWQ
@@ -12,11 +12,11 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-11-02T12:16:20.0000000
-  modificationDate: 2022-11-02T13:50:32.0000000
+  modificationDate: 2022-11-02T14:13:22.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
+    stepSleepTime: 2000
     stepTimeout: 15000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
@@ -638,7 +638,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-10-20T07:46:55.0000000
-  modificationDate: 2022-10-31T15:47:46.0000000
+  modificationDate: 2022-11-02T14:05:04.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -648,11 +648,32 @@ auxTests:
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   steps:
-  - id: pTwZ6kypVkqGGQfUPaGP9w
+  - id: kYOTMC8AWUG_ujYj4b8o3w
     comments: ''
     enabled: true
     invertResult: false
     order: 1
+    repeat: 1
+    type: Action
+    elementId: WPjAQrP1V06FqwYYWZFOzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pTwZ6kypVkqGGQfUPaGP9w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
     repeat: 1
     type: Action
     elementId: nrN6GboMbUe27mCbj8HVhQ
@@ -676,7 +697,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     elementId: X6c9G37B00idcnPQxVcSQw
@@ -693,11 +714,32 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
+  - id: BU1vOg2s4UqN2c4Ta0eW7w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 7_3dKGXWG0y3P-MzqUdY3g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: myue_32rIk2BxhjWAKLlOQ
     comments: ''
     enabled: true
     invertResult: false
-    order: 3
+    order: 5
     repeat: 1
     type: Action
     elementId: lnYutaJeJE6My5kHldIXbg
@@ -721,7 +763,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 6
     repeat: 1
     type: Action
     elementId: UgeO7JhzOEGd-I-wndpDLQ
@@ -742,7 +784,7 @@ auxTests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 5
+    order: 7
     repeat: 1
     type: Addon
     elementId: x-buI32OdEeyLzVcV1M_iQ
@@ -767,7 +809,7 @@ auxTests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 6
+    order: 8
     repeat: 1
     type: Action
     settings:
@@ -799,25 +841,6 @@ auxTests:
     description: ''
     type: Input
 elements:
-- id: x-buI32OdEeyLzVcV1M_iQ
-  name: Ignorer
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-9'
-    priority: 0
-  - name: XPATH
-    value: //button/button[. = 'Ignorer']
-    priority: 2
-  - name: XPATH
-    value: //div[2]/div/button/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
-    priority: 3
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
   type:
@@ -921,6 +944,58 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[3]
     priority: 2
+- id: 7_3dKGXWG0y3P-MzqUdY3g
+  name: Champs - password
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //div[8]//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[8]/div/div[2]/input
+    priority: 2
+- id: RLmmaiStwkKWvBgbLJRUDg
+  name: D'ACCORD
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = concat('D', "'", 'ACCORD')]
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div/div[2]/button[2]
+    priority: 2
+- id: WPjAQrP1V06FqwYYWZFOzQ
+  name: email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-24'
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='email']"
+    priority: 0
+  - name: XPATH
+    value: //div[9]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[9]/div/div[2]/div/input
+    priority: 3
 - id: gdMSGGbpPUiyl1FwC4-3oQ
   name: Rechercher des contenus et des utilis...
   type:
@@ -940,6 +1015,23 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div[3]/div[1]/div/div/input
     priority: 3
+- id: Rn2ETWdQEUiNGMlvDhZe9g
+  name: Parcours (Détails apprenant )
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Parcours']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[2]/div/div/div/button[2]
+    priority: 2
 - id: hUWlekfE1ECQQa3kNn8FbQ
   name: Utilisateurs1
   type:
@@ -982,23 +1074,19 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div[3]/button
     priority: 1
-- id: Rn2ETWdQEUiNGMlvDhZe9g
-  name: Parcours (Détails apprenant )
-  description: ''
+- id: 9vzvEnncXkuBrUMIP_udgg
+  name: Parcours attribué
   type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
     source: System
   locators:
   - name: XPATH
-    value: //button[. = 'Parcours']
+    value: //div[3]/div/div[3]/div/div/div[3]
     priority: 0
   - name: XPATH
-    value: //div[2]/div/div/div/button[2]
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]
     priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[2]/div/div/div/button[2]
-    priority: 2
 - id: eY8JImFE1kSZfBal88Mf0w
   name: SupprimerCoursAllemand
   type:
@@ -1015,45 +1103,12 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div[2]/div/div/div[1]/div/div[5]/button
     priority: 2
-- id: RLmmaiStwkKWvBgbLJRUDg
-  name: D'ACCORD
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = concat('D', "'", 'ACCORD')]
-    priority: 0
-  - name: XPATH
-    value: //div[3]/div/div/button[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div[3]/div/div[2]/button[2]
-    priority: 2
-- id: 9vzvEnncXkuBrUMIP_udgg
-  name: Parcours attribué
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[3]/div/div[3]/div/div/div[3]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]
-    priority: 1
 projectParameters: []
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
   version: 1.1.9
   actions:
-  - id: bDphxmVHjUilT1vqXMuW2A
-    name: Is Enabled?
-    description: Run Is Enabled?
-    className: io.testproject.addons.web.element.IsEnabled
   - id: pYLjHfk2cEORV8cwEh2Stw
     name: Delete all cookies
     description: Delete all cookies
