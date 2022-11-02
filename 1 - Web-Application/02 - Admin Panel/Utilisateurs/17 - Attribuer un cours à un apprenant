@@ -1,18 +1,18 @@
-id: EzcvEeANI0C6PtjHRmRhWg
+id: Imbfo05Q0Uy7Qni1otO4qA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T12:04:47.2723063Z
+created: 2022-11-02T12:05:10.8373514Z
 protocol: 1
 tests:
 - id: k2EI520q70KgMYlhy5s0ag
-  name: 16 - Attribuer un cours à un apprenant
+  name: 17 - Attribuer un cours à un apprenant
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-11-02T12:04:47.0000000
-  modificationDate: 2022-11-02T12:04:47.0000000
+  modificationDate: 2022-11-02T12:05:11.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
