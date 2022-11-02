@@ -1,7 +1,7 @@
-id: Aw6Zna2eO0mUcQnkfp9EcQ
+id: S-RFZvYN7EmtgOLO2MFPyg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T08:56:41.0170421Z
+created: 2022-11-02T09:09:00.0793816Z
 protocol: 1
 tests:
 - id: _IXMZyHhcEize-YCrtOpxg
@@ -236,7 +236,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-15T13:51:20.0000000
-  modificationDate: 2022-10-24T13:45:56.0000000
+  modificationDate: 2022-11-02T09:08:05.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -246,7 +246,7 @@ auxTests:
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   steps:
-  - id: TAx6E1q8_U-OOFuDgef8Bw
+  - id: SS9p-kyGJU-FztMaBGegZg
     comments: ''
     enabled: true
     invertResult: false
@@ -277,6 +277,9 @@ auxTests:
       direction: Input
     - name: AppAdminStudio
       value: '{{AppAdminStudio}}'
+      direction: Input
+    - name: Compte
+      value: '{{Compte}}'
       direction: Input
     conditions: []
     validations: []
@@ -327,6 +330,10 @@ auxTests:
   - name: AppAdminStudio
     description: ''
     value: App
+    type: Input
+  - name: Compte
+    description: ''
+    value: Learner
     type: Input
 - id: oKjvooc45U2DEX_GCoa2fQ
   name: '[App] Navigation Attribué - Classes virtuelles'
@@ -466,7 +473,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-14T12:59:12.0000000
-  modificationDate: 2022-11-02T08:55:27.0000000
+  modificationDate: 2022-11-02T09:05:51.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -506,7 +513,7 @@ auxTests:
       value: '{{UrlAdminDashboard}}'
       direction: Output
     conditions:
-    - parameter: '{{AppAdminStudio}}'
+    - parameter: '{{Compte}}'
       type: Equals
       invert: false
       value: Admin
@@ -539,10 +546,10 @@ auxTests:
       value: '{{Password}}'
       direction: Input
     conditions:
-    - parameter: '{{AppAdminStudio}}'
+    - parameter: '{{Compte}}'
       type: Equals
       invert: false
-      value: App
+      value: Learner
     validations: []
     contexts: []
   - id: AJ1DaPCHb0CVZedICex7KA
@@ -569,7 +576,7 @@ auxTests:
       value: '{{AppAdminStudio}}'
       direction: Input
     conditions:
-    - parameter: '{{AppAdminStudio}}'
+    - parameter: '{{Compte}}'
       type: Equals
       invert: false
       value: Admin
@@ -787,6 +794,10 @@ auxTests:
   - name: AppAdminStudio
     description: ''
     value: App
+    type: Input
+  - name: Compte
+    description: ''
+    value: Admin
     type: Input
 - id: 2A867jnChEmE_hhKJOLtng
   name: 01 - Authenticate as admin
@@ -1858,6 +1869,50 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[3]
     priority: 2
+- id: C9SV6pnbbUet9bsOuP6OJQ
+  name: '[App] Tableau de bord'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav[2]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[1]
+    priority: 1
+- id: VXCOipqTmE-gH74XCitjQQ
+  name: '[App] Attribué'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
+    priority: 1
+- id: qlhNoMMFUkCOKSlV8y06sQ
+  name: '[App-Attribué] Classe virtuelle'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Classe virtuelle']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[3]
+    priority: 2
 - id: x-buI32OdEeyLzVcV1M_iQ
   name: Ignorer
   type:
@@ -2022,19 +2077,6 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div[3]/div/a[1]/button
     priority: 1
-- id: C9SV6pnbbUet9bsOuP6OJQ
-  name: '[App] Tableau de bord'
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //nav[2]/div[1]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[1]
-    priority: 1
 - id: VXCOipqTmE-gH74XCitjQQ
   name: '[App] Attribué'
   description: ''
@@ -2096,37 +2138,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[2]
-    priority: 2
-- id: VXCOipqTmE-gH74XCitjQQ
-  name: '[App] Attribué'
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //nav/div[2]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
-    priority: 1
-- id: qlhNoMMFUkCOKSlV8y06sQ
-  name: '[App-Attribué] Classe virtuelle'
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Classe virtuelle']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div//button[3]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[3]
     priority: 2
 - id: MuNcfZiew06Oy7ntlPH0Rw
   name: '[App] Explorer'
