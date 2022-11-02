@@ -1,7 +1,7 @@
-id: wdrXHvT45ES4L-DG4wYKvA
+id: yk1fYmI8PESMW6M9Y6sO7A
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T15:05:38.1520252Z
+created: 2022-11-02T15:05:55.3918725Z
 protocol: 1
 tests:
 - id: k2EI520q70KgMYlhy5s0ag
@@ -418,7 +418,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-11-02T13:34:06.0000000
-  modificationDate: 2022-11-02T13:34:06.0000000
+  modificationDate: 2022-11-02T15:05:54.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -1175,6 +1175,77 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
+- id: hsGiyvNepkq_5qj1TBQ5_Q
+  name: FermetureRecherche
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div[2]/div/button
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/button
+    priority: 1
+- id: eY8JImFE1kSZfBal88Mf0w
+  name: SupprimerCoursAllemand
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div/div[5]/button
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div[2]/div/div/div[1]/div/div[5]/button
+    priority: 1
+- id: RLmmaiStwkKWvBgbLJRUDg
+  name: D'ACCORD
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = concat('D', "'", 'ACCORD')]
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/div/div[2]/button[2]
+    priority: 2
+- id: 9vzvEnncXkuBrUMIP_udgg
+  name: Parcours attribué
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[3]/div/div/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]
+    priority: 1
+- id: TmkiiWVe606BHCiqaQc6Lw
+  name: Attribuer un cours
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = ' Attribuer un cours']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div[1]/div[2]/button[2]
+    priority: 2
 - id: pZsRaHQlT0ygX55sBWk5lg
   name: search
   description: ''
@@ -1269,77 +1340,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[2]/div/div/div/button[2]
-    priority: 2
-- id: hsGiyvNepkq_5qj1TBQ5_Q
-  name: FermetureRecherche
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //body/div[2]/div/button
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[2]/div[3]/button
-    priority: 1
-- id: eY8JImFE1kSZfBal88Mf0w
-  name: SupprimerCoursAllemand
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[1]/div/div[5]/button
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div[2]/div/div/div[1]/div/div[5]/button
-    priority: 1
-- id: RLmmaiStwkKWvBgbLJRUDg
-  name: D'ACCORD
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = concat('D', "'", 'ACCORD')]
-    priority: 0
-  - name: XPATH
-    value: //div[3]/div/div/button[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div[3]/div/div[2]/button[2]
-    priority: 2
-- id: 9vzvEnncXkuBrUMIP_udgg
-  name: Parcours attribué
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[3]/div/div[3]/div/div/div[3]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]
-    priority: 1
-- id: TmkiiWVe606BHCiqaQc6Lw
-  name: Attribuer un cours
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = ' Attribuer un cours']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/button[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div[1]/div[2]/button[2]
     priority: 2
 projectParameters: []
 addons:
