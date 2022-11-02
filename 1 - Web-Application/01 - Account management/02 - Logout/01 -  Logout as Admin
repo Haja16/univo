@@ -1,18 +1,18 @@
-id: CmrpP-HEmE-nvl-VSxFOnA
+id: zecVxwhnkEWPubZPUTEQ2Q
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-10-31T15:52:16.8526196Z
+created: 2022-11-02T10:32:39.3800528Z
 protocol: 1
 tests:
 - id: EMuEUBOaWEeIjfB1cggdYg
-  name: 001 -  Logout
+  name: 01 -  Logout as Admin
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:53:38.0000000
-  modificationDate: 2022-10-24T10:42:13.0000000
+  modificationDate: 2022-11-02T10:32:39.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -124,14 +124,14 @@ tests:
     type: Private
 auxTests:
 - id: 2A867jnChEmE_hhKJOLtng
-  name: 001- Authenticate with a valid email and password - Super Admin
+  name: 01 - Authenticate as admin
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:52:12.0000000
-  modificationDate: 2022-10-31T15:52:14.0000000
+  modificationDate: 2022-11-02T07:18:22.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -582,85 +582,6 @@ auxTests:
     description: ''
     type: Input
 elements:
-- id: IXdP_fl-0Ei9LhnC65P6Vw
-  name: MenuCompte
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-5'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='menu']"
-    priority: 1
-  - name: XPATH
-    value: //button[. = 'Super AdminSUPERADMIN']
-    priority: 2
-  - name: XPATH
-    value: //button[7]
-    priority: 3
-  - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[7]
-    priority: 4
-- id: 96Z8APo6xEqIMrNYshI9Mw
-  name: Déconnecter
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-22'
-    priority: 1
-  - name: XPATH
-    value: //button[. = '  Déconnecter']
-    priority: 0
-  - name: XPATH
-    value: //div[3]/a/button
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[2]/div[3]/ul/div/div/div[3]/a/button
-    priority: 3
-- id: nrN6GboMbUe27mCbj8HVhQ
-  name: email
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='email']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'votremail@mail.com']
-    priority: 1
-  - name: XPATH
-    value: //input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
-    priority: 3
-- id: x-buI32OdEeyLzVcV1M_iQ
-  name: Ignorer
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#mui-9'
-    priority: 0
-  - name: XPATH
-    value: //button/button[. = 'Ignorer']
-    priority: 2
-  - name: XPATH
-    value: //div[2]/div/button/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
-    priority: 3
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
   type:
@@ -747,33 +668,49 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
+- id: IXdP_fl-0Ei9LhnC65P6Vw
+  name: MenuCompte
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-5'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='menu']"
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Super AdminSUPERADMIN']
+    priority: 2
+  - name: XPATH
+    value: //button[7]
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[1]/div[3]/button[7]
+    priority: 4
+- id: 96Z8APo6xEqIMrNYshI9Mw
+  name: Déconnecter
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-22'
+    priority: 1
+  - name: XPATH
+    value: //button[. = '  Déconnecter']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/a/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/ul/div/div/div[3]/a/button
+    priority: 3
 projectParameters: []
 addons:
-- id: inW2AJJ04ku45E9-RN2zqA
-  source: Store
-  version: 2.10
-  actions:
-  - id: U2veSbE9E0aIfg5GFB2HtQ
-    name: Click if visible
-    description: Click {{element}} if it's visible
-    className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
-  - id: Wl9sAAe1r0qiS9fcNrHMPg
-    name: Is clickable? (if visible)
-    description: Is {{element}} clickable?
-    className: io.testproject.addon.IsClickableActions.IsClickableWeb
-  - id: _PKL_koWWkaH7f5nBaj7UA
-    name: Type text (if visible)
-    description: Type {{text}} in {{element}} if visible
-    className: io.testproject.addon.TypeActions.TypeTextIfVisibleWeb
-  - id: NLB4QolOjEiJ4WNftvS4EQ
-    name: Contains text? (if visible)
-    description: '{{element}} contains text {{text}}?'
-    className: io.testproject.addon.ContainsTextActions.ContainsTextIfVisibleWeb
-  minSdkLevel: 2
-  minSdkVersion: 0.65.0
-  sdkGeneration: 1
-  language: Java
-  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
   version: 1.1.9
@@ -786,12 +723,21 @@ addons:
     name: Maximize window
     description: Maximize window
     className: io.testproject.addons.web.window.MaximizeWindow
-  - id: _eKo7zbUNEaI9yCeGICBnw
-    name: Get Numbers Only
-    description: Return only numbers from the text
-    className: io.testproject.addons.web.element.GetNumbersOnly
   minSdkLevel: 2
   minSdkVersion: 0.63.1
   sdkGeneration: 1
   language: Java
   hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: U2veSbE9E0aIfg5GFB2HtQ
+    name: Click if visible
+    description: Click {{element}} if it's visible
+    className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
