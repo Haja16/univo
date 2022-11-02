@@ -1,7 +1,7 @@
-id: fQDOl9NcjkS5ZXFRXjnxkw
+id: AqiB4KhjGEaVcCqQWq5-WA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T13:56:33.8809641Z
+created: 2022-11-02T15:05:38.1522766Z
 protocol: 1
 tests:
 - id: gacKeGaKEUqc8F89fhVWbg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-11-02T13:50:02.0000000
-  modificationDate: 2022-11-02T13:56:24.0000000
+  modificationDate: 2022-11-02T15:05:37.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -27,11 +27,32 @@ tests:
     url: https://app.digitallearningsolution.net/auth/login
     platform: Web
   steps:
-  - id: dDY0-pG0UkaVbPhhX46Rog
+  - id: VLBJrwYcBkWObdS-e6dyMg
     comments: ''
     enabled: true
     invertResult: false
     order: 1
+    repeat: 1
+    type: Action
+    elementId: hsGiyvNepkq_5qj1TBQ5_Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dDY0-pG0UkaVbPhhX46Rog
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
     repeat: 1
     type: Action
     elementId: eY8JImFE1kSZfBal88Mf0w
@@ -52,7 +73,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     elementId: eY8JImFE1kSZfBal88Mf0w
@@ -73,7 +94,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 3
+    order: 4
     repeat: 1
     type: Action
     elementId: RLmmaiStwkKWvBgbLJRUDg
@@ -94,7 +115,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Action
     settings:
@@ -117,7 +138,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: true
-    order: 5
+    order: 6
     repeat: 1
     type: Action
     elementId: 9vzvEnncXkuBrUMIP_udgg
@@ -137,9 +158,43 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: NM0ylUSoREWl-yMx6fSLmw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: TmkiiWVe606BHCiqaQc6Lw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters: []
 auxTests: []
 elements:
+- id: hsGiyvNepkq_5qj1TBQ5_Q
+  name: FermetureRecherche
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div[2]/div/button
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div[3]/button
+    priority: 1
 - id: eY8JImFE1kSZfBal88Mf0w
   name: SupprimerCoursAllemand
   type:
@@ -148,14 +203,11 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //div[1]/div/div/button[. = ' Supprimer']
+    value: //div[1]/div/div[5]/button
     priority: 0
   - name: XPATH
-    value: //div[1]/div/div[5]/button
-    priority: 1
-  - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div[2]/div/div/div[1]/div/div[5]/button
-    priority: 2
+    priority: 1
 - id: RLmmaiStwkKWvBgbLJRUDg
   name: D'ACCORD
   type:
@@ -185,5 +237,21 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]
     priority: 1
+- id: TmkiiWVe606BHCiqaQc6Lw
+  name: Attribuer un cours
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = ' Attribuer un cours']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/div[3]/div/div[1]/div[2]/button[2]
+    priority: 2
 projectParameters: []
 addons: []
