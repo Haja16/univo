@@ -1,18 +1,18 @@
-id: zecVxwhnkEWPubZPUTEQ2Q
+id: RM287TMQ4kmdzJ1DZyo0Og
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T10:32:39.3800528Z
+created: 2022-11-02T10:33:23.6117061Z
 protocol: 1
 tests:
 - id: EMuEUBOaWEeIjfB1cggdYg
-  name: 01 -  Logout as Admin
+  name: 02 -  Logout as Learner
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-09T15:53:38.0000000
-  modificationDate: 2022-11-02T10:32:39.0000000
+  modificationDate: 2022-11-02T10:33:23.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
