@@ -1,7 +1,7 @@
-id: 5mWeGiVas06926H12FbK1Q
+id: xZzqnU5nrEqdxbKeyjE0bQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T15:37:57.7955488Z
+created: 2022-11-03T11:24:45.6007701Z
 protocol: 1
 tests:
 - id: Z7L2H389HES6I7MAhe3Czw
@@ -98,7 +98,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-15T14:04:06.0000000
-  modificationDate: 2022-11-02T15:35:25.0000000
+  modificationDate: 2022-11-03T11:24:37.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -184,7 +184,7 @@ auxTests:
     type: Input
   - name: Identifiant
     description: ''
-    value: support@univo.fr
+    value: qa@univo.fr
     type: Input
   - name: Password
     description: ''
@@ -743,7 +743,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-31T15:54:48.0000000
-  modificationDate: 2022-11-02T15:37:57.0000000
+  modificationDate: 2022-11-02T15:40:53.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -836,7 +836,7 @@ auxTests:
     type: Input
   - name: Identifiant
     description: ''
-    value: support@univo.fr
+    value: qa@univo.fr
     type: Input
   - name: Password
     description: ''
@@ -2220,10 +2220,6 @@ addons:
   source: Store
   version: 1.1.9
   actions:
-  - id: _eKo7zbUNEaI9yCeGICBnw
-    name: Get Numbers Only
-    description: Return only numbers from the text
-    className: io.testproject.addons.web.element.GetNumbersOnly
   - id: pYLjHfk2cEORV8cwEh2Stw
     name: Delete all cookies
     description: Delete all cookies
