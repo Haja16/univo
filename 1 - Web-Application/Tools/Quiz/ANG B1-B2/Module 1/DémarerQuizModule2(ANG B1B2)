@@ -1,0 +1,145 @@
+id: jMDysuEggUu3RJ6NTWpi6Q
+projectId: DNmk3gQ_REqQ7f6PmqHvZw
+projectName: Univo
+created: 2022-11-08T15:46:40.2132814Z
+protocol: 1
+tests:
+- id: 6XvnbFCb7kO9qL6193zWcw
+  name: DémarerQuizModule2(ANG B1B2)
+  description: This test was auto generated from steps of the '04 - Terminer un module avec un Quiz succès' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-11-07T15:40:26.0000000
+  modificationDate: 2022-11-08T15:46:39.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 2000
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: uX8skHSLl0y8h_jfyw997w
+    name: UnivoDev- WebApplication
+    url: https://app.digitallearningsolution.net/auth/login
+    platform: Web
+  steps:
+  - id: uOY6GMBDXkmEIOltWnqq8A
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: zx2r8K9aB0OSsL4f_46Ryw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KDPiUUYXN0KOr_K8yP0cFQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: cqA77F_KNEipTYg8OwhWXQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Rpw_BNnhD0mQKxjFl5MILg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: WtTSuq8LTEe2Ol8fps6Xww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: WtTSuq8LTEe2Ol8fps6Xww
+  name: Démarrer le quiz
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Démarrer le quiz']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[2]/div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/button
+    priority: 2
+- id: zx2r8K9aB0OSsL4f_46Ryw
+  name: MODULE 2 (ANG B1B2)
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'MODULE 2']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[3]/button
+    priority: 2
+- id: cqA77F_KNEipTYg8OwhWXQ
+  name: >-
+    Quiz du module 2
+
+    10 min
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Quiz du module 210 min']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/div/div[10]/div[2]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[3]/div/div/div/div[10]/div[2]/a/button
+    priority: 2
+projectParameters: []
+addons: []
