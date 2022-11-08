@@ -1,7 +1,7 @@
-id: 5voviG7pQEqKjmHJlspx7g
+id: JiyRn7EURkyrRwgXoWHAHg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-08T15:47:36.0346182Z
+created: 2022-11-08T15:50:11.6385494Z
 protocol: 1
 tests:
 - id: Z7L2H389HES6I7MAhe3Czw
@@ -3058,6 +3058,22 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div/div/div/div[2]/div/button/button
     priority: 3
+- id: qrFkr3Y8fUaraZTTZeNLgw
+  name: Continuer(ANG B1-B2)
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div/div/button[. = 'Continuer']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[2]/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[2]/div[2]/div/div[1]/div/div[2]/button[2]
+    priority: 2
 - id: Q3pBqb2BU0CzITtQXS8SWg
   name: MODULE 1 (ANG B1-B2)
   type:
@@ -3127,22 +3143,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div[3]/div[3]/div/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/button
-    priority: 2
-- id: qrFkr3Y8fUaraZTTZeNLgw
-  name: Continuer(ANG B1-B2)
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[1]/div/div/button[. = 'Continuer']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/div[1]/div/div[2]/button[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[3]/div[2]/div/div[2]/div[2]/div/div[1]/div/div[2]/button[2]
     priority: 2
 projectParameters: []
 addons:
