@@ -1,7 +1,7 @@
-id: c3Pneyhk6kC2Q7LvkAWTdA
+id: RgjgZLFOV064ehzJRwgcIA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-07T12:21:42.1101472Z
+created: 2022-11-08T10:58:17.5016589Z
 protocol: 1
 tests:
 - id: Z7L2H389HES6I7MAhe3Czw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-28T13:24:36.0000000
-  modificationDate: 2022-11-07T12:21:42.0000000
+  modificationDate: 2022-11-07T15:59:13.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -62,6 +62,146 @@ tests:
     - name: Compte
       value: '{{Compte}}'
       direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OPcGDUDxskGFpdkY25HT2g
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Test
+    targetTestId: yErSbckT50KnkfVW9e-1hA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FE5XMRj7jUCsG6XkSpp2Hg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Test
+    targetTestId: 9GFiABKe4kKgVqlh4NaARw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kUSM4_UdzUGm_FRIfWXqDg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Test
+    targetTestId: 6XvnbFCb7kO9qL6193zWcw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: u85fcCRVlkeVAEXAsSfcYA
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Test
+    targetTestId: aN7bETPHskyUNuOwWmnRzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Vkt_WWWLvEyZPKO3E4nEBA
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Test
+    targetTestId: qWuM8HkE7EuxctCYxKFLfQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SXOihkE2cUu12T3H-1ahIw
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Test
+    targetTestId: 82Z5hF_5h0iBmaS1AaAHsw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UdogjsMo70-MRTbgUCyXKw
+    enabled: false
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: 6d-Y9UwTLkuCpcBK_rHbLA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -197,6 +337,484 @@ auxTests:
     description: ''
     value: Learner
     type: Input
+- id: yErSbckT50KnkfVW9e-1hA
+  name: ContinuerCours(ANG B1B2)
+  description: This test was auto generated from steps of the '04 - Terminer un module avec un Quiz succès' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-11-07T15:59:13.0000000
+  modificationDate: 2022-11-07T15:59:13.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 2000
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: TwKFeHZUdUyrmgFCAbp-1Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: qrFkr3Y8fUaraZTTZeNLgw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Q9Z7CteazEi4DlssmmVJHw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: qrFkr3Y8fUaraZTTZeNLgw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: 9GFiABKe4kKgVqlh4NaARw
+  name: DémarrerQuizModule1(ANG B1B2)
+  description: This test was auto generated from steps of the '04 - Terminer un module avec un Quiz succès' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-11-07T15:35:30.0000000
+  modificationDate: 2022-11-07T15:35:30.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 2000
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: YwSySUm28kCBCPSMlwjlVQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: Q3pBqb2BU0CzITtQXS8SWg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AmWZx-8ZF0izSUnHOooXkg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: Q3pBqb2BU0CzITtQXS8SWg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LsXLUtfp_E-L-BQEFUz7Mw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: xorskNx57kisHGA-00eYKQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5k_i6qaX10mgV6vOg6l8vg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: WtTSuq8LTEe2Ol8fps6Xww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: 6XvnbFCb7kO9qL6193zWcw
+  name: DémarerQuizModule2(ANG B1B2)
+  description: This test was auto generated from steps of the '04 - Terminer un module avec un Quiz succès' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-11-07T15:40:26.0000000
+  modificationDate: 2022-11-07T15:40:26.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 2000
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: uOY6GMBDXkmEIOltWnqq8A
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: zx2r8K9aB0OSsL4f_46Ryw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KDPiUUYXN0KOr_K8yP0cFQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: cqA77F_KNEipTYg8OwhWXQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Rpw_BNnhD0mQKxjFl5MILg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: WtTSuq8LTEe2Ol8fps6Xww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: aN7bETPHskyUNuOwWmnRzQ
+  name: DémarrerQuizModule3(ANG B1B2]
+  description: This test was auto generated from steps of the '04 - Terminer un module avec un Quiz succès' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-11-07T15:46:10.0000000
+  modificationDate: 2022-11-07T15:46:10.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 2000
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: NaJl47uzwE6GCnjAAOo9_A
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: zUpBHvlI40-oO3fI0yZYIA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9GRQXlzGmE2CYyNn5r5pwQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: PxgX7PtLW0i8ThFxiyxQsw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DqK40oZCV0CBmkwhitcd4g
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: WtTSuq8LTEe2Ol8fps6Xww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: qWuM8HkE7EuxctCYxKFLfQ
+  name: DémarrerQuizModule4(ANG B1B2)
+  description: This test was auto generated from steps of the '04 - Terminer un module avec un Quiz succès' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-11-07T15:52:39.0000000
+  modificationDate: 2022-11-07T15:52:39.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 2000
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: pMWfI7xTwUKygjTUVSE1Uw
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 3mXj_vrK2UeTKupsVOG_Yg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5GOVbhhv-E-tYZcKU4rtoQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 0gqHBFojyUe_ezcgdqwVsg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8Hnhrkt4ZEyLOdT0M4b9Qg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: WtTSuq8LTEe2Ol8fps6Xww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: 82Z5hF_5h0iBmaS1AaAHsw
+  name: DémarrerQuizModule5(ANG B1B2)
+  description: This test was auto generated from steps of the '04 - Terminer un module avec un Quiz succès' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-11-07T15:53:25.0000000
+  modificationDate: 2022-11-07T15:53:25.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 2000
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: HMik0EnlBEOwzH4mxH6q6Q
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 7LucGTThBkmrYMgxCDTh5g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lBdqNAw9LUmHTX-WMz1Ogg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: kBCzrjgF70m1SedFM1kFCg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: T53_imeTaEm7fNDW9s-YgQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: WtTSuq8LTEe2Ol8fps6Xww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
 - id: dKgWvOccfkS1Qfr5x6I6bQ
   name: Accèder aux onglets applicationLMS
   description: ''
@@ -735,6 +1353,112 @@ auxTests:
     description: ''
     value: ''
     type: Output
+- id: QxRq7LHPeE6_E5WkRtbDDQ
+  name: 01 - Authenticate as Learner
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-31T15:54:48.0000000
+  modificationDate: 2022-11-02T15:40:53.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 2000
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 5ia2THkdB0yvZtpM9rr7EQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: M_LUKGfvC0qr4ux1K74NCQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Test
+    targetTestId: 9vrxiBqMO0ymt5cDt3s0qQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: Identifiant
+      value: '{{Identifiant}}'
+      direction: Input
+    - name: Password
+      value: '{{Password}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _PgrzpsFIU-xXSVN5Zud0g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 56a4ad1b-b563-4322-ba29-d165090302b2
+      source: System
+    parameterMaps:
+    - name: url
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Contains
+      invert: false
+      field: url
+      value: app/dashboard
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+  - name: Identifiant
+    description: ''
+    value: qa@univo.fr
+    type: Input
+  - name: Password
+    description: ''
+    type: Input
 - id: rXx_E8Q4BESl-BN53FNPmA
   name: Basculer vers Admin ou App ou Studio
   description: ''
@@ -879,71 +1603,6 @@ auxTests:
     description: ''
     value: App
     type: Input
-- id: OVNJikS9eE2Kmd3J5LN88Q
-  name: '[App] Navigation Tableau de bord'
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-15T12:46:41.0000000
-  modificationDate: 2022-10-15T12:51:12.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: M0sM59ZcQ0m9XTmYnZpcIw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: C9SV6pnbbUet9bsOuP6OJQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a59f3a20-d08d-4293-9add-b279f92e6c41
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 0qESTgd1XECus4tgg-tuzA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: C9SV6pnbbUet9bsOuP6OJQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
 - id: TM6qXCa54UWHRB7_bclLXw
   name: '[App] Navigation Attribué - Tous les contenus'
   description: ''
@@ -1051,71 +1710,6 @@ auxTests:
     description: Auto generated application URL parameter
     value: https://app.digitallearningsolution.net/auth/login
     type: Input
-- id: Efq8exoOjkuYHMyjFThFAw
-  name: '[App] Navigation Attribué Cours'
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-10-15T13:06:53.0000000
-  modificationDate: 2022-10-15T13:07:42.0000000
-  settings:
-    automationAssistant: true
-    appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: WhKRYisUqUynlgajF6HhcQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: VXCOipqTmE-gH74XCitjQQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: jHt7B9DuvUimkJOBEgYb4A
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: S2biZAch90uYkZMRO4FkmQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://app.digitallearningsolution.net/auth/login
-    type: Input
 - id: oKjvooc45U2DEX_GCoa2fQ
   name: '[App] Navigation Attribué - Classes virtuelles'
   description: ''
@@ -1163,6 +1757,71 @@ auxTests:
     repeat: 1
     type: Action
     elementId: qlhNoMMFUkCOKSlV8y06sQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: Efq8exoOjkuYHMyjFThFAw
+  name: '[App] Navigation Attribué Cours'
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-10-15T13:06:53.0000000
+  modificationDate: 2022-10-15T13:07:42.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: WhKRYisUqUynlgajF6HhcQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: VXCOipqTmE-gH74XCitjQQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jHt7B9DuvUimkJOBEgYb4A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: S2biZAch90uYkZMRO4FkmQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -1376,31 +2035,32 @@ auxTests:
     description: Auto generated application URL parameter
     value: https://app.digitallearningsolution.net/auth/login
     type: Input
-- id: QxRq7LHPeE6_E5WkRtbDDQ
-  name: 01 - Authenticate as Learner
+- id: OVNJikS9eE2Kmd3J5LN88Q
+  name: '[App] Navigation Tableau de bord'
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
-  creationDate: 2022-10-31T15:54:48.0000000
-  modificationDate: 2022-11-02T15:40:53.0000000
+  creationDate: 2022-10-15T12:46:41.0000000
+  modificationDate: 2022-10-15T12:51:12.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
-    stepSleepTime: 2000
+    stepSleepTime: 500
     stepTimeout: 15000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   steps:
-  - id: 5ia2THkdB0yvZtpM9rr7EQ
-    comments: Navigates the specified URL (Auto-generated)
+  - id: M0sM59ZcQ0m9XTmYnZpcIw
+    comments: ''
     enabled: true
     invertResult: false
     order: 1
     repeat: 1
     type: Action
+    elementId: C9SV6pnbbUet9bsOuP6OJQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -1408,23 +2068,20 @@ auxTests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
       source: System
-    parameterMaps:
-    - name: url
-      value: '{{ApplicationURL}}'
-      direction: Input
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: M_LUKGfvC0qr4ux1K74NCQ
+  - id: 0qESTgd1XECus4tgg-tuzA
     comments: ''
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
-    type: Test
-    targetTestId: 9vrxiBqMO0ymt5cDt3s0qQ
+    type: Action
+    elementId: C9SV6pnbbUet9bsOuP6OJQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -1432,55 +2089,16 @@ auxTests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      source: None
-    parameterMaps:
-    - name: Identifiant
-      value: '{{Identifiant}}'
-      direction: Input
-    - name: Password
-      value: '{{Password}}'
-      direction: Input
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
     conditions: []
     validations: []
-    contexts: []
-  - id: _PgrzpsFIU-xXSVN5Zud0g
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 56a4ad1b-b563-4322-ba29-d165090302b2
-      source: System
-    parameterMaps:
-    - name: url
-      value: ''
-      direction: Output
-    conditions: []
-    validations:
-    - type: Contains
-      invert: false
-      field: url
-      value: app/dashboard
     contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://app.digitallearningsolution.net/auth/login
-    type: Input
-  - name: Identifiant
-    description: ''
-    value: qa@univo.fr
-    type: Input
-  - name: Password
-    description: ''
     type: Input
 - id: 9vrxiBqMO0ymt5cDt3s0qQ
   name: StepAuthenfication
@@ -1693,6 +2311,63 @@ auxTests:
     description: ''
     type: Input
 elements:
+- id: 6d-Y9UwTLkuCpcBK_rHbLA
+  name: Envoyer
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-103'
+    priority: 0
+  - name: XPATH
+    value: //button[. = 'Envoyer']
+    priority: 1
+  - name: XPATH
+    value: //form//button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[2]/div/div[1]/div/form/div[2]/button
+    priority: 3
+- id: x-buI32OdEeyLzVcV1M_iQ
+  name: Ignorer
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-9'
+    priority: 0
+  - name: XPATH
+    value: //button/button[. = 'Ignorer']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/button/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
+    priority: 3
+- id: WPjAQrP1V06FqwYYWZFOzQ
+  name: email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-24'
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='email']"
+    priority: 0
+  - name: XPATH
+    value: //div[9]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[9]/div/div[2]/div/input
+    priority: 3
 - id: nrN6GboMbUe27mCbj8HVhQ
   name: email
   type:
@@ -1727,6 +2402,23 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: 7_3dKGXWG0y3P-MzqUdY3g
+  name: Champs - password
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //div[8]//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[8]/div/div[2]/input
     priority: 2
 - id: lnYutaJeJE6My5kHldIXbg
   name: password
@@ -1865,20 +2557,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
     priority: 1
-- id: MuNcfZiew06Oy7ntlPH0Rw
-  name: '[App] Explorer'
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //nav/div[3]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
-    priority: 1
 - id: REtRaJpsqUOawqfRvjz0qw
   name: '[App- Attribué] Tous les contenus'
   description: ''
@@ -1896,6 +2574,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[1]
     priority: 2
+- id: VXCOipqTmE-gH74XCitjQQ
+  name: '[App] Attribué'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
+    priority: 1
 - id: S2biZAch90uYkZMRO4FkmQ
   name: '[App-Attribué] Cours'
   description: ''
@@ -1913,6 +2605,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[2]
     priority: 2
+- id: VXCOipqTmE-gH74XCitjQQ
+  name: '[App] Attribué'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[2]
+    priority: 1
 - id: qlhNoMMFUkCOKSlV8y06sQ
   name: '[App-Attribué] Classe virtuelle'
   description: ''
@@ -1930,6 +2636,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[2]/div/div[1]/div[2]/div/div/button[3]
     priority: 2
+- id: MuNcfZiew06Oy7ntlPH0Rw
+  name: '[App] Explorer'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
+    priority: 1
 - id: rMYx9Id8Wkq_4qLlLV6SrQ
   name: '[App- Explorer ] Tous les contenus'
   description: ''
@@ -1947,6 +2667,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[1]
     priority: 2
+- id: MuNcfZiew06Oy7ntlPH0Rw
+  name: '[App] Explorer'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
+    priority: 1
 - id: E-mGp9k71U6nMRuNEwohGA
   name: '[App-Explorer] Cours'
   description: ''
@@ -1964,6 +2698,20 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[2]
     priority: 2
+- id: MuNcfZiew06Oy7ntlPH0Rw
+  name: '[App] Explorer'
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //nav/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div[1]/div[1]/div[1]/nav[2]/div[3]
+    priority: 1
 - id: 1rtbEbdxsU6URULQneqBrA
   name: '[App-Explorer] Classes virtuelles'
   description: ''
@@ -1980,23 +2728,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div[3]/div[3]/div/div[1]/div[2]/div/div/button[3]
-    priority: 2
-- id: 7_3dKGXWG0y3P-MzqUdY3g
-  name: Champs - password
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='password']"
-    priority: 0
-  - name: XPATH
-    value: //div[8]//input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[8]/div/div[2]/input
     priority: 2
 - id: WPjAQrP1V06FqwYYWZFOzQ
   name: email
@@ -2017,6 +2748,380 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[9]/div/div[2]/div/input
     priority: 3
+- id: nrN6GboMbUe27mCbj8HVhQ
+  name: email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='email']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'votremail@mail.com']
+    priority: 1
+  - name: XPATH
+    value: //input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/input
+    priority: 3
+- id: X6c9G37B00idcnPQxVcSQw
+  name: Suivant
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Suivant']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: 7_3dKGXWG0y3P-MzqUdY3g
+  name: Champs - password
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //div[8]//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div[3]/div/div[3]/div/div/form/div/div[8]/div/div[2]/input
+    priority: 2
+- id: lnYutaJeJE6My5kHldIXbg
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/input
+    priority: 2
+- id: UgeO7JhzOEGd-I-wndpDLQ
+  name: Je me connecte
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Je me connecte']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div/div/div[2]/div/div[2]/button
+    priority: 2
+- id: x-buI32OdEeyLzVcV1M_iQ
+  name: Ignorer
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#mui-9'
+    priority: 0
+  - name: XPATH
+    value: //button/button[. = 'Ignorer']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/button/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div/div/div[2]/div/button/button
+    priority: 3
+- id: Q3pBqb2BU0CzITtQXS8SWg
+  name: MODULE 1 (ANG B1-B2)
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'MODULE 1']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[1]/div/div[2]/div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[2]/button
+    priority: 2
+- id: xorskNx57kisHGA-00eYKQ
+  name: >-
+    Quiz du module 1
+
+    10 min
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Quiz du module 110 min']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/div/div[11]/div[2]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[2]/div/div/div/div[11]/div[2]/a/button
+    priority: 2
+- id: WtTSuq8LTEe2Ol8fps6Xww
+  name: Démarrer le quiz
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Démarrer le quiz']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[2]/div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/button
+    priority: 2
+- id: zx2r8K9aB0OSsL4f_46Ryw
+  name: MODULE 2 (ANG B1B2)
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'MODULE 2']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[3]/button
+    priority: 2
+- id: cqA77F_KNEipTYg8OwhWXQ
+  name: >-
+    Quiz du module 2
+
+    10 min
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Quiz du module 210 min']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/div/div[10]/div[2]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[3]/div/div/div/div[10]/div[2]/a/button
+    priority: 2
+- id: WtTSuq8LTEe2Ol8fps6Xww
+  name: Démarrer le quiz
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Démarrer le quiz']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[2]/div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/button
+    priority: 2
+- id: zUpBHvlI40-oO3fI0yZYIA
+  name: MODULE 3 (ANG B1B2)
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'MODULE 3']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[4]/button
+    priority: 2
+- id: PxgX7PtLW0i8ThFxiyxQsw
+  name: >-
+    Quiz du module 3
+
+    10 min
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Quiz du module 310 min']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/div/div/div/div[12]/div[2]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[4]/div/div/div/div[12]/div[2]/a/button
+    priority: 2
+- id: WtTSuq8LTEe2Ol8fps6Xww
+  name: Démarrer le quiz
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Démarrer le quiz']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[2]/div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/button
+    priority: 2
+- id: 3mXj_vrK2UeTKupsVOG_Yg
+  name: MODULE 4 (ANG B1B2)
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'MODULE 4']
+    priority: 0
+  - name: XPATH
+    value: //div[5]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[5]/button
+    priority: 2
+- id: 0gqHBFojyUe_ezcgdqwVsg
+  name: >-
+    Quiz du module 4
+
+    10 min
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Quiz du module 410 min']
+    priority: 0
+  - name: XPATH
+    value: //div[5]/div/div/div/div[11]/div[2]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[5]/div/div/div/div[11]/div[2]/a/button
+    priority: 2
+- id: WtTSuq8LTEe2Ol8fps6Xww
+  name: Démarrer le quiz
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Démarrer le quiz']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[2]/div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/button
+    priority: 2
+- id: 7LucGTThBkmrYMgxCDTh5g
+  name: MODULE 5 (ANG B1B2)
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'MODULE 5']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[6]/button
+    priority: 2
+- id: kBCzrjgF70m1SedFM1kFCg
+  name: >-
+    Quiz du module 5
+
+    10 min
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Quiz du module 510 min']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/div/div/div/div[11]/div[2]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[6]/div/div/div/div[11]/div[2]/a/button
+    priority: 2
+- id: WtTSuq8LTEe2Ol8fps6Xww
+  name: Démarrer le quiz
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Démarrer le quiz']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[2]/div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/button
+    priority: 2
+- id: qrFkr3Y8fUaraZTTZeNLgw
+  name: Continuer(ANG B1-B2)
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div/div/button[. = 'Continuer']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[2]/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[2]/div/div[2]/div[2]/div/div[1]/div/div[2]/button[2]
+    priority: 2
 projectParameters: []
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
