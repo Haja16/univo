@@ -1,7 +1,7 @@
-id: Rqbhdw--80O7dEudj7phaA
+id: Rbrn98mBM0CtbLzRxaf2TA
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-08T14:51:05.0182993Z
+created: 2022-11-08T15:19:07.6337227Z
 protocol: 1
 tests:
 - id: Z7L2H389HES6I7MAhe3Czw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-28T13:24:36.0000000
-  modificationDate: 2022-11-08T14:49:08.0000000
+  modificationDate: 2022-11-08T15:18:11.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -169,7 +169,254 @@ tests:
     - name: ApplicationURL
       value: '{{ApplicationURL}}'
       direction: Input
-    conditions: []
+    conditions:
+    - parameter: '{{Question}}'
+      type: Contains
+      invert: false
+      value: Prohibition
+    validations: []
+    contexts: []
+  - id: -Bsc6xqLVUKuyL5K8g27DQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Test
+    targetTestId: JMso8FhCw06JPLCF_ZB-6w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{Question}}'
+      type: Contains
+      invert: false
+      value: 'They should work harder if they want to see results. '
+    validations: []
+    contexts: []
+  - id: -Dv3dg0ngEqE4PGCEFEhgQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Test
+    targetTestId: sfcbzSE8OECxac6tnsNOqA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{Question}}'
+      type: Equals
+      invert: false
+      value: 'Lequel de ses traits de caractères est négatif '
+    validations: []
+    contexts: []
+  - id: zU_mmrduakmQjL7dMtB-tw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Test
+    targetTestId: lQqLnkSCREe-AMuill1bmQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{Question}}'
+      type: Contains
+      invert: false
+      value: 'Laquelle de ces phrases est au present perfect continuous '
+    validations: []
+    contexts: []
+  - id: LAdw0o-c80-UZsit1A7s9g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Test
+    targetTestId: AAXrfi8uu0SNAnxSkqSP9Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{Question}}'
+      type: Contains
+      invert: false
+      value: 'Laquelle de ces phrases est au present perfect continuous '
+    validations: []
+    contexts: []
+  - id: Mb6825vv-kyzAb2CJkCJ2Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Test
+    targetTestId: szRXRT3p6ku9gBWIUCFFhQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{Question}}'
+      type: Contains
+      invert: false
+      value: translate 30 languages
+    validations: []
+    contexts: []
+  - id: HQ61HqEav0ejDB7K4vF3mw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Test
+    targetTestId: 7aUDFfKqj0a-veYmZZugZg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{Question}}'
+      type: Contains
+      invert: false
+      value: I need to pack my bag
+    validations: []
+    contexts: []
+  - id: ZKJeVWuBv06-6FTB9Gseiw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Test
+    targetTestId: y8O_bcalyk6VSY8QRO58tA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{Question}}'
+      type: Contains
+      invert: false
+      value: 'I have a reservation under the name Michael Scott. '
+    validations: []
+    contexts: []
+  - id: 5xS5YwWENECLL6WwuY0ZQw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Test
+    targetTestId: 4iUvM1sU80imyXaNWBZlqQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{Question}}'
+      type: Equals
+      invert: false
+      value: Laquelle de ces phrases est correcte ?
+    validations: []
+    contexts: []
+  - id: JdcMfemM60G-_0sWubWGsw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Test
+    targetTestId: 3Q8c4N5QwEqDhGelV4uHPA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions:
+    - parameter: '{{Question}}'
+      type: Contains
+      invert: false
+      value: 'Laquelle de ces phrases est correcte '
     validations: []
     contexts: []
   parameters:
@@ -500,6 +747,213 @@ auxTests:
   version: 0.1
   creationDate: 2022-11-08T14:41:13.0000000
   modificationDate: 2022-11-08T14:44:28.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: JMso8FhCw06JPLCF_ZB-6w
+  name: ReponseQuestion2Module1(ANG B1B2)
+  description: 2.Que démontre la phrase « They should work harder if they want to see results.
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-11-08T14:52:16.0000000
+  modificationDate: 2022-11-08T14:52:22.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: sfcbzSE8OECxac6tnsNOqA
+  name: ReponseQuestion3Module1(ANG B1B2)
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-11-08T14:55:57.0000000
+  modificationDate: 2022-11-08T14:56:02.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: lQqLnkSCREe-AMuill1bmQ
+  name: ReponseQuestion4Module1(ANG B1B2)
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-11-08T14:56:48.0000000
+  modificationDate: 2022-11-08T14:56:53.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: AAXrfi8uu0SNAnxSkqSP9Q
+  name: ReponseQuestion5Module1(ANG B1B2)
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-11-08T14:57:35.0000000
+  modificationDate: 2022-11-08T14:57:40.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: szRXRT3p6ku9gBWIUCFFhQ
+  name: ReponseQuestion6Module1(ANG B1B2)
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-11-08T14:58:01.0000000
+  modificationDate: 2022-11-08T14:58:06.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: 7aUDFfKqj0a-veYmZZugZg
+  name: ReponseQuestion7Module1(ANG B1B2)
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-11-08T14:58:27.0000000
+  modificationDate: 2022-11-08T14:58:32.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: y8O_bcalyk6VSY8QRO58tA
+  name: ReponseQuestion8Module1(ANG B1B2)
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-11-08T14:58:55.0000000
+  modificationDate: 2022-11-08T14:58:59.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: 4iUvM1sU80imyXaNWBZlqQ
+  name: ReponseQuestion9Module1(ANG B1B2)
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-11-08T14:59:22.0000000
+  modificationDate: 2022-11-08T14:59:27.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+- id: 3Q8c4N5QwEqDhGelV4uHPA
+  name: ReponseQuestion10Module1(ANG B1B2)
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-11-08T14:59:48.0000000
+  modificationDate: 2022-11-08T14:59:52.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
