@@ -1,7 +1,7 @@
-id: VITi5kX_vkWi4zi8Fho7IQ
+id: nUDUvyNQoUSrSc_12wqBww
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-08T15:50:11.6392524Z
+created: 2022-11-09T14:11:54.3763550Z
 protocol: 1
 tests:
 - id: 9GFiABKe4kKgVqlh4NaARw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-11-07T15:35:30.0000000
-  modificationDate: 2022-11-08T15:46:48.0000000
+  modificationDate: 2022-11-09T12:53:45.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -75,18 +75,22 @@ tests:
     invertResult: false
     order: 3
     repeat: 1
-    type: Action
+    type: Addon
     elementId: ZMxYMMCY1UuUWZ9ybsdkSw
     settings:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: Inherit
+      failureBehaviorType: AlwaysPass
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
+      id: U2veSbE9E0aIfg5GFB2HtQ
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: 2000
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -110,23 +114,52 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 5k_i6qaX10mgV6vOg6l8vg
+  - id: CkGqrTruO0iaHDJ9_2yy6g
+    comments: ''
     enabled: true
     invertResult: false
     order: 5
     repeat: 1
-    type: Action
+    type: Addon
+    elementId: fAOQwsQfHUCoFMvOOm4uNw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: U2veSbE9E0aIfg5GFB2HtQ
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: 2000
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5k_i6qaX10mgV6vOg6l8vg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
     elementId: WtTSuq8LTEe2Ol8fps6Xww
     settings:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: Inherit
+      failureBehaviorType: AlwaysPass
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
+      id: U2veSbE9E0aIfg5GFB2HtQ
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: 2000
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -156,18 +189,15 @@ elements:
     name: Button
     source: System
   locators:
-  - name: CSSSELECTOR
-    value: '#mui-65'
-    priority: 0
   - name: XPATH
     value: //button[. = 'Quiz du module 1']
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //div[2]/div/div/div/div[3]//button
-    priority: 2
+    priority: 1
   - name: XPATH
     value: /html/body/div/div[3]/div[2]/div/div[3]/div/div[1]/div/div[2]/div[2]/div/div/div/div[3]/div[2]/a/button
-    priority: 3
+    priority: 2
 - id: xorskNx57kisHGA-00eYKQ
   name: >-
     Quiz du module 1
@@ -187,6 +217,22 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]/div[3]/div/div[2]/div[1]/div/div[2]/div[2]/div/div/div/div[11]/div[2]/a/button
     priority: 2
+- id: fAOQwsQfHUCoFMvOOm4uNw
+  name: Recommencer le quiz
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Recommencer le quiz']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[4]/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div[3]/div/div[2]/div[2]/div/div[1]/div/div[2]/div/div[4]/div/button
+    priority: 2
 - id: WtTSuq8LTEe2Ol8fps6Xww
   name: Démarrer le quiz
   type:
@@ -204,4 +250,17 @@ elements:
     value: /html/body/div/div[3]/div[3]/div/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/button
     priority: 2
 projectParameters: []
-addons: []
+addons:
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: U2veSbE9E0aIfg5GFB2HtQ
+    name: Click if visible
+    description: Click {{element}} if it's visible
+    className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
