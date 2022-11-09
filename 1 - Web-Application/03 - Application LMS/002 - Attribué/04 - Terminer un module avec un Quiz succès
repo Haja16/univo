@@ -1,7 +1,7 @@
-id: cIigGv6KWUOvXzFntxJvdA
+id: TAeRj-RJikaHlnTmpBZYPQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-09T15:17:46.9709642Z
+created: 2022-11-09T15:30:21.4483271Z
 protocol: 1
 tests:
 - id: Z7L2H389HES6I7MAhe3Czw
@@ -522,7 +522,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-11-09T12:08:39.0000000
-  modificationDate: 2022-11-09T15:17:42.0000000
+  modificationDate: 2022-11-09T15:30:16.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -658,7 +658,7 @@ auxTests:
     - parameter: '{{Question}}'
       type: Contains
       invert: false
-      value: Lequel de ses traits de caractères est négatif ?
+      value: Lequel de ses traits de caractère est négatif ?
     validations: []
     contexts: []
   - id: zU_mmrduakmQjL7dMtB-tw
