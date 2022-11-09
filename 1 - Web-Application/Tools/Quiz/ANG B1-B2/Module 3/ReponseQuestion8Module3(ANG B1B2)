@@ -1,0 +1,38 @@
+id: QM8GZytRlEaAjzWVnSjHnw
+projectId: DNmk3gQ_REqQ7f6PmqHvZw
+projectName: Univo
+created: 2022-11-09T15:59:14.6755048Z
+protocol: 1
+tests:
+- id: oT7rWMKuWketl44rRMfFOQ
+  name: ReponseQuestion8Module3(ANG B1B2)
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-11-09T15:57:52.0000000
+  modificationDate: 2022-11-09T15:59:13.0000000
+  settings:
+    automationAssistant: true
+    appId: uX8skHSLl0y8h_jfyw997w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: uX8skHSLl0y8h_jfyw997w
+    name: UnivoDev- WebApplication
+    url: https://app.digitallearningsolution.net/auth/login
+    platform: Web
+  steps: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://app.digitallearningsolution.net/auth/login
+    type: Input
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
