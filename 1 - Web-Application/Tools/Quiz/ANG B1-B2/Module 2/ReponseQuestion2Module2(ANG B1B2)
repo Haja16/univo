@@ -1,7 +1,7 @@
-id: sBk6312-jkCpT6uQVOcvQA
+id: MsmAjfDde0qzc42RwfONpQ
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-09T14:14:24.5178079Z
+created: 2022-11-09T14:14:29.4347877Z
 protocol: 1
 tests:
 - id: PNeT1cDYyESlAU40zRA2tQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-11-09T14:14:24.0000000
-  modificationDate: 2022-11-09T14:14:24.0000000
+  modificationDate: 2022-11-09T14:14:28.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -26,30 +26,7 @@ tests:
     name: UnivoDev- WebApplication
     url: https://app.digitallearningsolution.net/auth/login
     platform: Web
-  steps:
-  - id: vq8yErqqdEyZqpc_xY5lrQ
-    comments: Navigates the specified URL (Auto-generated)
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
-      source: System
-    parameterMaps:
-    - name: url
-      value: '{{ApplicationURL}}'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
+  steps: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
