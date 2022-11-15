@@ -1,7 +1,7 @@
-id: 6zmCAsU1OUCWuwwRm3iRZw
+id: aYA3on99C0OeuJ8XAZUsug
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-03T11:24:45.5991630Z
+created: 2022-11-15T12:08:48.8192430Z
 protocol: 1
 tests:
 - id: jqs-5krko0mAK8Kg-Qhciw
@@ -2140,6 +2140,10 @@ addons:
   source: Store
   version: 1.1.9
   actions:
+  - id: _eKo7zbUNEaI9yCeGICBnw
+    name: Get Numbers Only
+    description: Return only numbers from the text
+    className: io.testproject.addons.web.element.GetNumbersOnly
   - id: pYLjHfk2cEORV8cwEh2Stw
     name: Delete all cookies
     description: Delete all cookies
