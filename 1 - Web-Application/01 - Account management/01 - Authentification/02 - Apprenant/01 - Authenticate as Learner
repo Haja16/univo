@@ -1,7 +1,7 @@
-id: EN_ibHxjakKSyN7j8leC5w
+id: MagUomKXDUWZBRGQmoIseg
 projectId: DNmk3gQ_REqQ7f6PmqHvZw
 projectName: Univo
-created: 2022-11-02T15:37:57.7958891Z
+created: 2022-11-15T12:08:48.8220119Z
 protocol: 1
 tests:
 - id: QxRq7LHPeE6_E5WkRtbDDQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-10-31T15:54:48.0000000
-  modificationDate: 2022-11-02T15:37:57.0000000
+  modificationDate: 2022-11-02T15:40:53.0000000
   settings:
     automationAssistant: true
     appId: uX8skHSLl0y8h_jfyw997w
@@ -110,7 +110,7 @@ tests:
     type: Input
   - name: Identifiant
     description: ''
-    value: support@univo.fr
+    value: qa@univo.fr
     type: Input
   - name: Password
     description: ''
